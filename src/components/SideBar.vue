@@ -1,8 +1,8 @@
 <template>
     <div class="relative flex min-h-screen  ">
-            <div class="bg-[#1E724A]  w-80 px-2 py-4 space-x-6 absolute inset-y-0 left-0 md:relative  md:-translate-x-0 transform -translate-x-full transition duration-200 ease-in-out " :class="{'relative -translate-x-0':showsidebar}"  >
+            <div class="bg-[#1E724A]  w-80 px-2 py-4 space-x-6 absolute inset-y-0 left-0 md:relative  md:-translate-x-0 transform -translate-x-full transition duration-200 ease-in-out " :class="{'relative translate-x-0':showsidebar}"  >
                 <img class="pt-7  m-auto" src="HY_Logo Yatay 1.svg">
-                <div class="w-56 mt-10 ">
+                <div class="w-56 mt-10 m-auto  ">
                     <nav class="  flex items-center py-3 px-4 pl-12 pt-4 hover:bg-[#DBF5E9] rounded-lg text-sm">
                         <a href="/public" class="" >
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-car-front-fill text-white hover:text-emerald-900" viewBox="0 0 16 16">
