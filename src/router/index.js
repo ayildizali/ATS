@@ -1,7 +1,7 @@
 import { createWebHistory, createRouter } from "vue-router";
 import Dashboard from "../views/Dashboard.vue";
 import VehicleInfo from "../../pages/VehicleInfo.vue";
-import SideBar from "../components/SideBar.vue";
+// import SideBar from "../components/SideBar.vue";
 
 
 const routes = [
@@ -14,11 +14,7 @@ const routes = [
         name:"Vehicle",
         component: VehicleInfo
     },
-    {
-        path:"/sidebar",
-        name:"sidebar",
-        component: SideBar
-    },
+
 
 
 
