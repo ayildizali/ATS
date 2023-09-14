@@ -16,7 +16,7 @@
 
                         <span class="text-white pl-4 hover:text-emerald-900">Ceza Ödeme</span>
                     </nav>
-                    <nav class="flex items-center py-3 px-4 pl-12 pt-4 hover:bg-[#DBF5E9] rounded-lg text-sm">
+                    <nav class="flex items-center py-3 px-4 pl-12 pt-4 hover:bg-[#DBF5E9] transition-all rounded-lg text-sm">
                         <img src="/public/public-src/Frame(7).svg">
 
                         <span class="text-white pl-4 hover:text-emerald-900">Periyodik Bakım</span>
@@ -25,11 +25,10 @@
                         <a href="/public" class=" hover:text-emerald-900">
                           <img src="/public/public-src/Vector(5).svg">
                         </a>
-                        <span class="text-white pl-4 hover:text-emerald-900 ">Diğer Harcamalar</span>
+                        <span class="text-white pl-4 group-hover:text-emerald-900 ">Diğer Harcamalar</span>
                     </nav>
                     <nav class="flex items-center py-3 px-4 pl-12 pt-4 hover:bg-[#DBF5E9]   rounded-lg text-sm">
                         <img src="/public/public-src/Frame(8).svg">
-
                         <span class="text-white pl-4 hover:text-emerald-900">Kullanıcı Yönetimi</span>
                     </nav>
                 </div>
@@ -43,11 +42,11 @@
         <div class=" w-full bg-white shadow px-2 py-4">
             <button
                 @click="showsidebar = !showsidebar"
-                class="text-[#1E724A] sm:hidden ">
+                class="text-[#1E724A] sm:hidden flex  justify-center ">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                 </svg>
-
+                <img class="" src="/public/public-src/LogoYesil.svg">
             </button>
         </div>
     </div>
