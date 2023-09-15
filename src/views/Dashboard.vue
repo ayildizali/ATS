@@ -1,6 +1,6 @@
 
 <template>
-    <div class=" m-auto w-8/12 flex items-center justify-between">
+    <div class=" m-auto w-12/12 flex items-center justify-between">
         <div class="flex-1">
             <!-- header -->
             <div class=" flex items-center justify-between w-11/12 h-32 px-2 py4 m-auto text-4xl " >
@@ -197,7 +197,9 @@
 <script lang="ts">
 import {defineComponent} from 'vue'
 
+
 export default defineComponent({
-    name: "DashBoard"
+    name: "DashBoard",
+    components: {}
 })
 </script>
