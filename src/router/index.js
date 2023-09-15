@@ -1,6 +1,6 @@
 import { createWebHistory, createRouter } from "vue-router";
 import Dashboard from "../views/Dashboard.vue";
-import VehicleInfo from "../../pages/VehicleInfo.vue";
+import VehicleInfo from "../views/VehicleInfo.vue";
 // import SideBar from "../components/SideBar.vue";
 
 
