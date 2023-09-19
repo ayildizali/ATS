@@ -12,6 +12,8 @@ export default {
                 Graydarker:'#C8CCCF',
                 Dark:'#41464B',
                 GrayLighter:'#ECEEF0',
+                GrayLightest:'#FAFBFD',
+                Dark900:'#5E656C'
             }
         },
     },
