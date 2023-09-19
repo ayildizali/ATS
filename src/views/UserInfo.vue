@@ -5,7 +5,7 @@
             <div class="flex items-center justify-between w-3/4 h-32 m-auto" >
                 <div class="w-3/4 flex items-center ml-8">
                     <img src="/public-src/Frame137.svg" class="mr-10">
-                    <h2 class="leading-9 text-green-800 text-4xl ml-8">
+                    <h2 class="leading-9 text-green-800 text-4xl ml-8 font-bold">
                         Araçlarım
                     </h2>
                     <h4 class="text-base text-[#717982] ml-8"> / 34 HYD 1234 VOLKSWAGEN POLO </h4>
@@ -30,8 +30,8 @@
                 </div>
             </div>
             <!-- main -->
-            <div class="w-3/4 flex items-center justify-between m-auto mt-16">
-                <div class="w-full mt-0 ">
+            <div class="w-3/4 flex items-center justify-between ml-80 mt-16">
+                <div class="w-full ">
                     <div  class="">
                         <p class="text-Dark">Adı Soyadı</p>
                         <div class="w-3/4 h-10 bg-GrayLighter rounded-xl ">
@@ -98,7 +98,7 @@
                     </div>
 
                 </div>
-                <div class="w-full" >
+                <div class="w-full " >
                     <div class="">
                         <p class="text-Dark">Bağlı Olduğu Birim Adı</p>
                         <div class="w-3/4 h-10 bg-GrayLighter rounded-xl">
