@@ -6,37 +6,42 @@ import OtherInfo from "../views/OtherInfo.vue"
 import Repair from "../views/Repair.vue"
 import Expenses from "../views/Expenses.vue";
 
-
 const routes = [
     {
         path: "/",
-        component: Dashboard,
-    },
-    {
-        path:"/vehicle",
-        name:"Vehicle",
-        component: VehicleInfo
-    },
-    {
-        path:"/userinfo",
-        name:"UserInfo",
-        component: UserInfo
-    },
-    {
-        path:"/otherinfo",
-        name:"OtherInfo",
-        component: OtherInfo
-    },
-    {
-        path: "/repair",
-        name: "Repair",
-        component: Repair
-    },
-    {
-        path: "/expenses",
-        name:"Expenses",
-        component: Expenses
-    },
+        component: () => import('../../layouts/default.vue'),
+        children: [
+            {
+                path: "/",
+                component: Dashboard,
+            },
+            {
+                path:"/vehicle",
+                name:"Vehicle",
+                component: VehicleInfo
+            },
+            {
+                path:"/userinfo",
+                name:"UserInfo",
+                component: UserInfo
+            },
+            {
+                path:"/otherinfo",
+                name:"OtherInfo",
+                component: OtherInfo
+            },
+            {
+                path: "/repair",
+                name: "Repair",
+                component: Repair
+            },
+            {
+                path: "/expenses",
+                name:"Expenses",
+                component: Expenses
+            },
+        ]
+    }
 
 
 
