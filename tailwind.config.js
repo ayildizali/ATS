@@ -13,7 +13,9 @@ export default {
                 Dark:'#41464B',
                 GrayLighter:'#ECEEF0',
                 GrayLightest:'#FAFBFD',
-                Dark900:'#5E656C'
+                Dark900:'#5E656C',
+                Gray:'#DEE0E2',
+                Dark800:'#717982',
             }
         },
     },
