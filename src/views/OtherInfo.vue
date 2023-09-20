@@ -153,14 +153,14 @@
 
                         <div class="mt-6">
                             <p class="text-Dark">Trafik Sigortası*</p>
-                            <div class="h-10 w-3/4 rounded-xl bg-GrayLighter">
-                                <p class="pl-10 pt-2">https://www.resmigazete.gov.tr/pdf</p>
+                            <div class="h-10 w-3/4 rounded-xl bg-GrayLighter pl-10 pt-2">
+                              <a href="#" class="font-medium text-blue-600  hover:underline">https://www.resmigazete.gov.tr/.pdf</a>
                             </div>
                         </div>
                         <div class="mt-6">
                             <p class="text-Dark">Kasko Sigortası*</p>
-                            <div class="h-10 w-3/4 rounded-xl bg-GrayLighter">
-                                <p class="pl-10 pt-2">https://www.resmigazete.gov.tr/.pdf</p>
+                            <div class="h-10 w-3/4 rounded-xl bg-GrayLighter pl-10 pt-2">
+                              <a href="#" class="font-medium text-blue-600  hover:underline">https://www.resmigazete.gov.tr/.pdf</a>
                             </div>
                         </div>
                         <div class="mt-6">
@@ -194,8 +194,8 @@
 
                         <div class="mt-6">
                             <p class="text-Dark">Alınan Bilgi Linki</p>
-                            <div class="h-[115px] w-3/4 rounded-xl bg-GrayLighter">
-                                <p class="pl-8 pt-5">₺2.427,02https://www.sahibinden.com/ilan/vasita-otomobil-opel-2008-model-opel-corsa-1.3-cdtit-1124414828/detay</p>
+                            <div class="h-[115px] w-3/4 rounded-xl bg-GrayLighter p-6 ">
+                              <a href="#" class="font-medium text-blue-600  hover:underline">https://www.sahibinden.com/ilan/vasita-otomobil-opel-2008-model-opel-corsa-1.3-cdtit-1124414828/detay</a>
                             </div>
                         </div>
                     </div>
