@@ -115,8 +115,8 @@
 
                         <div class="mt-6">
                             <p class="text-Dark">Ruhsat Örneği</p>
-                            <div class="h-10 w-3/4 rounded-xl bg-GrayLighter">
-                                <p class="pl-10 pt-2">www.resmigazete.gov.tr/pdf</p>
+                            <div class="h-10 w-3/4 rounded-xl bg-GrayLighter pl-10 pt-2">
+                              <a href="#" class="font-medium text-blue-600  hover:underline">https://www.resmigazete.gov.tr/.pdf</a>
                             </div>
                         </div>
                         <div class="mt-6">
