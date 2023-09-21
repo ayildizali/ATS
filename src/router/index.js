@@ -6,6 +6,8 @@ import OtherInfo from "../views/OtherInfo.vue"
 import Repair from "../views/Repair.vue"
 import Expenses from "../views/Expenses.vue";
 import Punishment from "../views/Punishment.vue";
+import CarManagement from "../views/CarManagement.vue";
+import Payfine from "../views/ Payfine.vue";
 
 const routes = [
     {
@@ -46,11 +48,19 @@ const routes = [
                 name:"Punishment",
                 component: Punishment
             },
+            {
+                path: "/management",
+                name:"CarManagementx",
+                component: CarManagement
+            },
+            {
+                path: "/payfine",
+                name:"Payfine",
+                component: Payfine
+            },
+
         ]
     }
-
-
-
 
 ];
 
