@@ -5,6 +5,7 @@ import UserInfo from "../views/UserInfo.vue";
 import OtherInfo from "../views/OtherInfo.vue"
 import Repair from "../views/Repair.vue"
 import Expenses from "../views/Expenses.vue";
+import Punishment from "../views/Punishment.vue";
 
 const routes = [
     {
@@ -39,6 +40,11 @@ const routes = [
                 path: "/expenses",
                 name:"Expenses",
                 component: Expenses
+            },
+            {
+                path: "/punishment",
+                name:"Punishment",
+                component: Punishment
             },
         ]
     }
