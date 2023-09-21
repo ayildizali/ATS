@@ -1,10 +1,10 @@
 <template>
-    <div class="m-auto flex w-full items-center justify-between">
+    <div class="m-auto flex h-full w-full items-center justify-between">
         <div class="flex-1">
             <!-- header -->
             <div class="m-auto flex h-32 w-3/4 items-center justify-between" >
                 <div class="ml-8 flex w-3/4 items-center">
-                    <img src="/public-src/Frame137.svg" class="mr-10">
+                    <img src="/public-src/Kullanıcı/Frame137.svg" class="mr-10">
                     <h2 class="ml-8 text-4xl font-bold leading-9 text-green-800">
                         Araçlarım
                     </h2>
@@ -13,7 +13,7 @@
 
                 <div class="flex items-center">
                     <nav class="pr-3">
-                        <img src="/public-src/Frame(12).svg">
+                        <img src="/public-src/Kullanıcı/Frame(12).svg">
                     </nav>
                     <p class="text-sm font-semibold text-gray-500">Muhammed Ali Ay </p>
                 </div>
@@ -32,8 +32,8 @@
             </div>
 
             <!-- main -->
-            <div class="m-auto mt-12 flex  w-3/4  items-center">
-                <div class=" ml-16 w-full">
+            <div class="m-auto mt-12 flex w-3/4  items-center">
+                <div class=" ml-16 w-3/4">
                     <div class="mt-8 h-[500px] w-[480px] rounded-lg bg-GrayLightest shadow-xl ">
                         <p class="mb-5 ml-8 pt-5 font-bold text-Dark900">ARAÇ KM BİLGİLERİ</p>
                         <div class="flex items-center   ">
@@ -61,14 +61,14 @@
                             <p class="h-16 w-72 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">49.170 KM</p>
                         </div>
                     </div>
-                    <div class="mt-12 flex w-5/6 items-center justify-end">
+                    <div class="relative mt-12 flex w-[490px] items-center justify-end">
                         <nav class="flex items-center  ">
                             <a href="/public" class="pl-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chevron-left text-[#717982]" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
                                 </svg>
                             </a>
-                           <img src="/public-src/Frame72.svg" class="pl-2">
+                           <img src="/public-src/Kullanıcı/Frame72.svg" class="pl-2">
                             <a href="/public" class="pl-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chevron-right text-[#717982]" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
@@ -113,14 +113,14 @@
                             <p class="h-16 w-48 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">₺6.000</p>
                         </div>
                     </div>
-                    <div class="mt-12 flex w-5/6 items-center justify-end">
+                    <div class="relative mt-12 flex w-[490px] items-center justify-end">
                         <nav class="flex items-center  ">
                             <a href="/public" class="pl-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chevron-left text-[#717982]" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
                                 </svg>
                             </a>
-                            <img src="/public-src/Frame72.svg" class="pl-2">
+                            <img src="/public-src/Kullanıcı/Frame72.svg" class="pl-2">
                             <a href="/public" class="pl-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chevron-right text-[#717982]" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
