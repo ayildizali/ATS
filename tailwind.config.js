@@ -16,6 +16,7 @@ export default {
                 Dark900:'#5E656C',
                 Gray:'#DEE0E2',
                 Dark800:'#717982',
+                PrimaryLight:'#DBF5E9',
             }
         },
     },
