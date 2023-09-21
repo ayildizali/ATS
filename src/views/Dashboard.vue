@@ -31,7 +31,7 @@
             </div>
             <div class=" m-auto mt-12 h-24 w-10/12 rounded-2xl bg-gray-50 shadow">
                 <div class="flex  items-center justify-between p-8 ">
-                   <img src="/public-src/Frame135.svg">
+                   <img src="/public-src/Kullanıcı/Frame135.svg">
                     <div class="flex w-4/5 items-center justify-between text-Dark">
                         <p>34 HYD 1234 </p>
                         <p> VOLKSWAGEN POLO</p>
