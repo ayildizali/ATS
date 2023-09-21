@@ -4,7 +4,7 @@
       <!-- header -->
       <div class="m-auto flex h-32 w-3/4 items-center justify-between" >
         <div class="ml-8 flex w-3/4 items-center">
-          <img src="/public-src/Frame137.svg" class="mr-10">
+          <img src="/public-src/Kullanıcı/Frame137.svg" class="mr-10">
           <h2 class="ml-8 text-4xl font-bold leading-9 text-green-800">
             Araçlarım
           </h2>
@@ -13,7 +13,7 @@
 
         <div class="flex items-center">
           <nav class="pr-3">
-            <img src="/public-src/Frame(12).svg">
+            <img src="/public-src/Kullanıcı/Frame(12).svg">
           </nav>
           <p class="text-sm font-semibold text-gray-500">Muhammed Ali Ay </p>
         </div>
