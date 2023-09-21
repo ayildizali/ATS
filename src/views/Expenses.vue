@@ -137,5 +137,12 @@
 
 
 <script>
+import {defineComponent} from "vue";
 
+export default defineComponent (
+    {
+      name:"ExpenSes",
+      components:""
+    }
+)
 </script>
