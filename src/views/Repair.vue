@@ -1,10 +1,10 @@
 <template>
-    <div class="m-auto flex w-full items-center justify-between">
-        <div class="flex-1">
+    <div class=" m-auto flex h-full w-full items-center justify-between">
+        <div class="  flex-1">
             <!-- header -->
             <div class="m-auto flex h-32 w-3/4 items-center justify-between" >
                 <div class="ml-8 flex w-3/4 items-center">
-                    <img src="/public-src/Frame137.svg" class="mr-10">
+                    <img src="/public-src/Kullanıcı/Frame137.svg" class="mr-10">
                     <h2 class="ml-8 text-4xl font-bold leading-9 text-green-800">
                         Araçlarım
                     </h2>
@@ -13,7 +13,7 @@
 
                 <div class="flex items-center">
                     <nav class="pr-3">
-                        <img src="/public-src/Frame(12).svg">
+                        <img src="/public-src/Kullanıcı/Frame(12).svg">
                     </nav>
                     <p class="text-sm font-semibold text-gray-500">Muhammed Ali Ay </p>
                 </div>
@@ -42,7 +42,7 @@
             </div>
 
             <!-- main -->
-            <div class="relative m-auto mt-16  flex w-3/4 items-center overflow-x-auto shadow-md sm:rounded-lg">
+            <div class="relative  m-auto mt-16  flex w-3/4 items-center overflow-x-auto shadow-md sm:rounded-lg">
                 <table class="w-full text-left text-sm text-GrayLightest">
                     <thead class="bg-GrayLightest text-xs uppercase text-Dark900">
                     <tr>
@@ -258,6 +258,286 @@
                             4 Adet Lastik Alımı
                         </td>
                     </tr>
+                    <tr class="border-b bg-gray-50 text-Graydarker">
+                      <th scope="row" class="whitespace-nowrap px-6 py-4 font-medium text-Dark900 ">
+                        Muhammet Mustafa Yaprak
+                      </th>
+                      <td class="px-6 py-4 text-Dark900">
+                        24.03.2023
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        Fatura
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        Öz Asm Oto
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        34 HYD 1234
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        Gaziantep
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        ₺200.000,00
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        150,000 KM
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        205/55 R 16 (Goodyear)
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        Periyodik Bakım
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        4 Adet Lastik Alımı
+                      </td>
+                    </tr>
+                    <tr class="border-b bg-white ">
+                      <th scope="row" class="whitespace-nowrap px-6 py-4 font-medium text-Dark900">
+                        Muhammet Mustafa Yaprak
+                      </th>
+                      <td class="px-6 py-4 text-Dark900">
+                        24.03.2023
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        Fatura
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        Öz Asm Oto
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        34 HYD 1234
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        Gaziantep
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        ₺200.000,00
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        150,000 KM
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        205/55 R 16 (Goodyear)
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        Periyodik Bakım
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        4 Adet Lastik Alımı
+                      </td>
+                    </tr>
+                    <tr class="border-b bg-gray-50 text-Graydarker">
+                      <th scope="row" class="whitespace-nowrap px-6 py-4 font-medium text-Dark900 ">
+                        Muhammet Mustafa Yaprak
+                      </th>
+                      <td class="px-6 py-4 text-Dark900">
+                        24.03.2023
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        Fatura
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        Öz Asm Oto
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        34 HYD 1234
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        Gaziantep
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        ₺200.000,00
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        150,000 KM
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        205/55 R 16 (Goodyear)
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        Periyodik Bakım
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        4 Adet Lastik Alımı
+                      </td>
+                    </tr>
+                    <tr class="border-b bg-white ">
+                      <th scope="row" class="whitespace-nowrap px-6 py-4 font-medium text-Dark900">
+                        Muhammet Mustafa Yaprak
+                      </th>
+                      <td class="px-6 py-4 text-Dark900">
+                        24.03.2023
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        Fatura
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        Öz Asm Oto
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        34 HYD 1234
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        Gaziantep
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        ₺200.000,00
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        150,000 KM
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        205/55 R 16 (Goodyear)
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        Periyodik Bakım
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        4 Adet Lastik Alımı
+                      </td>
+                    </tr>
+                    <tr class="border-b bg-gray-50 text-Graydarker">
+                      <th scope="row" class="whitespace-nowrap px-6 py-4 font-medium text-Dark900 ">
+                        Muhammet Mustafa Yaprak
+                      </th>
+                      <td class="px-6 py-4 text-Dark900">
+                        24.03.2023
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        Fatura
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        Öz Asm Oto
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        34 HYD 1234
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        Gaziantep
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        ₺200.000,00
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        150,000 KM
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        205/55 R 16 (Goodyear)
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        Periyodik Bakım
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        4 Adet Lastik Alımı
+                      </td>
+                    </tr>
+                    <tr class="border-b bg-white ">
+                      <th scope="row" class="whitespace-nowrap px-6 py-4 font-medium text-Dark900">
+                        Muhammet Mustafa Yaprak
+                      </th>
+                      <td class="px-6 py-4 text-Dark900">
+                        24.03.2023
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        Fatura
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        Öz Asm Oto
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        34 HYD 1234
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        Gaziantep
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        ₺200.000,00
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        150,000 KM
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        205/55 R 16 (Goodyear)
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        Periyodik Bakım
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        4 Adet Lastik Alımı
+                      </td>
+                    </tr>
+                    <tr class="border-b bg-gray-50 text-Graydarker">
+                      <th scope="row" class="whitespace-nowrap px-6 py-4 font-medium text-Dark900 ">
+                        Muhammet Mustafa Yaprak
+                      </th>
+                      <td class="px-6 py-4 text-Dark900">
+                        24.03.2023
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        Fatura
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        Öz Asm Oto
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        34 HYD 1234
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        Gaziantep
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        ₺200.000,00
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        150,000 KM
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        205/55 R 16 (Goodyear)
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        Periyodik Bakım
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        4 Adet Lastik Alımı
+                      </td>
+                    </tr>
+                    <tr class="border-b bg-white ">
+                      <th scope="row" class="whitespace-nowrap px-6 py-4 font-medium text-Dark900">
+                        Muhammet Mustafa Yaprak
+                      </th>
+                      <td class="px-6 py-4 text-Dark900">
+                        24.03.2023
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        Fatura
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        Öz Asm Oto
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        34 HYD 1234
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        Gaziantep
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        ₺200.000,00
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        150,000 KM
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        205/55 R 16 (Goodyear)
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        Periyodik Bakım
+                      </td>
+                      <td class="px-6 py-4 text-Dark900">
+                        4 Adet Lastik Alımı
+                      </td>
+                    </tr>
                     </tbody>
                 </table>
             </div>
@@ -267,5 +547,10 @@
 </template>
 
 <script>
+import {defineComponent} from "vue";
 
+export default defineComponent({
+  name: "RepAir",
+  components: {}
+})
 </script>
