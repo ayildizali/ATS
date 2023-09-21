@@ -1,11 +1,10 @@
 <template>
-
     <div class="m-auto flex w-full items-center justify-between">
         <div class="flex-1">
             <!-- header -->
             <div class="m-auto flex h-32 w-3/4 items-center justify-between" >
                 <div class="ml-8 flex w-3/4 items-center">
-                    <img src="/public-src/Frame137.svg" class="mr-10">
+                    <img src="/public-src/Kullanıcı/Frame137.svg" class="mr-10">
                     <h2 class="ml-8 text-4xl font-bold leading-9 text-green-800">
                         Araçlarım
                     </h2>
@@ -14,7 +13,7 @@
 
                 <div class="flex items-center">
                     <nav class="pr-3">
-                        <img src="/public-src/Frame(12).svg">
+                        <img src="/public-src/Kullanıcı/Frame(12).svg">
                     </nav>
                     <p class="text-sm font-semibold text-gray-500">Muhammed Ali Ay </p>
                 </div>
@@ -31,11 +30,11 @@
                 </div>
             </div>
             <!-- main -->
-            <div class="m-auto mt-16 flex w-3/4 items-center  justify-between " >
+            <div class="m-60 mt-16 flex w-3/4 items-center  justify-between " >
                 <div class="ml-16 w-full ">
                     <div class="mb-16">
                         <h4 class="flex items-center font-bold leading-5 text-primary">MUAYENE BİLGİLERİ
-                            <img src="/public-src/Line48.svg" class="pl-5"></h4>
+                            <img src="/public-src/Kullanıcı/Line48.svg" class="pl-5"></h4>
                         <div  class="mb-6 mt-5">
                             <p class="text-Dark ">Yaklaşan Muayene Tarihi*</p>
                             <div class="h-10 w-3/4 rounded-xl bg-GrayLighter ">
@@ -64,7 +63,7 @@
                     </div>
                     <div class="mt-14">
                         <h4 class="flex items-center font-bold leading-5 text-primary">MTV BİLGİLERİ
-                            <img src="/public-src/Line48.svg" class="pl-5"></h4>
+                            <img src="/public-src/Kullanıcı/Line48.svg" class="pl-5"></h4>
                         <div  class="mt-6">
                             <p class="text-Dark">Yaklaşan Ödeme Tarihi*</p>
                             <div class="h-10 w-3/4 rounded-xl bg-GrayLighter ">
@@ -92,7 +91,7 @@
                     </div>
                     <div class="mt-14">
                         <h4 class="flex items-center font-bold leading-5 text-primary">ARAÇ SERVİS BİLGİLERİ
-                        <img src="/public-src/Line48.svg" class="pl-5"></h4>
+                        <img src="/public-src/Kullanıcı/Line48.svg" class="pl-5"></h4>
                         <div class="mt-6">
                             <p class="text-Dark">Servisler </p>
                             <div class="h-10 w-3/4 rounded-xl bg-GrayLighter ">
@@ -130,7 +129,7 @@
                 <div class="w-full" >
                     <div class="mb-16">
                         <h4 class="flex items-center font-bold leading-5 text-primary">SİGORTA BİLGİLERİ
-                            <img src="/public-src/Line48.svg" class="pl-5"></h4>
+                            <img src="/public-src/Kullanıcı/Line48.svg" class="pl-5"></h4>
                         <div class="mt-6">
                             <p class="text-Dark">Yaklaşan Sigorta Tarihi*</p>
                             <div class="h-10 w-3/4 rounded-xl bg-GrayLighter">
@@ -178,7 +177,7 @@
                     </div>
                     <div class="">
                         <h4 class="flex items-center font-bold leading-5 text-primary">GÜNCEL ARAÇ DEĞERİ
-                        <img src="/public-src/Line48.svg" class="pl-5"></h4>
+                        <img src="/public-src/Kullanıcı/Line48.svg" class="pl-5"></h4>
                         <div class="mt-6">
                             <p class="text-Dark">Güncel Fiyat Bakılan Tarih</p>
                             <div class="h-10 w-3/4 rounded-xl bg-GrayLighter">
