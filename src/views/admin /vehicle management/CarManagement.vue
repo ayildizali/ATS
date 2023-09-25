@@ -498,6 +498,15 @@
           </tbody>
         </table>
       </div>
+      <div>
+        <div class="mt-14 flex w-11/12 items-center justify-end">
+          <div class="flex items-center justify-end" >
+            <img src="/public-src/admin/rightRounded.svg" class="pl-5" >
+            <img src="/public-src/admin/Frame72.svg" class="pl-5">
+            <img src="/public-src/admin/LeftRounded.svg" class="pl-5">
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
