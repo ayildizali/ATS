@@ -1,13 +1,17 @@
 import { createWebHistory, createRouter } from "vue-router";
 import Dashboard from "../views/Dashboard.vue";
-import VehicleInfo from "../views/VehicleInfo.vue";
-import UserInfo from "../views/UserInfo.vue";
-import OtherInfo from "../views/OtherInfo.vue"
-import Repair from "../views/Repair.vue"
-import Expenses from "../views/Expenses.vue";
-import Punishment from "../views/Punishment.vue";
-import CarManagement from "../views/CarManagement.vue";
-import Payfine from "../views/ Payfine.vue";
+import VehicleInfo from "../views/user/VehicleInfo.vue";
+import UserInfo from "../views/user/UserInfo.vue";
+import OtherInfo from "../views/user/OtherInfo.vue"
+import Repair from "../views/user/Repair.vue"
+import Expenses from "../views/user/Expenses.vue";
+import Punishment from "../views/user/Punishment.vue";
+import CarManagement from "../views/admin /vehicle management/CarManagement.vue";
+import Payfine from "../views/admin /pay fine/ Payfine.vue";
+import NewPunishment from "../views/admin /pay fine/NewPunishment.vue"
+import  CriminalOrder from "../views/admin /pay fine/CriminalOrder.vue"
+import PeriodicMaintenance from "../views/admin /maintenance/Periodicmaintenance.vue"
+import  NewTransaction from "../views/admin /maintenance/NewTransaction.vue"
 
 const routes = [
     {
@@ -57,6 +61,26 @@ const routes = [
                 path: "/payfine",
                 name:"Payfine",
                 component: Payfine
+            },
+            {
+                path: "/newpunishment",
+                name:"NewPunishment",
+                component: NewPunishment
+            },
+            {
+                path: "/criminal",
+                name:"CriminalOrder",
+                component: CriminalOrder
+            },
+            {
+                path: "/periodic",
+                name:"PeriodicMaintenance",
+                component: PeriodicMaintenance
+            },
+            {
+                path: "/transaction",
+                name:"NewTransaction",
+                component: NewTransaction
             },
 
         ]
