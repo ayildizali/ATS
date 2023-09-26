@@ -24,7 +24,7 @@
       <div class=" m-auto mt-16 flex w-3/4 items-center justify-between">
         <div class="ml-32 mt-0  w-full">
           <div class=" ">
-            <p class="text-Dark"> Tarih</p>
+            <p class="pl-5 text-Dark"> Tarih</p>
             <div class="h-10 w-3/4 rounded-xl border border-Graydarker  ">
               <div class="flex items-center ">
                 <p class="pl-10 pt-2"></p>
@@ -34,7 +34,7 @@
 
           </div>
           <div class="mt-6">
-            <p class="text-Dark">Plaka</p>
+            <p class="pl-5 text-Dark">Plaka</p>
             <div class="h-10 w-3/4 rounded-xl border border-Graydarker ">
               <div class="flex items-center ">
                 <p class="pl-10 pt-2"></p>
@@ -42,7 +42,7 @@
             </div>
           </div>
           <div class="mt-6">
-            <p class="text-Dark">Araç Kullnıcısı</p>
+            <p class="pl-5 text-Dark">Araç Kullnıcısı</p>
             <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
               <div class="flex items-center ">
                 <p class="pl-10 pt-2"></p>
@@ -50,7 +50,7 @@
             </div>
           </div>
           <div class="mt-6">
-            <p class="text-Dark">Bakım Türü </p>
+            <p class="pl-5 text-Dark">Bakım Türü </p>
             <div class="h-10 w-3/4 rounded-xl border border-Graydarker ">
               <div class="flex items-center ">
                 <p class="pl-10 pt-2"></p>
@@ -58,7 +58,7 @@
             </div>
           </div>
           <div class="mt-6">
-            <p class="text-Dark">KM</p>
+            <p class="pl-5 text-Dark">KM</p>
             <div class="h-10 w-3/4 rounded-xl border border-Graydarker ">
               <div class="flex items-center ">
                 <p class="pl-10 pt-2"></p>
@@ -68,39 +68,39 @@
         </div>
         <div class="w-full ">
           <div class="">
-            <p class="text-Dark">Fatura</p>
+            <p class="pl-5 text-Dark">Fatura</p>
             <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
               <p class="pl-10 pt-2"></p>
             </div>
           </div>
           <div class="mt-6">
-            <p class="text-Dark">Fatura Ünvanı</p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
-              <p class="pl-10 pt-2"></p>
-            </div>
-          </div>
-
-          <div class="mt-6">
-            <p class="text-Dark">İL</p>
+            <p class="pl-5 text-Dark">Fatura Ünvanı</p>
             <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
               <p class="pl-10 pt-2"></p>
             </div>
           </div>
 
           <div class="mt-6">
-            <p class="text-Dark">Fatura Tutarı</p>
+            <p class="pl-5 text-Dark">İL</p>
+            <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
+              <p class="pl-10 pt-2"></p>
+            </div>
+          </div>
+
+          <div class="mt-6">
+            <p class="pl-5 text-Dark">Fatura Tutarı</p>
             <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
               <p class="pl-10 pt-2"></p>
             </div>
           </div>
           <div class="mt-6">
-            <p class="text-Dark">Oto Lastik</p>
+            <p class="pl-5 text-Dark">Oto Lastik</p>
             <div class="h-10 w-3/4 rounded-xl border border-Graydarker ">
               <p class="pl-10 pt-2"></p>
             </div>
           </div>
           <div class="mt-6">
-            <p class="text-Dark">Açıklama</p>
+            <p class="pl-5 text-Dark">Açıklama</p>
             <div class="h-16 w-3/4 rounded-xl border border-Graydarker">
               <p class="pl-10 pt-2"></p>
             </div>
