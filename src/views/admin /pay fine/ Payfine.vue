@@ -6,11 +6,11 @@
         <div class="ml-8 flex w-3/4 items-center">
           <img src="/public-src/Kullanıcı/Frame137.svg" class="mr-10">
           <h2 class="ml-8 text-4xl font-bold leading-9 text-green-800">
-            Araçlarım
+            Ceza Ödeme
           </h2>
           <button  type="button" class="mb-2 ml-5 mr-2 mt-3 flex items-center rounded-lg bg-primary px-5 py-2.5 text-sm font-medium text-white ring-primary hover:bg-PrimaryLight hover:text-primary focus:outline-none focus:ring-2">
             <img src="/public-src/Kullanıcı/Frame(13).svg" class="mr-2 hover:text-primary">
-            Yeni Araç
+            Yeni ceza
           </button>
         </div>
         <div class="flex items-center">
@@ -332,7 +332,7 @@
           <tr class="border-b bg-gray-50 text-Graydarker">
             <th scope="row" class="whitespace-nowrap px-6 py-4 font-medium text-Dark900">
               <div class="flex w-full items-center justify-center">
-                <img src="/public-src/admin/Frame(20).svg"  class="pl-3">
+                <img src="/public-src/admin/Frame(20).svg" class="pl-3">
                 <img src="/public-src/admin/Frame(17).svg" class="pl-3" >
               </div>
             </th>
@@ -376,9 +376,17 @@
               01AWB0000053
             </td>
           </tr>
-
           </tbody>
         </table>
+      </div>
+      <div>
+        <div class="mt-14 flex w-11/12 items-center justify-end">
+          <div class="flex items-center justify-end" >
+            <img src="/public-src/admin/rightRounded.svg" class="pl-5" >
+            <img src="/public-src/admin/Frame72.svg" class="pl-5">
+            <img src="/public-src/admin/LeftRounded.svg" class="pl-5">
+          </div>
+        </div>
       </div>
 
     </div>
