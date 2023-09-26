@@ -1,4 +1,4 @@
-import { createWebHistory, createRouter } from "vue-router";
+import {createRouter, createWebHistory} from "vue-router";
 import Dashboard from "../views/Dashboard.vue";
 import VehicleInfo from "../views/user/VehicleInfo.vue";
 import UserInfo from "../views/user/UserInfo.vue";
@@ -9,9 +9,16 @@ import Punishment from "../views/user/Punishment.vue";
 import CarManagement from "../views/admin /vehicle management/CarManagement.vue";
 import Payfine from "../views/admin /pay fine/ Payfine.vue";
 import NewPunishment from "../views/admin /pay fine/NewPunishment.vue"
-import  CriminalOrder from "../views/admin /pay fine/CriminalOrder.vue"
+import CriminalOrder from "../views/admin /pay fine/CriminalOrder.vue"
 import PeriodicMaintenance from "../views/admin /maintenance/Periodicmaintenance.vue"
-import  NewTransaction from "../views/admin /maintenance/NewTransaction.vue"
+import NewTransaction from "../views/admin /maintenance/NewTransaction.vue"
+import EditPeriod from "../views/admin /maintenance/EditPeriod.vue"
+import OtherExpenses from "../views/admin /expenses/OtherExpenses.vue"
+import NewTransactionSpend from "../views/admin /expenses/NewTransactionSpend.vue"
+import EditSpending from "../views/admin /expenses/EditSpending.vue"
+import UserMainManeg from "../views/admin /user management/UserMainManeg.vue"
+import NewUser from "../views/admin /user management/NewUser.vue"
+import EditUserManag from "../views/admin /user management/EditUserManag.vue"
 
 const routes = [
     {
@@ -23,18 +30,18 @@ const routes = [
                 component: Dashboard,
             },
             {
-                path:"/vehicle",
-                name:"Vehicle",
+                path: "/vehicle",
+                name: "Vehicle",
                 component: VehicleInfo
             },
             {
-                path:"/userinfo",
-                name:"UserInfo",
+                path: "/userinfo",
+                name: "UserInfo",
                 component: UserInfo
             },
             {
-                path:"/otherinfo",
-                name:"OtherInfo",
+                path: "/otherinfo",
+                name: "OtherInfo",
                 component: OtherInfo
             },
             {
@@ -44,44 +51,80 @@ const routes = [
             },
             {
                 path: "/expenses",
-                name:"Expenses",
+                name: "Expenses",
                 component: Expenses
             },
             {
                 path: "/punishment",
-                name:"Punishment",
+                name: "Punishment",
                 component: Punishment
             },
             {
                 path: "/management",
-                name:"CarManagementx",
+                name: "CarManagementx",
                 component: CarManagement
             },
             {
                 path: "/payfine",
-                name:"Payfine",
+                name: "Payfine",
                 component: Payfine
             },
             {
                 path: "/newpunishment",
-                name:"NewPunishment",
+                name: "NewPunishment",
                 component: NewPunishment
             },
             {
                 path: "/criminal",
-                name:"CriminalOrder",
+                name: "CriminalOrder",
                 component: CriminalOrder
             },
             {
                 path: "/periodic",
-                name:"PeriodicMaintenance",
+                name: "PeriodicMaintenance",
                 component: PeriodicMaintenance
             },
             {
                 path: "/transaction",
-                name:"NewTransaction",
+                name: "NewTransaction",
                 component: NewTransaction
             },
+            {
+                path: "/editperiod",
+                name: "EditPeriod",
+                component: EditPeriod
+            },
+            {
+                path: "/otherexpenses",
+                name: "OtherExpenses",
+                component: OtherExpenses
+            },
+            {
+                path: "/spend",
+                name: "NewTransactionSpend",
+                component: NewTransactionSpend
+            },
+            {
+                path: "/editspending",
+                name: "EditSpending",
+                component: EditSpending
+            },
+            {
+                path: "/usermain",
+                name: "UserMainManeg",
+                component: UserMainManeg
+            },
+            {
+                path: "/newuser",
+                name: "NewUser",
+                component: NewUser
+            },
+            {
+                path: "/editusermanag",
+                name: "EditUserManag",
+                component: EditUserManag
+            },
+
 
         ]
     }
@@ -89,7 +132,8 @@ const routes = [
 ];
 
 const router = createRouter(
-    { history: createWebHistory(),
+    {
+        history: createWebHistory(),
         routes
     });
 
