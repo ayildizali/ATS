@@ -3,9 +3,9 @@
     <div class="flex-1">
       <!-- header -->
       <div class="m-auto flex h-32 w-3/4 items-center justify-between">
-        <div class="ml-8 flex w-3/4 items-center">
-          <img class="mr-10" src="/public-src/Kullanıcı/Frame137.svg">
-          <h2 class="ml-4 text-4xl font-bold leading-9 text-green-800">
+        <div class="ml-5 flex w-3/4 items-center">
+          <img class="mr-5" src="/public-src/Kullanıcı/Frame137.svg">
+          <h2 class="text-4xl font-bold leading-9 text-green-800">
             Periyodik Bakım
           </h2>
           <h4 class="ml-8 text-base font-medium text-[#717982]"> / Yeni İşlem </h4>
@@ -22,7 +22,7 @@
 
       <!-- main -->
       <div class=" m-auto mt-16 flex w-3/4 items-center justify-between">
-        <div class="ml-32 mt-0  w-full">
+        <div class="mb-24 ml-32 mt-0 w-full">
           <div class=" ">
             <p class="pl-5 text-Dark"> Tarih</p>
             <div class="h-10 w-3/4 rounded-xl border border-Graydarker  ">
@@ -30,8 +30,6 @@
                 <p class="pl-10 pt-2"></p>
               </div>
             </div>
-
-
           </div>
           <div class="mt-6">
             <p class="pl-5 text-Dark">Plaka</p>
