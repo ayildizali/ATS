@@ -19,9 +19,8 @@
         </div>
       </div>
       <!-- content-->
-
       <div class="m-auto flex h-20 w-3/4 items-center rounded-xl border-2 border-solid border-primary">
-        <div class="m-auto flex w-3/4 items-center justify-between text-[#717982]">
+        <div class="m-auto flex w-3/4 items-center justify-between text-Dark800">
           <RouterLink
               class="inline-block rounded-t-lg border-b-2 border-transparent font-bold hover:border-primary hover:text-primary"
               to="/vehicle">ARAÇLARIM
@@ -114,8 +113,6 @@
             <th class="px-6 py-3" scope="col">
               ödenme durumu
             </th>
-
-
           </tr>
           </thead>
           <tbody>
@@ -383,7 +380,6 @@
               Ödendi
             </td>
           </tr>
-
           </tbody>
         </table>
       </div>
