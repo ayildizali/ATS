@@ -2,14 +2,16 @@
   <div class="flex h-full w-full items-center justify-between">
     <div class="h-full flex-1">
       <!-- header -->
-      <div class="m-auto flex h-32 w-3/4 items-center justify-between" >
-        <div class="ml-8 flex w-3/4 items-center">
-          <img src="/public-src/Kullanıcı/Frame137.svg" class="mr-10">
-          <h2 class="ml-8 text-4xl font-bold leading-9 text-green-800">
+      <div class="m-auto flex h-32 w-3/4 items-center justify-between">
+        <div class="ml-5 flex w-3/4 items-center">
+          <img class="mr-5" src="/public-src/Kullanıcı/Frame137.svg">
+          <h2 class="text-4xl font-bold leading-9 text-green-800">
             Ceza Ödeme
           </h2>
-          <button  type="button" class="mb-2 ml-5 mr-2 mt-3 flex items-center rounded-lg bg-primary px-5 py-2.5 text-sm font-medium text-white ring-primary hover:bg-PrimaryLight hover:text-primary focus:outline-none focus:ring-2">
-            <img src="/public-src/Kullanıcı/Frame(13).svg" class="mr-2 hover:text-primary">
+          <button
+              class="mb-2 ml-5 mr-2 mt-3 flex items-center rounded-lg bg-primary px-5 py-2.5 text-sm font-medium text-white ring-primary hover:bg-PrimaryLight hover:text-primary focus:outline-none focus:ring-2"
+              type="button">
+            <img class="mr-2 hover:text-primary" src="/public-src/Kullanıcı/Frame(13).svg">
             Yeni ceza
           </button>
         </div>
@@ -49,56 +51,56 @@
         <table class="w-full text-left text-sm text-GrayLightest">
           <thead class="bg-GrayLightest text-xs uppercase text-Dark900">
           <tr>
-            <th scope="col" class="px-6 py-3">
+            <th class="px-6 py-3" scope="col">
 
             </th>
-            <th scope="col" class="px-6 py-3">
+            <th class="px-6 py-3" scope="col">
               boçlu
             </th>
-            <th scope="col" class="px-6 py-3">
+            <th class="px-6 py-3" scope="col">
               tebliğ tarihi
             </th>
-            <th scope="col" class="px-6 py-3">
+            <th class="px-6 py-3" scope="col">
               tebliğ türü
             </th>
-            <th scope="col" class="px-6 py-3">
+            <th class="px-6 py-3" scope="col">
               evrak no
             </th>
-            <th scope="col" class="px-6 py-3">
+            <th class="px-6 py-3" scope="col">
               türü
             </th>
-            <th scope="col" class="px-6 py-3">
-             plaka
+            <th class="px-6 py-3" scope="col">
+              plaka
             </th>
-            <th scope="col" class="px-6 py-3">
+            <th class="px-6 py-3" scope="col">
               ceza türü
             </th>
-            <th scope="col" class="px-6 py-3">
+            <th class="px-6 py-3" scope="col">
               ceza tutarı
             </th>
-            <th scope="col" class="px-6 py-3">
+            <th class="px-6 py-3" scope="col">
               erken ödeme tutarı
             </th>
-            <th scope="col" class="px-6 py-3">
+            <th class="px-6 py-3" scope="col">
               erken ödeme karı
             </th>
-            <th scope="col" class="px-6 py-3">
+            <th class="px-6 py-3" scope="col">
               ödeme tarihi
             </th>
-            <th scope="col" class="px-6 py-3">
+            <th class="px-6 py-3" scope="col">
               ödeme yeri
             </th>
-            <th scope="col" class="px-6 py-3">
+            <th class="px-6 py-3" scope="col">
               dekont no
             </th>
           </tr>
           </thead>
           <tbody>
           <tr class="border-b bg-white ">
-            <th scope="row" class="whitespace-nowrap px-6 py-4 font-medium text-Dark900">
+            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
               <div class="flex w-3/4 items-center justify-center">
-                <img src="/public-src/admin/Frame(20).svg" >
-                <img src="/public-src/admin/Frame(17).svg" class="pl-3" >
+                <img src="/public-src/admin/Frame(20).svg">
+                <img class="pl-3" src="/public-src/admin/Frame(17).svg">
               </div>
             </th>
             <td class="px-6 py-4 text-Dark900">
@@ -142,10 +144,10 @@
             </td>
           </tr>
           <tr class="border-b bg-gray-50 text-Graydarker">
-            <th scope="row" class="whitespace-nowrap px-6 py-4 font-medium text-Dark900">
+            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
               <div class="flex w-3/4 items-center justify-center">
-                <img src="/public-src/admin/Frame(20).svg" >
-                <img src="/public-src/admin/Frame(17).svg" class="pl-3" >
+                <img src="/public-src/admin/Frame(20).svg">
+                <img class="pl-3" src="/public-src/admin/Frame(17).svg">
               </div>
             </th>
             <td class="px-6 py-4 text-Dark900">
@@ -189,10 +191,10 @@
             </td>
           </tr>
           <tr class="border-b bg-white ">
-            <th scope="row" class="whitespace-nowrap px-6 py-4 font-medium text-Dark900">
+            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
               <div class="flex w-3/4 items-center justify-center">
-                <img src="/public-src/admin/Frame(20).svg" >
-                <img src="/public-src/admin/Frame(17).svg" class="pl-3" >
+                <img src="/public-src/admin/Frame(20).svg">
+                <img class="pl-3" src="/public-src/admin/Frame(17).svg">
               </div>
             </th>
             <td class="px-6 py-4 text-Dark900">
@@ -236,12 +238,12 @@
             </td>
           </tr>
           <tr class="border-b bg-gray-50 text-Graydarker">
-            <th scope="row" class="whitespace-nowrap px-6 py-4 font-medium text-Dark900">
-            <div class="flex w-3/4 items-center justify-center">
-              <img src="/public-src/admin/Frame(20).svg" >
-              <img src="/public-src/admin/Frame(17).svg" class="pl-3" >
-            </div>
-          </th>
+            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
+              <div class="flex w-3/4 items-center justify-center">
+                <img src="/public-src/admin/Frame(20).svg">
+                <img class="pl-3" src="/public-src/admin/Frame(17).svg">
+              </div>
+            </th>
             <td class="px-6 py-4 text-Dark900">
               Muhammet Mustafa Yaprak
             </td>
@@ -283,10 +285,10 @@
             </td>
           </tr>
           <tr class="border-b bg-white ">
-            <th scope="row" class="whitespace-nowrap px-6 py-4 font-medium text-Dark900">
+            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
               <div class="flex w-3/4 items-center justify-center">
-                <img src="/public-src/admin/Frame(20).svg" >
-                <img src="/public-src/admin/Frame(17).svg" class="pl-3" >
+                <img src="/public-src/admin/Frame(20).svg">
+                <img class="pl-3" src="/public-src/admin/Frame(17).svg">
               </div>
             </th>
             <td class="px-6 py-4 text-Dark900">
@@ -330,10 +332,10 @@
             </td>
           </tr>
           <tr class="border-b bg-gray-50 text-Graydarker">
-            <th scope="row" class="whitespace-nowrap px-6 py-4 font-medium text-Dark900">
+            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
               <div class="flex w-full items-center justify-center">
-                <img src="/public-src/admin/Frame(20).svg" class="pl-3">
-                <img src="/public-src/admin/Frame(17).svg" class="pl-3" >
+                <img class="pl-3" src="/public-src/admin/Frame(20).svg">
+                <img class="pl-3" src="/public-src/admin/Frame(17).svg">
               </div>
             </th>
             <td class="px-6 py-4 text-Dark900">
@@ -381,10 +383,10 @@
       </div>
       <div>
         <div class="mt-14 flex w-11/12 items-center justify-end">
-          <div class="flex items-center justify-end" >
-            <img src="/public-src/admin/rightRounded.svg" class="pl-5" >
-            <img src="/public-src/admin/Frame72.svg" class="pl-5">
-            <img src="/public-src/admin/LeftRounded.svg" class="pl-5">
+          <div class="flex items-center justify-end">
+            <img class="pl-5" src="/public-src/admin/rightRounded.svg">
+            <img class="pl-5" src="/public-src/admin/Frame72.svg">
+            <img class="pl-5" src="/public-src/admin/LeftRounded.svg">
           </div>
         </div>
       </div>
@@ -396,10 +398,10 @@
 <script>
 import {defineComponent} from "vue";
 
-export default defineComponent (
+export default defineComponent(
     {
-      name:"PayFine",
-      components:""
+      name: "PayFine",
+      components: ""
     }
 )
 </script>
