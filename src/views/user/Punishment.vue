@@ -2,10 +2,10 @@
   <div class="m-auto flex w-full items-center justify-between">
     <div class="flex-1">
       <!-- header -->
-      <div class="m-auto flex h-32 w-3/4 items-center justify-between" >
-        <div class="ml-8 flex w-3/4 items-center">
-          <img src="/public-src/Kullanıcı/Frame137.svg" class="mr-10">
-          <h2 class="ml-8 text-4xl font-bold leading-9 text-green-800">
+      <div class="m-auto flex h-32 w-3/4 items-center justify-between">
+        <div class="ml-5 flex w-3/4 items-center">
+          <img class="mr-5" src="/public-src/Kullanıcı/Frame137.svg">
+          <h2 class="text-4xl font-bold leading-9 text-green-800">
             Araçlarım
           </h2>
           <h4 class="ml-8 text-base font-medium text-[#717982]"> / 34 HYD 1234 VOLKSWAGEN POLO </h4>
@@ -22,14 +22,31 @@
 
       <div class="m-auto flex h-20 w-3/4 items-center rounded-xl border-2 border-solid border-primary">
         <div class="m-auto flex w-3/4 items-center justify-between text-[#717982]">
-          <h3 class=" inline-block rounded-t-lg border-b-2 border-transparent font-bold hover:border-primary hover:text-primary">ARAÇ</h3>
-          <h3 class="inline-block rounded-t-lg border-b-2 border-transparent font-bold hover:border-primary hover:text-primary">KULLANICI BİLGİLERİ</h3>
-          <h3 class="inline-block rounded-t-lg border-b-2 border-transparent font-bold hover:border-primary hover:text-primary">DİĞER BİLGİLER</h3>
-          <h3 class="inline-block rounded-t-lg border-b-2 border-transparent font-bold hover:border-primary hover:text-primary">KM/HARCAMALAR</h3>
-          <h3 class="inline-block rounded-t-lg border-b-2 border-transparent font-bold hover:border-primary hover:text-primary">BAKIM</h3>
-          <h3 class="inline-block rounded-t-lg border-b-2 border-transparent font-bold hover:border-primary hover:text-primary">HGS/CEZA</h3>
+          <RouterLink
+              class="inline-block rounded-t-lg border-b-2 border-transparent font-bold hover:border-primary hover:text-primary"
+              to="/vehicle">ARAÇLARIM
+          </RouterLink>
+          <router-link
+              class="inline-block rounded-t-lg border-b-2 border-transparent font-bold hover:border-primary hover:text-primary"
+              to="/userinfo">KULLANICI BİLGİLERİ
+          </router-link>
+          <router-link
+              class="inline-block rounded-t-lg border-b-2 border-transparent font-bold hover:border-primary hover:text-primary"
+              to="/otherinfo">DİĞER BİLGİLER
+          </router-link>
+          <router-link
+              class="inline-block rounded-t-lg border-b-2 border-transparent font-bold hover:border-primary hover:text-primary"
+              to="/expenses">KM/HARCAMALAR
+          </router-link>
+          <router-link
+              class="inline-block rounded-t-lg border-b-2 border-transparent font-bold hover:border-primary hover:text-primary"
+              to="/repair">BAKIM
+          </router-link>
+          <router-link
+              class="inline-block rounded-t-lg border-b-2 border-transparent font-bold hover:border-primary hover:text-primary"
+              to="/punishment">HGS/CEZA
+          </router-link>
         </div>
-
       </div>
       <div class="m-auto flex w-9/12 justify-end">
         <div class="mt-16 h-[100px]  w-[599px] rounded-lg border-2 border-solid border-Graydarker  bg-GrayLightest">
@@ -55,46 +72,46 @@
         <table class="w-full text-left text-sm text-GrayLightest">
           <thead class="bg-GrayLightest text-xs uppercase text-Dark900">
           <tr>
-            <th scope="col" class="px-6 py-3">
+            <th class="px-6 py-3" scope="col">
               borçlu
             </th>
-            <th scope="col" class="px-6 py-3">
-               tebliğ tarİh
+            <th class="px-6 py-3" scope="col">
+              tebliğ tarİh
             </th>
-            <th scope="col" class="px-6 py-3">
+            <th class="px-6 py-3" scope="col">
               tebliğ türü
             </th>
-            <th scope="col" class="px-6 py-3">
+            <th class="px-6 py-3" scope="col">
               evrak no
             </th>
-            <th scope="col" class="px-6 py-3">
+            <th class="px-6 py-3" scope="col">
               türü
             </th>
-            <th scope="col" class="px-6 py-3">
+            <th class="px-6 py-3" scope="col">
               plaka
             </th>
-            <th scope="col" class="px-6 py-3">
+            <th class="px-6 py-3" scope="col">
               ceza türü
             </th>
-            <th scope="col" class="px-6 py-3">
+            <th class="px-6 py-3" scope="col">
               ceza tutarı
             </th>
-            <th scope="col" class="px-6 py-3">
+            <th class="px-6 py-3" scope="col">
               erken ödeme tutarı
             </th>
-            <th scope="col" class="px-6 py-3">
+            <th class="px-6 py-3" scope="col">
               erken ödeme karı
             </th>
-            <th scope="col" class="px-6 py-3">
-               ödeme tarihi
+            <th class="px-6 py-3" scope="col">
+              ödeme tarihi
             </th>
-            <th scope="col" class="px-6 py-3">
+            <th class="px-6 py-3" scope="col">
               ödeme yeri
             </th>
-            <th scope="col" class="px-6 py-3">
+            <th class="px-6 py-3" scope="col">
               dekont no
             </th>
-            <th scope="col" class="px-6 py-3">
+            <th class="px-6 py-3" scope="col">
               ödenme durumu
             </th>
 
@@ -103,7 +120,7 @@
           </thead>
           <tbody>
           <tr class="border-b bg-white ">
-            <th scope="row" class="whitespace-nowrap px-6 py-4 font-medium text-Dark900">
+            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
               Muhammet Mustafa Yaprak
             </th>
             <td class="px-6 py-4 text-Dark900">
@@ -147,7 +164,7 @@
             </td>
           </tr>
           <tr class="border-b bg-gray-50 text-Graydarker">
-            <th scope="row" class="whitespace-nowrap px-6 py-4 font-medium text-Dark900 ">
+            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900 " scope="row">
               Muhammet Mustafa Yaprak
             </th>
             <td class="px-6 py-4 text-Dark900">
@@ -191,7 +208,7 @@
             </td>
           </tr>
           <tr class="border-b bg-white ">
-            <th scope="row" class="whitespace-nowrap px-6 py-4 font-medium text-Dark900">
+            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
               Muhammet Mustafa Yaprak
             </th>
             <td class="px-6 py-4 text-Dark900">
@@ -235,7 +252,7 @@
             </td>
           </tr>
           <tr class="border-b bg-gray-50 text-Graydarker">
-            <th scope="row" class="whitespace-nowrap px-6 py-4 font-medium text-Dark900 ">
+            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900 " scope="row">
               Muhammet Mustafa Yaprak
             </th>
             <td class="px-6 py-4 text-Dark900">
@@ -279,7 +296,7 @@
             </td>
           </tr>
           <tr class="border-b bg-white ">
-            <th scope="row" class="whitespace-nowrap px-6 py-4 font-medium text-Dark900">
+            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
               Muhammet Mustafa Yaprak
             </th>
             <td class="px-6 py-4 text-Dark900">
@@ -323,7 +340,7 @@
             </td>
           </tr>
           <tr class="border-b bg-gray-50 text-Graydarker">
-            <th scope="row" class="whitespace-nowrap px-6 py-4 font-medium text-Dark900 ">
+            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900 " scope="row">
               Muhammet Mustafa Yaprak
             </th>
             <td class="px-6 py-4 text-Dark900">
@@ -378,10 +395,10 @@
 <script>
 import {defineComponent} from "vue";
 
-export default defineComponent (
+export default defineComponent(
     {
-      name:"PunisHment",
-      components:""
+      name: "PunisHment",
+      components: ""
     }
 )
 </script>
