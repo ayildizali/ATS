@@ -48,7 +48,7 @@
         </div>
       </div>
       <!-- main -->
-      <div class="m-60 mt-16 flex w-3/4 items-center justify-between">
+      <div class="m-60 mt-3  flex w-3/4 items-center justify-between">
         <div class="m-16 w-full">
           <div class="">
             <p class="text-Dark ">Plaka</p>
