@@ -35,7 +35,7 @@
 
         <nav class="flex items-center rounded-lg px-4 py-3 pl-12 pt-4 text-sm hover:bg-[#DBF5E9]">
           <img src="/public-src/Kullanıcı/Frame(8).svg">
-          <router-link class="pl-4 text-white hover:text-emerald-900" to="/usermain">KUllanıcı yönetimi</router-link>
+          <router-link class="pl-4 text-white hover:text-emerald-900" to="/usermain">Kullanıcı yönetimi</router-link>
         </nav>
       </div>
       <div class="  absolute  bottom-10  ml-8  flex w-56 items-center   ">
