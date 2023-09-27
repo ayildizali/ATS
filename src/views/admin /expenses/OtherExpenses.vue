@@ -4,8 +4,8 @@
       <!-- header -->
       <div class="m-auto flex h-32 w-3/4 items-center justify-between">
         <div class="ml-5 flex w-3/4 items-center">
-          <img class="mr-10" src="/public-src/Kullanıcı/Frame137.svg">
-          <h2 class="ml-3 text-4xl font-bold leading-9 text-green-800">
+          <img class="mr-5" src="/public-src/Kullanıcı/Frame137.svg">
+          <h2 class="text-4xl font-bold leading-9 text-green-800">
             Diğer Harcamalar
           </h2>
           <button
