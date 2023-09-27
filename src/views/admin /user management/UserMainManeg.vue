@@ -4,9 +4,9 @@
       <!-- header -->
       <div class="m-auto flex h-32 w-3/4 items-center justify-between">
         <div class="ml-5 flex w-3/4 items-center">
-          <img class="mr-10" src="/public-src/Kullanıcı/Frame137.svg">
-          <h2 class="ml-3 text-4xl font-bold leading-9 text-green-800">
-            Diğer Harcamalar
+          <img class="mr-5" src="/public-src/Kullanıcı/Frame137.svg">
+          <h2 class="text-4xl font-bold leading-9 text-green-800">
+            Kullanıcı Yönetimi
           </h2>
           <button
               class="mb-2 ml-5 mr-2 mt-3 flex items-center rounded-lg bg-primary px-5 py-2.5 text-sm font-medium text-white ring-primary hover:bg-PrimaryLight hover:text-primary focus:outline-none focus:ring-2"
