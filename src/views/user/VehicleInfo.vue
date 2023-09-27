@@ -20,7 +20,7 @@
       </div>
       <!-- content-->
       <div class="m-auto flex h-20 w-3/4 items-center rounded-xl border-2 border-solid border-primary">
-        <div class="m-auto flex w-3/4 items-center justify-between text-[#717982]">
+        <div class="m-auto flex w-3/4 items-center justify-between text-Dark800">
           <RouterLink
               class="inline-block rounded-t-lg border-b-2 border-transparent font-bold hover:border-primary hover:text-primary"
               to="/vehicle">ARAÇLARIM
@@ -48,112 +48,115 @@
         </div>
       </div>
       <!-- main -->
-      <div class="m-60 mt-3  flex w-3/4 items-center justify-between">
-        <div class="m-16 w-full">
-          <div class="">
-            <p class="text-Dark ">Plaka</p>
-            <div class="h-10 w-3/4 rounded-xl bg-GrayLighter ">
-              <div class="flex items-center ">
-                <p class="pl-10 pt-2"> 34 HYD 1234 </p>
+      <div class="m-auto mt-16 flex w-3/4 items-center justify-between">
+        <div class="ml-20 flex w-full items-center justify-around">
+          <div class="w-full">
+            <div class="">
+              <p class="pl-5 text-Dark ">Plaka</p>
+              <div class="h-10 w-3/4 rounded-xl bg-GrayLighter ">
+                <div class="flex items-center ">
+                  <p class="pl-10 pt-2"> 34 HYD 1234 </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="mt-6">
-            <p class="text-Dark">Araç Türü</p>
-            <div class="h-10 w-3/4 rounded-xl bg-GrayLighter ">
-              <div class="flex items-center ">
-                <p class="pl-10 pt-2"> Otomobil </p>
+            <div class="mt-6">
+              <p class="pl-5 text-Dark">Araç Türü</p>
+              <div class="h-10 w-3/4 rounded-xl bg-GrayLighter ">
+                <div class="flex items-center ">
+                  <p class="pl-10 pt-2"> Otomobil </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="mt-6">
-            <p class="text-Dark">Yakıt Cinsi</p>
-            <div class="h-10 w-3/4 rounded-xl bg-GrayLighter">
-              <div class="flex items-center ">
-                <p class="pl-10 pt-2"> Benzinli</p>
+            <div class="mt-6">
+              <p class="pl-5 text-Dark">Yakıt Cinsi</p>
+              <div class="h-10 w-3/4 rounded-xl bg-GrayLighter">
+                <div class="flex items-center ">
+                  <p class="pl-10 pt-2"> Benzinli</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="mt-6">
-            <p class="text-Dark">Ruhsat Sahibi</p>
-            <div class="h-10 w-3/4 rounded-xl bg-GrayLighter ">
-              <div class="flex items-center ">
-                <p class="pl-10 pt-2"> HYİD </p>
+            <div class="mt-6">
+              <p class="pl-5 text-Dark">Ruhsat Sahibi</p>
+              <div class="h-10 w-3/4 rounded-xl bg-GrayLighter ">
+                <div class="flex items-center ">
+                  <p class="pl-10 pt-2"> HYİD </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="mt-6">
-            <p class="text-Dark">dont</p>
-            <div class="h-10 w-3/4 rounded-xl bg-GrayLighter ">
-              <div class="flex items-center ">
-                <p class="pl-10 pt-2"> dont </p>
+            <div class="mt-6">
+              <p class="pl-5 text-Dark">dont</p>
+              <div class="h-10 w-3/4 rounded-xl bg-GrayLighter ">
+                <div class="flex items-center ">
+                  <p class="pl-10 pt-2"> dont </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="mt-6">
-            <p class="text-Dark">Araç Alış Tarihi</p>
-            <div class="h-10 w-3/4 rounded-xl bg-GrayLighter ">
-              <div class="flex items-center ">
-                <p class="pl-10 pt-2"> 13.09.2022 </p>
+            <div class="mt-6">
+              <p class="pl-5 text-Dark">Araç Alış Tarihi</p>
+              <div class="h-10 w-3/4 rounded-xl bg-GrayLighter ">
+                <div class="flex items-center ">
+                  <p class="pl-10 pt-2"> 13.09.2022 </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="mt-6">
-            <p class="text-Dark">KM Son Durum Tarihi</p>
-            <div class="h-10 w-3/4 rounded-xl bg-GrayLighter ">
-              <div class="flex items-center ">
-                <p class="pl-10 pt-2">14.09.2023 </p>
+            <div class="mt-6">
+              <p class="pl-5 text-Dark">KM Son Durum Tarihi</p>
+              <div class="h-10 w-3/4 rounded-xl bg-GrayLighter ">
+                <div class="flex items-center ">
+                  <p class="pl-10 pt-2">14.09.2023 </p>
+                </div>
               </div>
             </div>
-          </div>
 
+          </div>
+          <div class="w-full">
+            <div class="">
+              <p class="pl-5 text-Dark">Araç Markası</p>
+              <div class="h-10 w-3/4 rounded-xl bg-GrayLighter">
+                <p class="pl-10 pt-2">Volkswagen 1.4 Chrome Edition Polo</p>
+              </div>
+            </div>
+            <div class="mt-6">
+              <p class="pl-5 text-Dark">Araç Model</p>
+              <div class="h-10 w-3/4 rounded-xl bg-GrayLighter">
+                <p class="pl-10 pt-2">2013</p>
+              </div>
+            </div>
+
+            <div class="mt-6">
+              <p class="pl-5 text-Dark">Ruhsat Seri NO</p>
+              <div class="h-10 w-3/4 rounded-xl bg-GrayLighter">
+                <p class="pl-10 pt-2">GE-232425</p>
+              </div>
+            </div>
+
+            <div class="mt-6">
+              <p class="pl-5 text-Dark">Ruhsat Örneği</p>
+              <div class="h-10 w-3/4 rounded-xl bg-GrayLighter pl-10 pt-2">
+                <a class="font-medium text-blue-600  hover:underline" href="#">https://www.resmigazete.gov.tr/.pdf</a>
+              </div>
+            </div>
+            <div class="mt-6">
+              <p class="pl-5 text-Dark">Toplam Masraf</p>
+              <div class="h-10 w-3/4 rounded-xl bg-GrayLighter">
+                <p class="pl-10 pt-2">₺ 35.890 </p>
+              </div>
+            </div>
+            <div class="mt-6">
+              <p class="pl-5 text-Dark">Araç Alış Bedeli</p>
+              <div class="h-10 w-3/4 rounded-xl bg-GrayLighter">
+                <p class="pl-10 pt-2"> ₺ 100.000,00</p>
+              </div>
+            </div>
+            <div class="mt-6">
+              <p class="pl-5 text-Dark">KM Son Durum</p>
+              <div class="h-10 w-3/4 rounded-xl bg-GrayLighter">
+                <p class="pl-10 pt-2">104.000 KM</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="w-full">
-          <div class="">
-            <p class="text-Dark">Araç Markası</p>
-            <div class="h-10 w-3/4 rounded-xl bg-GrayLighter">
-              <p class="pl-10 pt-2">Volkswagen 1.4 Chrome Edition Polo</p>
-            </div>
-          </div>
-          <div class="mt-6">
-            <p class="text-Dark">Araç Model</p>
-            <div class="h-10 w-3/4 rounded-xl bg-GrayLighter">
-              <p class="pl-10 pt-2">2013</p>
-            </div>
-          </div>
 
-          <div class="mt-6">
-            <p class="text-Dark">Ruhsat Seri NO</p>
-            <div class="h-10 w-3/4 rounded-xl bg-GrayLighter">
-              <p class="pl-10 pt-2">GE-232425</p>
-            </div>
-          </div>
-
-          <div class="mt-6">
-            <p class="text-Dark">Ruhsat Örneği</p>
-            <div class="h-10 w-3/4 rounded-xl bg-GrayLighter pl-10 pt-2">
-              <a class="font-medium text-blue-600  hover:underline" href="#">https://www.resmigazete.gov.tr/.pdf</a>
-            </div>
-          </div>
-          <div class="mt-6">
-            <p class="text-Dark">Toplam Masraf</p>
-            <div class="h-10 w-3/4 rounded-xl bg-GrayLighter">
-              <p class="pl-10 pt-2">₺ 35.890 </p>
-            </div>
-          </div>
-          <div class="mt-6">
-            <p class="text-Dark">Araç Alış Bedeli</p>
-            <div class="h-10 w-3/4 rounded-xl bg-GrayLighter">
-              <p class="pl-10 pt-2"> ₺ 100.000,00</p>
-            </div>
-          </div>
-          <div class="mt-6">
-            <p class="text-Dark">KM Son Durum</p>
-            <div class="h-10 w-3/4 rounded-xl bg-GrayLighter">
-              <p class="pl-10 pt-2">104.000 KM</p>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
 
