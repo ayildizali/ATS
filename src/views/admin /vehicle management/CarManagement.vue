@@ -6,12 +6,13 @@
         <div class="ml-5 flex w-3/4 items-center">
           <img class="mr-5" src="/public-src/Kullanıcı/Frame137.svg">
           <h2 class="text-4xl font-bold leading-9 text-green-800">
-            Araçlarım
+            Araç Yönetimi
           </h2>
-          <button class="mb-2 ml-5 mr-2 mt-3 flex items-center rounded-lg bg-primary px-5 py-2.5 text-sm font-medium text-white ring-primary hover:bg-PrimaryLight hover:text-primary focus:outline-none focus:ring-2"
-                  type="button">
+          <button
+              class="mb-2 ml-5 mr-2 mt-3 flex items-center rounded-lg bg-primary px-5 py-2.5 text-sm font-medium text-white ring-primary focus:outline-none focus:ring-2"
+              type="button">
             <img class="mr-2 hover:text-primary" src="/public-src/Kullanıcı/Frame(13).svg">
-            Yeni Araç
+            <router-link to="/newcar">Yeni Araç</router-link>
           </button>
           <button
               class="mx-2 mb-2 mt-3 rounded-lg border-2 border-primary px-5 py-2.5 text-center text-sm font-medium text-primary focus:outline-none "
@@ -73,8 +74,10 @@
                     </div>
                   </div>
                   <div class="mt-6 ">
-                    <button class="mb-3 mr-2 w-3/4 rounded-lg bg-primary px-5 py-2.5 text-sm font-medium text-white focus:outline-none focus:ring-2 " type="button"
-                            @click="toggleModel=false">
+                    <button
+                        class="mb-3 mr-2 w-3/4 rounded-lg bg-primary px-5 py-2.5 text-sm font-medium text-white focus:outline-none focus:ring-2 "
+                        type="button"
+                        @click="toggleModel=false">
                       Tamamla
                     </button>
                   </div>
