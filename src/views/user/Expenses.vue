@@ -1,5 +1,5 @@
 <template>
-  <div class="m-auto flex h-full w-full items-center justify-between">
+  <div class="m-auto mt-0 flex h-full w-full items-center justify-between">
     <div class="flex-1">
       <!-- header -->
       <div class="m-auto flex h-32 w-3/4 items-center justify-between">
@@ -19,9 +19,8 @@
         </div>
       </div>
       <!-- content-->
-
       <div class="m-auto flex h-20 w-3/4 items-center rounded-xl border-2 border-solid border-primary">
-        <div class="m-auto flex w-3/4 items-center justify-between text-[#717982]">
+        <div class="m-auto flex w-3/4 items-center justify-between text-Dark800">
           <RouterLink
               class="inline-block rounded-t-lg border-b-2 border-transparent font-bold hover:border-primary hover:text-primary"
               to="/vehicle">ARAÇLARIM
