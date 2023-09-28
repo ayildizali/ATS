@@ -19,6 +19,9 @@ import EditSpending from "../views/admin /expenses/EditSpending.vue"
 import UserMainManeg from "../views/admin /user management/UserMainManeg.vue"
 import NewUser from "../views/admin /user management/NewUser.vue"
 import EditUserManag from "../views/admin /user management/EditUserManag.vue"
+import NewCarManag from "../views/admin /vehicle management/NewCarManag.vue"
+import NewCarTwo from "../views/admin /vehicle management/NewCarTwo.vue";
+import NewCarThree from "../views/admin /vehicle management/NewCarThree.vue";
 
 const routes = [
     {
@@ -123,6 +126,21 @@ const routes = [
                 path: "/editusermanag",
                 name: "EditUserManag",
                 component: EditUserManag
+            },
+            {
+                path: "/newcar",
+                name: "NewCarManag",
+                component: NewCarManag
+            },
+            {
+                path: "/newcartwo",
+                name: "NewCarTwo",
+                component: NewCarTwo
+            },
+            {
+                path: "/newcarthree",
+                name: "NewCarThree",
+                component: NewCarThree
             },
 
 
