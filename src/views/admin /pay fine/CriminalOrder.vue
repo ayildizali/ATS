@@ -2,10 +2,10 @@
   <div class="flex h-full w-full items-center justify-between">
     <div class="flex-1">
       <!-- header -->
-      <div class="m-auto flex h-32 w-3/4 items-center justify-between" >
-        <div class="ml-8 flex w-3/4 items-center">
-          <img src="/public-src/Kullanıcı/Frame137.svg" class="mr-10">
-          <h2 class="ml-4 text-4xl font-bold leading-9 text-green-800">
+      <div class="m-auto flex h-32 w-3/4 items-center justify-between">
+        <div class="ml-5 flex w-3/4 items-center">
+          <img class="mr-5" src="/public-src/Kullanıcı/Frame137.svg">
+          <h2 class=" text-4xl font-bold leading-9 text-green-800">
             Ceza Ödeme
           </h2>
           <h4 class="ml-8 text-base font-medium text-[#717982]"> / Ceza Düzenle </h4>
@@ -23,7 +23,7 @@
       <!-- main -->
       <div class=" m-auto mt-16 flex w-3/4 items-center justify-between">
         <div class="ml-32 w-full">
-          <div  class=" ">
+          <div class=" ">
             <p class="text-Dark">Tebliğ Tarihi*</p>
             <div class="h-10 w-3/4 rounded-xl border border-Graydarker  ">
               <div class="flex items-center ">
@@ -31,7 +31,7 @@
               </div>
             </div>
           </div>
-          <div  class="mt-6">
+          <div class="mt-6">
             <p class="text-Dark">Evrak No</p>
             <div class="h-10 w-3/4 rounded-xl border border-Graydarker ">
               <div class="flex items-center ">
@@ -39,15 +39,15 @@
               </div>
             </div>
           </div>
-          <div  class="mt-6">
+          <div class="mt-6">
             <p class="text-Dark">Plaka</p>
             <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
               <div class="flex items-center ">
-                <p class="pl-10 pt-2"> </p>
+                <p class="pl-10 pt-2"></p>
               </div>
             </div>
           </div>
-          <div  class="mt-6">
+          <div class="mt-6">
             <p class="text-Dark">Ceza Türü </p>
             <div class="h-10 w-3/4 rounded-xl border border-Graydarker ">
               <div class="flex items-center ">
@@ -55,7 +55,7 @@
               </div>
             </div>
           </div>
-          <div  class="mt-6">
+          <div class="mt-6">
             <p class="text-Dark">erken ödeme tarihi</p>
             <div class="h-10 w-3/4 rounded-xl border border-Graydarker ">
               <div class="flex items-center ">
@@ -63,7 +63,7 @@
               </div>
             </div>
           </div>
-          <div  class="mt-6">
+          <div class="mt-6">
             <p class="text-Dark">ödeme tarihi</p>
             <div class="h-10 w-3/4 rounded-xl border border-Graydarker ">
               <div class="flex items-center ">
@@ -75,12 +75,12 @@
             <p class="text-Dark">dekont</p>
             <div class="h-10 w-3/4 rounded-xl border border-Graydarker ">
               <div class="flex items-center ">
-                <p class="pl-10 pt-2">  </p>
+                <p class="pl-10 pt-2"></p>
               </div>
             </div>
           </div>
         </div>
-        <div class="w-full " >
+        <div class="w-full ">
           <div class="">
             <p class="text-Dark">Tebliğ Türü</p>
             <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
@@ -130,7 +130,10 @@
       </div>
       <div class="mt-14 flex w-full items-center justify-center">
         <div class=" mr-44 flex w-2/3 items-center justify-end">
-          <button type="button" class="mb-2 mr-2 rounded-lg bg-primary px-5 py-2.5 text-sm font-medium text-white  focus:outline-none focus:ring-2 focus:ring-primary ">Düzenle</button>
+          <button class="mb-2 mr-2 rounded-lg bg-primary px-5 py-2.5 text-sm font-medium text-white  focus:outline-none focus:ring-2 focus:ring-primary "
+                  type="button">
+            Düzenle
+          </button>
         </div>
       </div>
     </div>
@@ -140,10 +143,10 @@
 <script>
 import {defineComponent} from "vue";
 
-export default defineComponent (
+export default defineComponent(
     {
-      name:"CriminalOrder",
-      components:""
+      name: "CriminalOrder",
+      components: ""
     }
 )
 </script>
