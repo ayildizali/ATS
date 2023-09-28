@@ -9,10 +9,11 @@
             Ceza Ödeme
           </h2>
           <button
-              class="mb-2 ml-5 mr-2 mt-3 flex items-center rounded-lg bg-primary px-5 py-2.5 text-sm font-medium text-white ring-primary hover:bg-PrimaryLight hover:text-primary focus:outline-none focus:ring-2"
+              class="mb-2 ml-5 mr-2 mt-3 flex items-center rounded-lg bg-primary px-5 py-2.5 text-sm font-medium text-white ring-primary focus:outline-none focus:ring-2"
               type="button">
             <img class="mr-2 hover:text-primary" src="/public-src/Kullanıcı/Frame(13).svg">
-            Yeni ceza
+            <router-link to="newpunishment">Yeni Ceza</router-link>
+
           </button>
         </div>
         <div class="flex items-center">
@@ -23,9 +24,7 @@
         </div>
       </div>
       <!-- content-->
-
-      <div class=" mb-200">
-
+      <div class="">
       </div>
       <div class="m-auto flex w-9/12 justify-end">
         <div class="mt-16 h-[100px]  w-[599px] rounded-lg border-2 border-solid border-Graydarker  bg-GrayLightest">
@@ -98,7 +97,7 @@
           <tbody>
           <tr class="border-b bg-white ">
             <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
-              <div class="flex w-3/4 items-center justify-center">
+              <div class="flex w-16 items-center justify-center">
                 <img src="/public-src/admin/Frame(20).svg">
                 <img class="pl-3" src="/public-src/admin/Frame(17).svg">
               </div>
@@ -331,10 +330,10 @@
               01AWB0000053
             </td>
           </tr>
-          <tr class="border-b bg-gray-50 text-Graydarker">
+          <tr class="border-b bg-white ">
             <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
-              <div class="flex w-full items-center justify-center">
-                <img class="pl-3" src="/public-src/admin/Frame(20).svg">
+              <div class="flex w-3/4 items-center justify-center">
+                <img src="/public-src/admin/Frame(20).svg">
                 <img class="pl-3" src="/public-src/admin/Frame(17).svg">
               </div>
             </th>
