@@ -8,7 +8,7 @@
         </h2>
         <div class="flex items-center">
           <nav class="pr-3">
-            <img src="/public/Frame(20).svg">
+            <img src="/public-src/genel/Frame(20).svg">
           </nav>
           <p class="text-sm font-semibold text-gray-500">Muhammed Ali Ay </p>
         </div>
@@ -32,7 +32,7 @@
             <p>100.000</p>
           </div>
 
-          <img src="/public/Frame126.svg">
+          <img src="/public-src/genel/Frame126.svg">
 
         </div>
       </div>
@@ -44,7 +44,7 @@
             <p>RENAULT MEGAN</p>
             <p>100.000</p>
           </div>
-          <img src="/public/Frame126.svg">
+          <img src="/public-src/genel/Frame126.svg">
 
         </div>
       </div>
@@ -57,7 +57,7 @@
             <p>100.000</p>
           </div>
 
-          <img src="/public/Frame126.svg">
+          <img src="/public-src/genel/Frame126.svg">
 
         </div>
       </div>
@@ -69,7 +69,7 @@
             <p>RENAULT MEGAN</p>
             <p>100.000</p>
           </div>
-          <img src="/public/Frame126.svg">
+          <img src="/public-src/genel/Frame126.svg">
         </div>
       </div>
       <div class=" m-auto mt-12 h-24 w-10/12 rounded-2xl bg-gray-50 shadow">
@@ -81,7 +81,7 @@
             <p>100.000</p>
           </div>
 
-          <img src="/public/Frame126.svg">
+          <img src="/public-src/genel/Frame126.svg">
 
         </div>
       </div>
@@ -94,7 +94,7 @@
             <p>100.000</p>
           </div>
 
-          <img src="/public/Frame126.svg">
+          <img src="/public-src/genel/Frame126.svg">
 
         </div>
       </div>
@@ -106,10 +106,10 @@
         </div>
         <div class=" ">
           <nav class="flex items-center  ">
-            <img class="pl-2" src="/public/LeftRounded.svg">
-            <img class="pl-2" src="/public/Frame72.svg">
-            <img class="pl-2" src="/public/Frame70.svg">
-            <img class="pl-2" src="/public/RightRounded.svg">
+            <img class="pl-2" src="/public-src/genel/LeftRounded.svg">
+            <img class="pl-2" src="/public-src/genel/Frame72.svg">
+            <img class="pl-2" src="/public-src/genel/Frame70.svg">
+            <img class="pl-2" src="/public-src/genel/RightRounded.svg">
           </nav>
         </div>
       </div>
