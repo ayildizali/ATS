@@ -22,17 +22,17 @@
       <div class="m-auto flex w-3/4 items-center justify-center">
         <div class="flex items-center justify-between">
           <div class="pr-2">
-            <img src="/public/Frame178(1).svg">
+            <img src="/public-src/genel/Frame178(1).svg">
             <p class="mt-2 text-primary">Araç</p>
           </div>
-          <img class="mb-4" src="/public/Line43(1).svg">
+          <img class="mb-4" src="/public-src/genel/Line43(1).svg">
           <div class="pl-2">
-            <img src="/public/Frame179.svg">
+            <img src="/public-src/genel/Frame179.svg">
             <p class="mt-2 text-primary"> Sürücü</p>
           </div>
-          <img class="mb-4" src="/public/Line43.svg">
+          <img class="mb-4" src="/public-src/genel/Line43.svg">
           <div class="pl-2">
-            <img src="/public/Frame180.svg">
+            <img src="/public-src/genel/Frame180.svg">
             <p class="mt-2 text-Dark800">Diğer</p>
           </div>
         </div>
@@ -161,14 +161,14 @@
           <button
               class="mb-2 mr-2 flex items-center rounded-lg bg-PrimaryLight px-5 py-2.5 text-sm font-medium text-primary  focus:outline-none focus:ring-2 focus:ring-primary "
               type="button">
-            <img class="pr-2 text-white" src="/public/LeftRounded.svg">
+            <img class="pr-2 text-white" src="/public-src/genel/LeftRounded.svg">
             <router-link to="newcar">önceki</router-link>
           </button>
           <button
               class="mb-2 mr-2 flex items-center rounded-lg bg-PrimaryLight px-5 py-2.5 text-sm font-medium text-primary  focus:outline-none focus:ring-2 focus:ring-primary "
               type="button">
             <router-link to="/newcarthree">Sonraki</router-link>
-            <img class="pl-2 text-white" src="/public/RightRounded.svg">
+            <img class="pl-2 text-white" src="/public-src/genel/RightRounded.svg">
           </button>
         </div>
       </div>
