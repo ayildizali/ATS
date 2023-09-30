@@ -48,7 +48,7 @@
         </div>
       </div>
       <!-- main -->
-      <div class="m-auto mt-16 flex w-3/4 items-center justify-between ">
+      <div class="m-auto mb-10 mt-16 flex w-3/4 items-center justify-between ">
         <div class="ml-16 w-full ">
           <div class="mb-16">
             <h4 class="flex items-center font-bold leading-5 text-primary">MUAYENE BİLGİLERİ
