@@ -49,8 +49,8 @@
       </div>
 
       <!-- main -->
-      <div class="m-auto mt-12 flex w-3/4  items-center">
-        <div class=" ml-16 w-3/4">
+      <div class="m-auto mt-12 flex w-3/4 items-center">
+        <div class=" m-auto w-3/4">
           <div class="mt-8 h-[500px] w-[480px] rounded-lg bg-GrayLightest shadow-xl ">
             <p class="mb-5 ml-8 pt-5 font-bold text-Dark900">ARAÇ KM BİLGİLERİ</p>
             <div class="flex items-center   ">
@@ -101,7 +101,7 @@
           </div>
 
         </div>
-        <div class="w-full">
+        <div class=" m-auto w-3/4">
           <div class="mt-8 h-[500px] w-[480px] rounded-lg bg-GrayLightest shadow-xl">
             <p class="ml-8 pt-5 font-bold text-Dark900">ARAÇ MASRAFLARI </p>
             <!--                        <p class="border-solid border-2 border-transparent border-b-Graydarker mt-5"></p>-->
