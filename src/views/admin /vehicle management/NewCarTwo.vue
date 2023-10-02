@@ -41,118 +41,167 @@
       <div class=" m-auto mt-16 flex w-11/12 items-center justify-between">
         <div class=" ml-32 w-full">
           <div class=" ">
-            <p class="pl-5 text-Dark">Adı Soyadı</p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker  ">
-              <div class="flex items-center ">
-                <p class="pl-10 pt-2"></p>
-              </div>
-            </div>
+            <input-tag
+                :required="true"
+                inputclass=""
+                label="Adı Soyadı"
+                placeholder="    Adı Soyadı Giriniz..."
+                rowclass=""
+
+            />
           </div>
           <div class="mt-6">
-            <p class="pl-5 text-Dark">T.C.NO.</p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker ">
-              <div class="flex items-center ">
-                <p class="pl-10 pt-2"></p>
-              </div>
-            </div>
+            <input-tag
+                :required="true"
+                inputclass=""
+                label="T.C. No."
+                placeholder="    T.C. No. Giriniz..."
+                rowclass=""
+
+            />
           </div>
           <div class="mt-6">
-            <p class="pl-5 text-Dark">Telefon Bilgileri</p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
-              <div class="flex items-center ">
-                <p class="pl-10 pt-2"></p>
-              </div>
-            </div>
+            <input-tag
+                :required="true"
+                inputclass=""
+                label="Telefon Bilgileri"
+                placeholder="    Telefon Bilgileri Giriniz..."
+                rowclass=""
+
+            />
           </div>
           <div class="mt-6">
-            <p class="pl-5 text-Dark">E-Mail Bilgileri</p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker ">
-              <div class="flex items-center ">
-                <p class="pl-10 pt-2"></p>
-              </div>
-            </div>
+            <input-tag
+                :required="true"
+                inputclass=""
+                label="E-Mail Bilgileri"
+                placeholder="   E-Mail Bilgileri Giriniz..."
+                rowclass=""
+
+            />
           </div>
           <div class="mt-6">
-            <p class="pl-5 text-Dark">İkamet Ettiği İl</p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker ">
-              <div class="flex items-center ">
-                <p class="pl-10 pt-2"></p>
-              </div>
-            </div>
+            <input-tag
+                :required="true"
+                inputclass=""
+                label="İkamet Ettiği İl"
+                placeholder="    İkamet Ettiği İl Giriniz..."
+                rowclass=""
+
+            />
           </div>
           <div class="mt-6">
-            <p class="pl-5 text-Dark">Taşıt Tanıma Durumu</p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker ">
-              <div class="flex items-center ">
-                <p class="pl-10 pt-2"></p>
-              </div>
-            </div>
+            <input-tag
+                :required="true"
+                inputclass=""
+                label="Taşıt Tanıma Durumu"
+                placeholder="    Taşıt Tanıma Durumu Giriniz..."
+                rowclass=""
+
+            />
           </div>
           <div class="mt-6">
-            <p class="pl-5 text-Dark">Taşıt Tanıma Limit Tutarı</p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker ">
-              <div class="flex items-center ">
-                <p class="pl-10 pt-2"></p>
-              </div>
-            </div>
+            <input-tag
+                :required="true"
+                inputclass=""
+                label="Taşıt Tanıma Limit Tutarı"
+                placeholder="    Taşıt Tanıma Limit Tutarı Giriniz..."
+                rowclass=""
+
+            />
           </div>
           <div class="mt-6">
-            <p class="pl-5 text-Dark">Araç Edinme Tarihi</p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker ">
-              <div class="flex items-center ">
-                <p class="pl-10 pt-2"></p>
-              </div>
-            </div>
+            <input-tag
+                :required="true"
+                inputclass=""
+                label="Araç Edinme Tarihi"
+                placeholder=""
+                rowclass=""
+                type="date"
+
+            />
           </div>
         </div>
         <div class="w-full ">
           <div class="">
-            <p class="pl-5 text-Dark">Bağlı Olduğu Birim Adı</p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
-              <p class="pl-10 pt-2"></p>
-            </div>
+            <input-tag
+                :required="true"
+                inputclass=""
+                label="Bağlı Olduğu Birim Adı"
+                placeholder="    Bağlı Olduğu Birim Adı Giriniz..."
+                rowclass=""
+
+            />
           </div>
           <div class="mt-6">
-            <p class="pl-5 text-Dark">Bulunduğu Yer (İl-İlçe)</p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
-              <p class="pl-10 pt-2"></p>
-            </div>
+            <input-tag
+                :required="true"
+                inputclass=""
+                label="Bulunduğu Yer (İl-İlçe)"
+                placeholder="    Bulunduğu Yer (İl-İlçe) Giriniz..."
+                rowclass=""
+
+            />
           </div>
           <div class="mt-6">
-            <p class="pl-5 text-Dark">Proje Kodu</p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
-              <p class="pl-10 pt-2"></p>
-            </div>
+            <input-tag
+                :required="true"
+                inputclass=""
+                label="Proje Kodu"
+                placeholder="    Proje Kodu Giriniz..."
+                rowclass=""
+
+            />
           </div>
           <div class="mt-6">
-            <p class="pl-5 text-Dark">IRD Kodu</p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
-              <p class="pl-10 pt-2"></p>
-            </div>
+            <input-tag
+                :required="true"
+                inputclass=""
+                label="IRD Kodu"
+                placeholder="    IRD Kodu Giriniz..."
+                rowclass=""
+
+            />
           </div>
           <div class="mt-6">
-            <p class="pl-5 text-Dark">Trafik Sigortası, Bakım ve Diğer Giderleri Ödeme Mükellefi</p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
-              <p class="pl-10 pt-2"></p>
-            </div>
+            <input-tag
+                :required="true"
+                inputclass=""
+                label="Trafik Sigortası, Bakım ve Diğer Giderleri Ödeme Mükellefi"
+                placeholder="    Trafik Sigortası, Bakım ve Diğer Giderleri Ödeme Mükellefi Giriniz..."
+                rowclass=""
+
+            />
           </div>
           <div class="mt-6">
-            <p class="pl-5 text-Dark">HGS-OGS-KGS Ödeme Mükellefi</p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
-              <p class="pl-10 pt-2"></p>
-            </div>
+            <input-tag
+                :required="true"
+                inputclass=""
+                label="HGS-OGS-KGS Ödeme Mükellefi"
+                placeholder="    HGS-OGS-KGS Ödeme Mükellefi Giriniz..."
+                rowclass=""
+
+            />
           </div>
           <div class="mt-6">
-            <p class="pl-5 text-Dark">Trafik Cezası Ödeme Mükellefi</p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
-              <p class="pl-10 pt-2"></p>
-            </div>
+            <input-tag
+                :required="true"
+                inputclass=""
+                label="Trafik Cezası Ödeme Mükellefi"
+                placeholder="    Trafik Cezası Ödeme Mükellefi Giriniz..."
+                rowclass=""
+
+            />
           </div>
           <div class="mt-6">
-            <p class="pl-5 text-Dark">Önceki Kullanıcı</p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
-              <p class="pl-10 pt-2"></p>
-            </div>
+            <input-tag
+                :required="true"
+                inputclass=""
+                label="Önceki Kullanıcı"
+                placeholder="    Önceki Kullanıcı Giriniz..."
+                rowclass=""
+
+            />
           </div>
         </div>
       </div>
@@ -177,12 +226,9 @@
 </template>
 
 <script>
-import {defineComponent} from "vue";
+import inputTag from "../../../components/custom/input.tag.vue";
 
-export default defineComponent(
-    {
-      name: "NewPunisHment",
-      components: ""
-    }
-)
+export default {
+  components: {inputTag}
+}
 </script>
