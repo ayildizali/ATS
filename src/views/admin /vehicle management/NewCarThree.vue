@@ -44,28 +44,34 @@
             <h4 class="flex items-center font-bold leading-5 text-primary">MUAYENE BİLGİLERİ
               <img class="pl-5" src="/public-src/Kullanıcı/Line48.svg"></h4>
             <div class="mb-6 mt-5">
-              <p class="pl-5 text-Dark ">Yaklaşan Muayene Tarihi*</p>
-              <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
-                <div class="flex items-center ">
-                  <p class="pl-10 pt-2"> 34 HYD 1234 </p>
-                </div>
-              </div>
+              <input-tag
+                  :required="true"
+                  inputclass=""
+                  label="Yaklaşan Muayene Tarihi"
+                  placeholder="    Yaklaşan Muayene Tarihi Giriniz..."
+                  rowclass=""
+                  type="date"
+              />
             </div>
             <div class="mt-6">
-              <p class="pl-5 text-Dark">Son Muayene Tarihi*</p>
-              <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
-                <div class="flex items-center ">
-                  <p class="pl-10 pt-2"> 19.05.2024 </p>
-                </div>
-              </div>
+              <input-tag
+                  :required="true"
+                  inputclass=""
+                  label="Son Muayene Tarihi"
+                  placeholder="    Son Muayene Giriniz..."
+                  rowclass=""
+                  type="date"
+              />
             </div>
             <div class="mt-6">
-              <p class="pl-5 text-Dark">Muayene Ücreti</p>
-              <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
-                <div class="flex items-center ">
-                  <p class="pl-10 pt-2">₺475,00</p>
-                </div>
-              </div>
+              <input-tag
+                  :required="true"
+                  inputclass=""
+                  label="Muayene Üçreti"
+                  placeholder="    Muayene Üçreti Giriniz..."
+                  rowclass=""
+
+              />
             </div>
 
           </div>
@@ -73,137 +79,191 @@
             <h4 class="flex items-center font-bold leading-5 text-primary">MTV BİLGİLERİ
               <img class="pl-5" src="/public-src/Kullanıcı/Line48.svg"></h4>
             <div class="mt-6">
-              <p class="pl-5 text-Dark">Yaklaşan Ödeme Tarihi*</p>
-              <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
-                <div class="flex items-center ">
-                  <p class="pl-10 pt-2">13.12.2023</p>
-                </div>
-              </div>
+              <input-tag
+                  :required="true"
+                  inputclass=""
+                  label="Yaklaşan Ödeme Tarihi"
+                  placeholder="    Yaklaşan Ödeme Tarihi Giriniz..."
+                  rowclass=""
+                  type="date"
+              />
             </div>
             <div class="mt-6">
-              <p class="pl-5 text-Dark"> Son Ödeme Tarihi*</p>
-              <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
-                <div class="flex items-center ">
-                  <p class="pl-10 pt-2">13.09.2023</p>
-                </div>
-              </div>
+              <input-tag
+                  :required="true"
+                  inputclass=""
+                  label="Son Ödeme Tarihi"
+                  placeholder="    Son Ödeme Tarihi Giriniz..."
+                  rowclass=""
+                  type="date"
+              />
             </div>
             <div class="mt-6">
-              <p class="pl-5 text-Dark">Son Ödenen Ücret</p>
-              <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
-                <div class="flex items-center ">
-                  <p class="pl-10 pt-2"> ₺1.661,50</p>
-                </div>
-              </div>
+              <input-tag
+                  :required="true"
+                  inputclass=""
+                  label="Son Ödenen Ücret"
+                  placeholder="    Son Ödenen Ücret Giriniz..."
+                  rowclass=""
+
+              />
             </div>
           </div>
           <div class="mt-14">
             <h4 class="flex items-center font-bold leading-5 text-primary">ARAÇ SERVİS BİLGİLERİ
               <img class="pl-5" src="/public-src/Kullanıcı/Line48.svg"></h4>
             <div class="mt-6">
-              <p class="pl-5 text-Dark">Servisler </p>
-              <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
-                <div class="flex items-center ">
-                  <p class="pl-10 pt-2"> Giray Yetkili Servis </p>
-                </div>
-              </div>
+              <input-tag
+                  :required="true"
+                  inputclass=""
+                  label="Servisler"
+                  placeholder="    Servisler Giriniz..."
+                  rowclass=""
+
+              />
             </div>
             <div class="mt-6">
-              <p class="pl-5 text-Dark">Adres</p>
-              <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
-                <div class="flex items-center ">
-                  <p class="pl-10 pt-2">Garyberli Mah. 12 Şubat İlçesi </p>
-                </div>
-              </div>
+              <input-tag
+                  :required="true"
+                  inputclass=""
+                  label="Adres"
+                  placeholder="    Adres Giriniz..."
+                  rowclass=""
+
+              />
             </div>
             <div class="mt-6">
-              <p class="pl-5 text-Dark">Yetkili</p>
-              <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
-                <div class="flex items-center ">
-                  <p class="pl-10 pt-2">Damla Hanım</p>
-                </div>
-              </div>
+              <input-tag
+                  :required="true"
+                  inputclass=""
+                  label="Yetkili"
+                  placeholder="    Yetkili Giriniz..."
+                  rowclass=""
+
+              />
             </div>
             <div class="mt-6">
-              <p class="pl-5 text-Dark">Telefon</p>
-              <div class="h-10 w-3/4 rounded-xl border border-Graydarker ">
-                <div class="flex items-center ">
-                  <p class="pl-10 pt-2">0344 236 16 25</p>
-                </div>
-              </div>
+              <input-tag
+                  :required="true"
+                  inputclass=""
+                  label="Telefon"
+                  placeholder="    Telefon Giriniz..."
+                  rowclass=""
+
+              />
             </div>
           </div>
         </div>
-        <div class="w-full">
+        <div class="mb-20 w-full">
           <div class="mb-16">
             <h4 class="flex items-center font-bold leading-5 text-primary">SİGORTA BİLGİLERİ
               <img class="pl-5" src="/public-src/Kullanıcı/Line48.svg"></h4>
             <div class="mt-6">
-              <p class="pl-5 text-Dark">Yaklaşan Sigorta Tarihi*</p>
-              <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
-                <p class="pl-10 pt-2">13.09.2023</p>
-              </div>
+              <input-tag
+                  :required="true"
+                  inputclass=""
+                  label="Yaklaşan Sigorta Tarihi"
+                  placeholder="    Yaklaşan Sigorta Tarihi Giriniz..."
+                  rowclass=""
+                  type="date"
+              />
             </div>
             <div class="mt-6">
-              <p class="pl-5 text-Dark">Son Sigorta Tarihi*</p>
-              <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
-                <p class="pl-10 pt-2">13.09.2023</p>
-              </div>
+              <input-tag
+                  :required="true"
+                  inputclass=""
+                  label="Son Sigorta Tarihi"
+                  placeholder="    Son Sigorta Tarihi Giriniz..."
+                  rowclass=""
+                  type="date"
+              />
             </div>
 
             <div class="mt-6">
-              <p class="pl-5 text-Dark">Sigorta Ücreti*</p>
-              <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
-                <p class="pl-10 pt-2">₺2.427,02</p>
-              </div>
+              <input-tag
+                  :required="true"
+                  inputclass=""
+                  label="Sigorta Ücreti"
+                  placeholder="    Sigorta Ücreti Giriniz..."
+                  rowclass=""
+
+              />
             </div>
 
             <div class="mt-6">
-              <p class="pl-5 text-Dark">Trafik Sigortası*</p>
-              <div class="h-10 w-3/4 rounded-xl border border-Graydarker pl-10 pt-2">
-                <a class="font-medium text-blue-600  hover:underline" href="#">https://www.resmigazete.gov.tr/.pdf</a>
-              </div>
+              <input-tag
+                  :required="true"
+                  inputclass=""
+                  label="Trafik Sigortası"
+                  placeholder="    Trafik Sigortası Giriniz..."
+                  rowclass=""
+
+              />
             </div>
             <div class="mt-6">
-              <p class="pl-5 text-Dark">Kasko Sigortası*</p>
-              <div class="h-10 w-3/4 rounded-xl border border-Graydarker  pl-10 pt-2">
-                <a class="font-medium text-blue-600  hover:underline" href="#">https://www.resmigazete.gov.tr/.pdf</a>
-              </div>
+              <input-tag
+                  :required="true"
+                  inputclass=""
+                  label="Kasko Sİgortası"
+                  placeholder="    Kasko Sİgortası Giriniz..."
+                  rowclass=""
+
+              />
             </div>
             <div class="mt-6">
-              <p class="pl-5 text-Dark">Trafik Sigorta Adı*</p>
-              <div class="h-10 w-3/4 rounded-xl border border-Graydarker ">
-                <p class="pl-10 pt-2">DOĞA SİGORTA</p>
-              </div>
+              <input-tag
+                  :required="true"
+                  inputclass=""
+                  label="Trafik Sigortası Adi"
+                  placeholder="    Trafik Sigortası Adi Giriniz..."
+                  rowclass=""
+
+              />
             </div>
             <div class="mt-6">
-              <p class="pl-5 text-Dark">Acenta Adı*</p>
-              <div class="h-10 w-3/4 rounded-xl border border-Graydarker ">
-                <p class="pl-10 pt-2">104.000 KM</p>
-              </div>
+              <input-tag
+                  :required="true"
+                  inputclass=""
+                  label="Acenta Adı"
+                  placeholder="    Acenta Adı Giriniz..."
+                  rowclass=""
+
+              />
             </div>
           </div>
           <div class="">
             <h4 class="flex items-center font-bold leading-5 text-primary">GÜNCEL ARAÇ DEĞERİ
               <img class="pl-5" src="/public-src/Kullanıcı/Line48.svg"></h4>
             <div class="mt-6">
-              <p class="pl-5 text-Dark">Güncel Fiyat Bakılan Tarih</p>
-              <div class="h-10 w-3/4 rounded-xl border border-Graydarker  ">
-                <p class="pl-10 pt-2">13.09.2023</p>
-              </div>
+              <input-tag
+                  :required="true"
+                  inputclass=""
+                  label="Güncel Fİyat Bakılan Tarih"
+                  placeholder="    Güncel Fİyat Bakılan Tarih Giriniz..."
+                  rowclass=""
+                  type="date"
+              />
             </div>
             <div class="mt-6">
-              <p class="pl-5 text-Dark">Araç Güncel Değer</p>
-              <div class="h-10 w-3/4 rounded-xl border border-Graydarker ">
-                <p class="pl-10 pt-2"> ₺ 465.900</p>
-              </div>
+              <input-tag
+                  :required="true"
+                  inputclass=""
+                  label="Araç Güncel Değer"
+                  placeholder="    Araç Güncel Değer Giriniz..."
+                  rowclass=""
+                  type="date"
+              />
             </div>
 
             <div class="mt-6">
-              <p class="pl-5 text-Dark">Alınan Bilgi Linki</p>
-              <div class="h-[115px] w-3/4 rounded-xl border border-Graydarker p-6 ">
-                <a class="font-medium text-blue-600  hover:underline" href="#">https://www.sahibinden.com/ilan/vasita-otomobil-opel-2008-model-opel-corsa-1.3-cdtit-1124414828/detay</a>
-              </div>
+              <input-tag
+                  :required="true"
+                  inputclass=""
+                  label="Alınan Bilgi Linki"
+                  placeholder="    Alınan Bilgi Linki Giriniz..."
+                  rowclass=""
+                  type="date"
+              />
             </div>
           </div>
         </div>
@@ -230,12 +290,9 @@
 </template>
 
 <script>
-import {defineComponent} from "vue";
+import inputTag from "../../../components/custom/input.tag.vue";
 
-export default defineComponent(
-    {
-      name: "NewPunisHment",
-      components: ""
-    }
-)
+export default {
+  components: {inputTag}
+}
 </script>
