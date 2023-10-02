@@ -22,6 +22,7 @@ import EditUserManag from "../views/admin /user management/EditUserManag.vue"
 import NewCarManag from "../views/admin /vehicle management/NewCarManag.vue"
 import NewCarTwo from "../views/admin /vehicle management/NewCarTwo.vue";
 import NewCarThree from "../views/admin /vehicle management/NewCarThree.vue";
+import inputag from "../components/custom/input.tag.vue"
 
 const routes = [
     {
@@ -141,6 +142,11 @@ const routes = [
                 path: "/newcarthree",
                 name: "NewCarThree",
                 component: NewCarThree
+            },
+            {
+                path: "/input",
+                name: "input.tag",
+                component: inputag
             },
 
 
