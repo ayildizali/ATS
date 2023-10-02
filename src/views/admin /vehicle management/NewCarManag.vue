@@ -41,96 +41,138 @@
       <div class=" m-auto mt-16 flex w-11/12 items-center justify-between">
         <div class="mb-20 ml-32 w-full">
           <div class=" ">
-            <p class="pl-5 text-Dark">Plaka</p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker  ">
-              <div class="flex items-center ">
-                <p class="pl-10 pt-2"></p>
-              </div>
-            </div>
+            <input-tag
+                :required="true"
+                inputclass=""
+                label="Plaka"
+                placeholder="    Plaka Giriniz..."
+                rowclass=""
+
+            />
           </div>
           <div class="mt-6">
-            <p class="pl-5 text-Dark">Araç Türü</p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker ">
-              <div class="flex items-center ">
-                <p class="pl-10 pt-2"></p>
-              </div>
-            </div>
+            <input-tag
+                :required="true"
+                inputclass=""
+                label="Araç Türü"
+                placeholder="    Araç Türü Giriniz..."
+                rowclass=""
+
+            />
           </div>
           <div class="mt-6">
-            <p class="pl-5 text-Dark">Yakıt Cinsi</p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
-              <div class="flex items-center ">
-                <p class="pl-10 pt-2"></p>
-              </div>
-            </div>
+            <input-tag
+                :required="true"
+                inputclass=""
+                label="Yakıt Cinsi"
+                placeholder="    Yakıt Cınsi Giriniz..."
+                rowclass=""
+
+            />
           </div>
           <div class="mt-6">
-            <p class="pl-5 text-Dark">Ruhsat Sahibi</p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker ">
-              <div class="flex items-center ">
-                <p class="pl-10 pt-2"></p>
-              </div>
-            </div>
+            <input-tag
+                :required="true"
+                inputclass=""
+                label="Ruhsat Sahibi"
+                placeholder="    Ruhsat Sahibi Giriniz..."
+                rowclass=""
+
+            />
           </div>
           <div class="mt-6">
-            <p class="pl-5 text-Dark">Araç Alış Tarihi</p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker ">
-              <div class="flex items-center ">
-                <p class="pl-10 pt-2"></p>
-              </div>
-            </div>
+            <input-tag
+                :required="true"
+                inputclass=""
+                label="Araç Alış Tarihi"
+                placeholder="    Araç Alış Tarihi Giriniz..."
+                rowclass=""
+
+            />
           </div>
           <div class="mt-6">
-            <p class="pl-5 text-Dark">Km Son Durum Tarihi</p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker ">
-              <div class="flex items-center ">
-                <p class="pl-10 pt-2"></p>
-              </div>
-            </div>
+            <input-tag
+                :required="true"
+                inputclass=""
+                label="KM Son Durum Tarihi"
+                placeholder="    KM Son Durum Tarihi Giriniz..."
+                rowclass=""
+                type="date"
+
+            />
           </div>
         </div>
         <div class="w-full ">
           <div class="">
-            <p class="pl-5 text-Dark">Araç Markası </p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
-              <p class="pl-10 pt-2"></p>
-            </div>
+            <input-tag
+                :required="true"
+                inputclass=""
+                label="Araç Markası"
+                placeholder="    Araç Markası Giriniz..."
+                rowclass=""
+
+            />
           </div>
           <div class="mt-6">
-            <p class="pl-5 text-Dark">Araç Model</p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
-              <p class="pl-10 pt-2"></p>
-            </div>
+            <input-tag
+                :required="true"
+                inputclass=""
+                label="Araç Model"
+                placeholder="    Araç Model Giriniz..."
+                rowclass=""
+
+            />
           </div>
           <div class="mt-6">
-            <p class="pl-5 text-Dark">Ruhsat Seri No.</p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
-              <p class="pl-10 pt-2"></p>
-            </div>
+            <input-tag
+                :required="true"
+                inputclass=""
+                label="Ruhsat Seri No."
+                placeholder="    Ruhsat Seri No. Giriniz..."
+                rowclass=""
+
+            />
           </div>
           <div class="mt-6">
-            <p class="pl-5 text-Dark">Ruhsat Örneği</p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
-              <p class="pl-10 pt-2"></p>
-            </div>
+
+            <input-tag
+                :required="true"
+                inputclass=""
+                label="Ruhsat Örneği"
+                placeholder="    Ruhsat Örneği Giriniz..."
+                rowclass=""
+
+            />
           </div>
           <div class="mt-6">
-            <p class="pl-5 text-Dark">Toplam Masraf</p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
-              <p class="pl-10 pt-2"></p>
-            </div>
+            <input-tag
+                :required="true"
+                inputclass=""
+                label="Toplam Masraf"
+                placeholder="    Toplam Masraf Giriniz..."
+                rowclass=""
+
+            />
           </div>
           <div class="mt-6">
-            <p class="pl-5 text-Dark">Araç Alış Bedeli</p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
-              <p class="pl-10 pt-2"></p>
-            </div>
+            <input-tag
+                :required="true"
+                inputclass=""
+                label="Araç Alış Bedeli"
+                placeholder="    Araç Alış Bedeli Giriniz..."
+                rowclass=""
+
+            />
           </div>
           <div class="mt-6">
-            <p class="pl-5 text-Dark">KM Son Durum </p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
-              <p class="pl-10 pt-2"></p>
-            </div>
+            <input-tag
+                :required="true"
+                inputclass=""
+                label="KM Son Durumu"
+                placeholder="   KM Son Durumu Giriniz..."
+                rowclass=""
+
+            />
           </div>
         </div>
       </div>
@@ -149,12 +191,9 @@
 </template>
 
 <script>
-import {defineComponent} from "vue";
+import inputTag from "../../../components/custom/input.tag.vue";
 
-export default defineComponent(
-    {
-      name: "NewPunisHment",
-      components: ""
-    }
-)
+export default {
+  components: {inputTag}
+}
 </script>
