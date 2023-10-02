@@ -34,44 +34,54 @@
                   <h3 class="mb-10 flex items-center justify-center pr-20 text-2xl font-bold text-primary ">Araç
                     Satışı</h3>
                   <div class=" ">
-                    <p class="text-Dark">Plaka</p>
-                    <div class="h-10 w-3/4 rounded-xl border-2 border-primary bg-white ">
-                      <div class="flex items-center ">
-                        <p class="pl-10 pt-2">34 HYD 1234</p>
-                      </div>
-                    </div>
+                    <input-tag
+                        :required="true"
+                        inputclass=""
+                        label="Plaka"
+                        placeholder="    Plaka Giriniz..."
+                        rowclass=""
+
+                    />
                   </div>
-                  <div class="mt-6">
-                    <p class="text-Dark">Son KM Durumu</p>
-                    <div class="h-10 w-3/4 rounded-xl border-2 border-primary bg-white">
-                      <div class="flex items-center ">
-                        <p class="pl-10 pt-2"> 123456 KM </p>
-                      </div>
-                    </div>
+                  <div class="mt-3">
+                    <input-tag
+                        :required="true"
+                        inputclass=""
+                        label="Son KM Durumu"
+                        placeholder="    Son KM Durumu Giriniz..."
+                        rowclass=""
+
+                    />
                   </div>
-                  <div class="mt-6">
-                    <p class="text-Dark">Taraç Satış Tarihi</p>
-                    <div class="h-10 w-3/4 rounded-xl border-2 border-primary bg-white ">
-                      <div class="flex items-center ">
-                        <p class="pl-10 pt-2">28.12.2023</p>
-                      </div>
-                    </div>
+                  <div class="mt-3">
+                    <input-tag
+                        :required="true"
+                        inputclass=""
+                        label="Araç Satış Tarihi"
+                        placeholder="    Araç Satış Tarihi Giriniz..."
+                        rowclass=""
+                        type="date"
+                    />
                   </div>
-                  <div class="mt-6">
-                    <p class="text-Dark">Araç Satış Tutarı</p>
-                    <div class="h-10 w-3/4 rounded-xl border-2 border-primary bg-white ">
-                      <div class="flex items-center ">
-                        <p class="pl-10 pt-2">₺193.500,00</p>
-                      </div>
-                    </div>
+                  <div class="mt-3">
+                    <input-tag
+                        :required="true"
+                        inputclass=""
+                        label="Araç Satış Tutarı"
+                        placeholder="    Araç Satış Tutarı Giriniz..."
+                        rowclass=""
+
+                    />
                   </div>
-                  <div class="mt-6">
-                    <p class="text-Dark">Açıklama</p>
-                    <div class="h-24 w-3/4 rounded-xl border-2 border-primary bg-white ">
-                      <div class="flex items-center ">
-                        <p class="pl-10 pt-2"></p>
-                      </div>
-                    </div>
+                  <div class="mt-3">
+                    <input-tag
+                        :required="true"
+                        inputclass="h-20 w-[310px] rounded-xl border-2 border-Graydarker"
+                        label="Açıklama"
+                        placeholder="    Açıklama Giriniz..."
+                        rowclass=""
+
+                    />
                   </div>
                   <div class="mt-6 ">
                     <button
@@ -521,6 +531,7 @@
   </div>
 </template>
 <script>
+import inputTag from "../../../components/custom/input.tag.vue";
 
 export default {
   name: "MoDel",
@@ -529,7 +540,8 @@ export default {
       toggleModel: false
     };
   },
-  methods: {}
+  methods: {},
+  components: {inputTag}
 
 };
 </script>
