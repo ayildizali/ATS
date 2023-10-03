@@ -23,6 +23,7 @@ import NewCarManag from "../views/admin /vehicle management/NewCarManag.vue"
 import NewCarTwo from "../views/admin /vehicle management/NewCarTwo.vue";
 import NewCarThree from "../views/admin /vehicle management/NewCarThree.vue";
 import inputag from "../components/custom/input.tag.vue"
+import VehicleSold from "../views/admin /vehicle management/VehicleSold.vue";
 
 const routes = [
     {
@@ -148,7 +149,11 @@ const routes = [
                 name: "input.tag",
                 component: inputag
             },
-
+            {
+                path: "/vehiclesold",
+                name: "VehicleSold",
+                component: VehicleSold
+            },
 
         ]
     }
