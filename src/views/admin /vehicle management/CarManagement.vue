@@ -15,88 +15,9 @@
             <router-link to="/newcar">Yeni Araç</router-link>
           </button>
           <button
-              class="mx-2 mb-2 mt-3 rounded-lg border-2 border-primary px-5 py-2.5 text-center text-sm font-medium text-primary focus:outline-none "
-              type="button"
-              @click="toggleModel= !toggleModel">
-            Satılan Araç
+              class="mx-2 mb-2 mt-3 rounded-lg border-2 border-primary px-5 py-2.5 text-center text-sm font-medium text-primary focus:outline-none ">
+            <router-link to="/vehiclesold">Satılan Araç</router-link>
           </button>
-          <div
-              v-if="toggleModel"
-              class="fixed inset-0 z-50 flex items-center justify-center overflow-y-auto overflow-x-hidden">
-            <div v-if="toggleModel" class="relative mx-auto w-auto max-w-2xl">
-              <div class="flex h-[663px] w-[530px] items-center rounded-lg bg-white">
-                <div class=" h-full w-full pl-28">
-                  <div class="mb-5 flex w-full items-center justify-end"
-                       @click="toggleModel=false">
-                    <img class="" src="/public-src/admin/Frame(1).png">
-                  </div>
-
-                  <h3 class="mb-10 flex items-center justify-center pr-20 text-2xl font-bold text-primary ">Araç
-                    Satışı</h3>
-                  <div class=" ">
-                    <input-tag
-                        :required="true"
-                        inputclass=""
-                        label="Plaka"
-                        placeholder="    Plaka Giriniz..."
-                        rowclass=""
-
-                    />
-                  </div>
-                  <div class="mt-3">
-                    <input-tag
-                        :required="true"
-                        inputclass=""
-                        label="Son KM Durumu"
-                        placeholder="    Son KM Durumu Giriniz..."
-                        rowclass=""
-
-                    />
-                  </div>
-                  <div class="mt-3">
-                    <input-tag
-                        :required="true"
-                        inputclass=""
-                        label="Araç Satış Tarihi"
-                        placeholder="    Araç Satış Tarihi Giriniz..."
-                        rowclass=""
-                        type="date"
-                    />
-                  </div>
-                  <div class="mt-3">
-                    <input-tag
-                        :required="true"
-                        inputclass=""
-                        label="Araç Satış Tutarı"
-                        placeholder="    Araç Satış Tutarı Giriniz..."
-                        rowclass=""
-
-                    />
-                  </div>
-                  <div class="mt-3">
-                    <input-tag
-                        :required="true"
-                        inputclass="h-20 w-[310px] rounded-xl border-2 border-Graydarker"
-                        label="Açıklama"
-                        placeholder="    Açıklama Giriniz..."
-                        rowclass=""
-
-                    />
-                  </div>
-                  <div class="mt-6 ">
-                    <button
-                        class="mb-3 mr-2 w-3/4 rounded-lg bg-primary px-5 py-2.5 text-sm font-medium text-white focus:outline-none focus:ring-2 "
-                        type="button"
-                        @click="toggleModel=false">
-                      Tamamla
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div v-if="toggleModel" class="absolute inset-0 z-40 bg-Dark800 opacity-25"></div>
-
         </div>
 
         <div class="flex items-center">
