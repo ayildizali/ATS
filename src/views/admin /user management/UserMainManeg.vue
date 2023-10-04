@@ -13,6 +13,7 @@
               type="button">
             <img class="mr-2 hover:text-primary" src="/public-src/Kullanıcı/Frame(13).svg">
             <router-link to="/newuser">Yeni İşlem</router-link>
+
           </button>
         </div>
 
@@ -69,10 +70,10 @@
           </thead>
           <tbody>
           <tr class="border-b bg-white ">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
-              <div class="flex items-center">
-                <img src="/public-src/admin/Frame(17).svg">
-                <img class="pl-2" src="/public-src/admin/Frame(21).svg">
+            <th class="whitespace-nowrap px-2 py-1 font-medium text-Dark900" scope="row">
+              <div class="flex w-24 items-center">
+                <router-link to="/editusermanag"><img class="ml-2" src="/public-src/admin/Frame(17).svg"></router-link>
+                <img class="ml-2" src="/public-src/admin/Frame(21).svg">
               </div>
             </th>
             <td class="px-6 py-4 text-Dark900">
@@ -109,10 +110,10 @@
             </td>
           </tr>
           <tr class="border-b bg-gray-50 text-Graydarker">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
-              <div class="flex items-center">
-                <img src="/public-src/admin/Frame(17).svg">
-                <img class="pl-2" src="/public-src/admin/Frame(21).svg">
+            <th class="whitespace-nowrap px-2 py-1 font-medium text-Dark900" scope="row">
+              <div class="flex w-24 items-center">
+                <router-link to="/editusermanag"><img class="ml-2" src="/public-src/admin/Frame(17).svg"></router-link>
+                <img class="ml-2" src="/public-src/admin/Frame(21).svg">
               </div>
             </th>
             <td class="px-6 py-4 text-Dark900">
@@ -149,10 +150,10 @@
             </td>
           </tr>
           <tr class="border-b bg-white ">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
-              <div class="flex items-center">
-                <img src="/public-src/admin/Frame(17).svg">
-                <img class="pl-2" src="/public-src/admin/Frame(21).svg">
+            <th class="whitespace-nowrap px-2 py-1 font-medium text-Dark900" scope="row">
+              <div class="flex w-24 items-center">
+                <router-link to="/editusermanag"><img class="ml-2" src="/public-src/admin/Frame(17).svg"></router-link>
+                <img class="ml-2" src="/public-src/admin/Frame(21).svg">
               </div>
             </th>
             <td class="px-6 py-4 text-Dark900">
