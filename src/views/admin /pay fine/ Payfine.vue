@@ -44,7 +44,6 @@
           </div>
         </div>
       </div>
-
       <!-- main -->
       <div class="relative m-auto mt-16  flex w-3/4 items-center overflow-x-auto shadow-md sm:rounded-lg">
         <table class="w-full text-left text-sm text-GrayLightest">
@@ -99,7 +98,7 @@
             <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
               <div class="flex w-16 items-center justify-center">
                 <img src="/public-src/admin/Frame(20).svg">
-                <img class="pl-3" src="/public-src/admin/Frame(17).svg">
+                <router-link to="/criminal"><img class="ml-2" src="/public-src/admin/Frame(17).svg"></router-link>
               </div>
             </th>
             <td class="px-6 py-4 text-Dark900">
@@ -146,7 +145,7 @@
             <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
               <div class="flex w-3/4 items-center justify-center">
                 <img src="/public-src/admin/Frame(20).svg">
-                <img class="pl-3" src="/public-src/admin/Frame(17).svg">
+                <router-link to="/criminal"><img class="ml-2" src="/public-src/admin/Frame(17).svg"></router-link>
               </div>
             </th>
             <td class="px-6 py-4 text-Dark900">
@@ -193,7 +192,7 @@
             <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
               <div class="flex w-3/4 items-center justify-center">
                 <img src="/public-src/admin/Frame(20).svg">
-                <img class="pl-3" src="/public-src/admin/Frame(17).svg">
+                <router-link to="/criminal"><img class="ml-2" src="/public-src/admin/Frame(17).svg"></router-link>
               </div>
             </th>
             <td class="px-6 py-4 text-Dark900">
@@ -240,7 +239,7 @@
             <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
               <div class="flex w-3/4 items-center justify-center">
                 <img src="/public-src/admin/Frame(20).svg">
-                <img class="pl-3" src="/public-src/admin/Frame(17).svg">
+                <router-link to="/criminal"><img class="ml-2" src="/public-src/admin/Frame(17).svg"></router-link>
               </div>
             </th>
             <td class="px-6 py-4 text-Dark900">
@@ -287,7 +286,7 @@
             <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
               <div class="flex w-3/4 items-center justify-center">
                 <img src="/public-src/admin/Frame(20).svg">
-                <img class="pl-3" src="/public-src/admin/Frame(17).svg">
+                <router-link to="/criminal"><img class="ml-2" src="/public-src/admin/Frame(17).svg"></router-link>
               </div>
             </th>
             <td class="px-6 py-4 text-Dark900">
@@ -334,7 +333,7 @@
             <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
               <div class="flex w-3/4 items-center justify-center">
                 <img src="/public-src/admin/Frame(20).svg">
-                <img class="pl-3" src="/public-src/admin/Frame(17).svg">
+                <router-link to="/criminal"><img class="ml-2" src="/public-src/admin/Frame(17).svg"></router-link>
               </div>
             </th>
             <td class="px-6 py-4 text-Dark900">
