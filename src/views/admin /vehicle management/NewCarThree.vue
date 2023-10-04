@@ -4,9 +4,9 @@
       <!-- header -->
       <div class="m-auto flex h-32 w-3/4 items-center justify-between">
         <div class="ml-5 flex w-3/4 items-center">
-          <img class="mr-5" src="/public-src/Kullanıcı/Frame137.svg">
+          <router-link to="/management"><img class="mr-5" src="/public-src/Kullanıcı/Frame137.svg"></router-link>
           <h2 class="text-4xl font-bold leading-9 text-green-800">
-            Araç Yönetimi
+            <router-link to="/management">Araç Yönetimi</router-link>
           </h2>
           <h4 class="ml-8 text-base font-medium text-[#717982]"> / Yeni araç </h4>
         </div>
@@ -39,8 +39,8 @@
       </div>
       <!-- main -->
       <div class="m-auto mt-16 flex w-8/12 items-center justify-between ">
-        <div class="ml-16 w-full ">
-          <div class="mb-16">
+        <div class=" w-full ">
+          <div class="mb-16 ">
             <h4 class="flex items-center font-bold leading-5 text-primary">MUAYENE BİLGİLERİ
               <img class="pl-5" src="/public-src/Kullanıcı/Line48.svg"></h4>
             <div class="mb-6 mt-5">
@@ -109,7 +109,7 @@
               />
             </div>
           </div>
-          <div class="mt-14">
+          <div class="mt-24">
             <h4 class="flex items-center font-bold leading-5 text-primary">ARAÇ SERVİS BİLGİLERİ
               <img class="pl-5" src="/public-src/Kullanıcı/Line48.svg"></h4>
             <div class="mt-6">
@@ -155,7 +155,7 @@
           </div>
         </div>
         <div class="mb-20 w-full">
-          <div class="mb-16">
+          <div class="mb-20">
             <h4 class="flex items-center font-bold leading-5 text-primary">SİGORTA BİLGİLERİ
               <img class="pl-5" src="/public-src/Kullanıcı/Line48.svg"></h4>
             <div class="mt-6">
@@ -251,7 +251,7 @@
                   label="Araç Güncel Değer"
                   placeholder="    Araç Güncel Değer Giriniz..."
                   rowclass=""
-                  type="date"
+
               />
             </div>
 
@@ -262,7 +262,7 @@
                   label="Alınan Bilgi Linki"
                   placeholder="    Alınan Bilgi Linki Giriniz..."
                   rowclass=""
-                  type="date"
+
               />
             </div>
           </div>
@@ -279,8 +279,10 @@
           <button
               class="mb-2 mr-2 flex items-center rounded-lg bg-primary px-5 py-2.5 text-sm font-medium text-white  focus:outline-none focus:ring-2 focus:ring-primary "
               type="button">
-            Tamamla
-            <img class="pl-2 text-white" src="/public-src/genel/Frame(21).svg">
+            <router-link
+                class="flex items-center" to="/management">
+              Tamamla <img class="pl-2 text-white" src="/public-src/genel/Frame(21).svg">
+            </router-link>
           </button>
 
         </div>
