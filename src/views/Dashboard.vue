@@ -5,6 +5,7 @@
       <div class="m-auto flex h-32 w-10/12 items-center justify-between px-2 py-4 text-4xl ">
         <h2 class="  font-bold leading-9 text-green-800  ">
           Araçlarım
+
         </h2>
         <div class="flex items-center">
           <nav class="pr-3">
@@ -31,9 +32,7 @@
             <p> VOLKSWAGEN POLO</p>
             <p>100.000</p>
           </div>
-
-          <img src="/public-src/genel/Frame126.svg">
-
+          <router-link to="/vehicle"><img src="/public-src/genel/Frame126.svg"></router-link>
         </div>
       </div>
       <div class=" m-auto mt-12 h-24 w-10/12 rounded-2xl bg-gray-50 shadow">
@@ -98,7 +97,7 @@
 
         </div>
       </div>
-      <div class="m-auto mt-32 flex w-10/12 items-center justify-between text-Dark">
+      <div class=" m-auto mb-10 mt-32 flex w-10/12 items-center justify-between text-Dark">
         <div class="   ">
           <p class="text-[#717982]">
             50 sonuç bulundu.
