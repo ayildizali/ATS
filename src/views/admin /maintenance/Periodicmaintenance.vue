@@ -81,8 +81,12 @@
           </thead>
           <tbody>
           <tr class="border-b bg-white ">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
-              <img src="/public-src/admin/Frame(17).svg">
+            <th class="whitespace-nowrap px-2 py-1 font-medium text-Dark900" scope="row">
+              <div class="ml-2 ">
+                <router-link to="/editperiod">
+                  <img src="/public-src/admin/Frame(17).svg">
+                </router-link>
+              </div>
             </th>
             <td class="px-6 py-4 text-Dark900">
               Muhammet Mustafa Yaprak
@@ -120,8 +124,12 @@
             </td>
           </tr>
           <tr class="border-b bg-gray-50 text-Graydarker">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
-              <img src="/public-src/admin/Frame(17).svg">
+            <th class="w-32 whitespace-nowrap px-2 py-1 font-medium text-Dark900" scope="row">
+              <div class="ml-2 ">
+                <router-link to="/editperiod">
+                  <img src="/public-src/admin/Frame(17).svg">
+                </router-link>
+              </div>
             </th>
             <td class="px-6 py-4 text-Dark900">
               Muhammet Mustafa Yaprak
@@ -159,8 +167,12 @@
             </td>
           </tr>
           <tr class="border-b bg-white ">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
-              <img src="/public-src/admin/Frame(17).svg">
+            <th class="whitespace-nowrap px-2 py-1 font-medium text-Dark900" scope="row">
+              <div class="ml-2">
+                <router-link to="/editperiod">
+                  <img src="/public-src/admin/Frame(17).svg">
+                </router-link>
+              </div>
             </th>
             <td class="px-6 py-4 text-Dark900">
               Muhammet Mustafa Yaprak
@@ -198,125 +210,12 @@
             </td>
           </tr>
           <tr class="border-b bg-gray-50 text-Graydarker">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
-              <img src="/public-src/admin/Frame(17).svg">
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              Muhammet Mustafa Yaprak
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              24.03.2023
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Fatura
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Fatura Öz Asm Oto
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              34 HYD 1234
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              gaziantep
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺200.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              150.000 KM
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              205/55 R 16 (Goodyear)
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Araç Motor İç & Dış
-              Diğer Temizlik
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              4 Adet Lastik Alımı
-            </td>
-          </tr>
-          <tr class="border-b bg-white ">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
-              <img src="/public-src/admin/Frame(17).svg">
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              Muhammet Mustafa Yaprak
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              24.03.2023
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Fatura
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Fatura Öz Asm Oto
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              34 HYD 1234
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              gaziantep
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺200.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              150.000 KM
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              205/55 R 16 (Goodyear)
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Araç Motor İç & Dış
-              Diğer Temizlik
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              4 Adet Lastik Alımı
-            </td>
-          </tr>
-          <tr class="border-b bg-gray-50 text-Graydarker">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
-              <img src="/public-src/admin/Frame(17).svg">
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              Muhammet Mustafa Yaprak
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              24.03.2023
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Fatura
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Fatura Öz Asm Oto
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              34 HYD 1234
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              gaziantep
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺200.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              150.000 KM
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              205/55 R 16 (Goodyear)
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Araç Motor İç & Dış
-              Diğer Temizlik
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              4 Adet Lastik Alımı
-            </td>
-          </tr>
-          <tr class="border-b bg-white ">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
-              <img src="/public-src/admin/Frame(17).svg">
+            <th class="whitespace-nowrap px-2 py-1 font-medium text-Dark900" scope="row">
+              <div class="ml-2">
+                <router-link to="/editperiod">
+                  <img src="/public-src/admin/Frame(17).svg">
+                </router-link>
+              </div>
             </th>
             <td class="px-6 py-4 text-Dark900">
               Muhammet Mustafa Yaprak
