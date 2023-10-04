@@ -4,9 +4,11 @@
       <!-- header -->
       <div class="m-auto flex h-32 w-3/4 items-center justify-between">
         <div class="ml-5 flex w-3/4 items-center">
-          <img class="mr-5" src="/public-src/Kullanıcı/Frame137.svg">
+          <router-link to="/periodic"><img class="mr-5" src="/public-src/Kullanıcı/Frame137.svg"></router-link>
+
           <h2 class="text-4xl font-bold leading-9 text-green-800">
-            Periyodik Bakım
+            <router-link to="/periodic">Periyodik Bakım</router-link>
+
           </h2>
           <h4 class="ml-8 text-base font-medium text-[#717982]"> / Yeni İşlem </h4>
         </div>
@@ -22,7 +24,7 @@
 
       <!-- main -->
       <div class=" m-auto mt-16 flex w-3/4 items-center justify-between">
-        <div class="mb-24 ml-32 mt-0 w-full">
+        <div class="mb-36 ml-32 mt-0 w-full">
           <div class=" ">
             <input-tag
                 :required="true"
@@ -121,7 +123,7 @@
           <div class="mt-6">
             <input-tag
                 :required="true"
-                inputclass=""
+                inputclass="h-24 border-2 border-Graydarker w-[370px] rounded-xl"
                 label="Açıklama"
                 placeholder="    Açıklama Giriniz ..."
                 rowclass=""
