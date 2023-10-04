@@ -4,9 +4,9 @@
       <!-- header -->
       <div class="m-auto flex h-32 w-3/4 items-center justify-between">
         <div class="ml-5 flex w-3/4 items-center">
-          <img class="mr-5" src="/public-src/Kullanıcı/Frame137.svg">
+          <router-link to="/management"><img class="mr-5" src="/public-src/Kullanıcı/Frame137.svg"></router-link>
           <h2 class="text-4xl font-bold leading-9 text-green-800">
-            Araç Yönetimi
+            <router-link to="/management">Araç Yönetimi</router-link>
           </h2>
           <h4 class="ml-8 text-base font-medium text-[#717982]"> / Yeni araç </h4>
         </div>
