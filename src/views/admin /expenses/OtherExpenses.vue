@@ -73,8 +73,8 @@
           </thead>
           <tbody>
           <tr class="border-b bg-white ">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
-              <img src="/public-src/admin/Frame(17).svg">
+            <th class="whitespace-nowrap px-2 py-1 font-medium text-Dark900" scope="row">
+              <router-link to="/editspending"><img class="ml-2" src="/public-src/admin/Frame(17).svg"></router-link>
             </th>
             <td class="px-6 py-4 text-Dark900">
               Muhammet Mustafa Yaprak
@@ -102,8 +102,8 @@
             </td>
           </tr>
           <tr class="border-b bg-gray-50 text-Graydarker">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
-              <img src="/public-src/admin/Frame(17).svg">
+            <th class="whitespace-nowrap px-2 py-1 font-medium text-Dark900" scope="row">
+              <router-link to="/editspending"><img class="ml-2" src="/public-src/admin/Frame(17).svg"></router-link>
             </th>
             <td class="px-6 py-4 text-Dark900">
               Muhammet Mustafa Yaprak
@@ -131,8 +131,8 @@
             </td>
           </tr>
           <tr class="border-b bg-white ">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
-              <img src="/public-src/admin/Frame(17).svg">
+            <th class="whitespace-nowrap px-2 py-1 font-medium text-Dark900" scope="row">
+              <router-link to="/editspending"><img class="ml-2" src="/public-src/admin/Frame(17).svg"></router-link>
             </th>
             <td class="px-6 py-4 text-Dark900">
               Muhammet Mustafa Yaprak
@@ -160,8 +160,8 @@
             </td>
           </tr>
           <tr class="border-b bg-gray-50 text-Graydarker">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
-              <img src="/public-src/admin/Frame(17).svg">
+            <th class="whitespace-nowrap px-2 py-1 font-medium text-Dark900" scope="row">
+              <router-link to="/editspending"><img class="ml-2" src="/public-src/admin/Frame(17).svg"></router-link>
             </th>
             <td class="px-6 py-4 text-Dark900">
               Muhammet Mustafa Yaprak
@@ -189,8 +189,8 @@
             </td>
           </tr>
           <tr class="border-b bg-white ">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
-              <img src="/public-src/admin/Frame(17).svg">
+            <th class="whitespace-nowrap px-2 py-1 font-medium text-Dark900" scope="row">
+              <router-link to="/editspending"><img class="ml-2" src="/public-src/admin/Frame(17).svg"></router-link>
             </th>
             <td class="px-6 py-4 text-Dark900">
               Muhammet Mustafa Yaprak
@@ -218,8 +218,8 @@
             </td>
           </tr>
           <tr class="border-b bg-gray-50 text-Graydarker">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
-              <img src="/public-src/admin/Frame(17).svg">
+            <th class="whitespace-nowrap px-2 py-1 font-medium text-Dark900" scope="row">
+              <router-link to="/editspending"><img class="ml-2" src="/public-src/admin/Frame(17).svg"></router-link>
             </th>
             <td class="px-6 py-4 text-Dark900">
               Muhammet Mustafa Yaprak
@@ -247,95 +247,9 @@
             </td>
           </tr>
           <tr class="border-b bg-white ">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
-              <img src="/public-src/admin/Frame(17).svg">
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              Muhammet Mustafa Yaprak
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              24.03.2023
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Fatura
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              34 HYD 1234
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              yakıt
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              gaziantep
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺200.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              4 Adet Lastik Alımı
-            </td>
-          </tr>
-          <tr class="border-b bg-gray-50 text-Graydarker">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
-              <img src="/public-src/admin/Frame(17).svg">
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              Muhammet Mustafa Yaprak
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              24.03.2023
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Fatura
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              34 HYD 1234
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              yakıt
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              gaziantep
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺200.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              4 Adet Lastik Alımı
-            </td>
-          </tr>
-          <tr class="border-b bg-white ">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
-              <img src="/public-src/admin/Frame(17).svg">
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              Muhammet Mustafa Yaprak
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              24.03.2023
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Fatura
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              34 HYD 1234
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              yakıt
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              gaziantep
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺200.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              4 Adet Lastik Alımı
-            </td>
-          </tr>
-          <tr class="border-b bg-gray-50 text-Graydarker">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
-              <img src="/public-src/admin/Frame(17).svg">
+            <th class="whitespace-nowrap px-2 py-1 font-medium text-Dark900" scope="row">
+              <router-link to="/editspending"><img class="ml-2" src="/public-src/admin/Frame(17).svg"></router-link>
+
             </th>
             <td class="px-6 py-4 text-Dark900">
               Muhammet Mustafa Yaprak
