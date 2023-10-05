@@ -178,4 +178,5 @@ import inputTag from "../../../components/custom/input.tag.vue";
 export default {
   components: {inputTag}
 }
+
 </script>
