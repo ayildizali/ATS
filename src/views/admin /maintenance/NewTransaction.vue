@@ -137,7 +137,8 @@
           <button
               class="mb-2 mr-2 rounded-lg bg-primary px-5 py-2.5 text-sm font-medium text-white  focus:outline-none focus:ring-2 focus:ring-primary "
               type="button">
-            Tamamla
+            <router-link to="/periodic">Tamamla</router-link>
+
           </button>
         </div>
       </div>
