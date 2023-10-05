@@ -32,7 +32,7 @@
           </a>
           <router-link class="pl-4 text-white hover:text-emerald-900" to="/otherexpenses">Diğer Harcamalar</router-link>
         </nav>
-
+        
         <nav class="flex items-center rounded-lg px-4 py-3 pl-12 pt-4 text-sm hover:bg-PrimaryLight">
           <img src="/public-src/Kullanıcı/Frame(8).svg">
           <router-link class="pl-4 text-white hover:text-emerald-900" to="/usermain">Kullanıcı yönetimi</router-link>
