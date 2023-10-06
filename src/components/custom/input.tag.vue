@@ -3,6 +3,7 @@
     <label v-if="label" :class="{ required: required }"
            class="mb-2 ml-5  block text-base font-normal text-Dark">{{ label }}</label>
     <input
+        v-model="value"
         :autocomplete="autocomplete"
         :class="inputclass ? inputclass : 'h-10 w-3/4 rounded-xl border-2 border-Graydarker'"
         :placeholder="placeholder"
@@ -15,6 +16,7 @@
 
 <script>
 import {defineComponent} from "vue";
+
 
 export default defineComponent({
   name: "inputTag",
