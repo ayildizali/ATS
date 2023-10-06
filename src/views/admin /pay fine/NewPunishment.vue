@@ -27,6 +27,7 @@
         <div class="ml-32 w-full">
           <div class=" ">
             <input-tag
+                v-model="tarih"
                 :required="true"
                 inputclass=""
                 label="Tebliğ Tarih"
@@ -37,6 +38,7 @@
           </div>
           <div class="mt-6">
             <input-tag
+                v-model="evrak"
                 :required="true"
                 inputclass=""
                 label="Evrak No"
@@ -46,6 +48,7 @@
           </div>
           <div class="mt-6">
             <input-tag
+                v-model="plaka"
                 :required="true"
                 inputclass=""
                 label="Plaka"
@@ -55,6 +58,7 @@
           </div>
           <div class="mt-6">
             <input-tag
+                v-model="ceza"
                 :required="true"
                 inputclass=""
                 label="Ceza Türü"
@@ -64,6 +68,7 @@
           </div>
           <div class="mt-6">
             <input-tag
+                v-model="cezatutarı"
                 :required="true"
                 inputclass=""
                 label="Ceza Tutarı"
@@ -74,6 +79,7 @@
           </div>
           <div class="mt-6">
             <input-tag
+                v-model="erkenödeme"
                 :required="true"
                 inputclass=""
                 label="Erken Ödeme Tutarı"
@@ -83,6 +89,7 @@
           </div>
           <div class="mt-6">
             <input-tag
+                v-model="ödemekarı"
                 :required="true"
                 inputclass=""
                 label="Erken Ödeme Karı"
@@ -94,6 +101,7 @@
         <div class="w-full ">
           <div class=" ">
             <input-tag
+                v-model="tebliğtürü"
                 :required="true"
                 inputclass=""
                 label="Tebliğ Türü"
@@ -103,6 +111,7 @@
           </div>
           <div class="mt-6">
             <input-tag
+                v-model="türü"
                 :required="true"
                 inputclass=""
                 label="Türü"
@@ -112,6 +121,7 @@
           </div>
           <div class="mt-6">
             <input-tag
+                v-model="borçlu"
                 :required="true"
                 inputclass=""
                 label="Borçlu"
@@ -121,6 +131,7 @@
           </div>
           <div class="mt-6">
             <input-tag
+                v-model="dekont"
                 :required="true"
                 inputclass=""
                 label="Dekont No"
@@ -130,6 +141,7 @@
           </div>
           <div class="mt-6">
             <input-tag
+                v-model="ödemetarihi"
                 :required="true"
                 inputclass=""
                 label="Ödeme Tarihi"
@@ -140,6 +152,7 @@
           </div>
           <div class="mt-6">
             <input-tag
+                v-model="ödemeyeri"
                 :required="true"
                 inputclass=""
                 label="Ödeme Yeri"
@@ -149,10 +162,11 @@
           </div>
           <div class="mt-6">
             <input-tag
+                v-model="ödemedurumu"
                 :required="true"
                 inputclass=""
-                label="Dekont No"
-                placeholder="    Dekont No Giriniz..."
+                label="Ödeme Durumu No"
+                placeholder="    Ödeme Durumu Giriniz..."
                 rowclass=""
             />
           </div>
@@ -163,8 +177,7 @@
           <button
               class="mb-2 mr-2 rounded-lg bg-primary px-5 py-2.5 text-sm font-medium text-white  focus:outline-none focus:ring-2 focus:ring-primary "
               type="button">
-            <router-link to="/payfine">Tamamla</router-link>
-
+            Tamamla
           </button>
         </div>
       </div>
