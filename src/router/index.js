@@ -25,6 +25,8 @@ import NewCarThree from "../views/admin /vehicle management/NewCarThree.vue";
 import inputag from "../components/custom/input.tag.vue"
 import VehicleSold from "../views/admin /vehicle management/VehicleSold.vue";
 import UserLogin from "../views/user/UserLogin.vue"
+import EditVehicleManeg from "../views/admin /vehicle management/EditVehicleManeg.vue";
+import PopupModal from "../components/PopupModal.vue"
 
 
 const routes = [
@@ -161,6 +163,16 @@ const routes = [
                 path: "/vehiclesold",
                 name: "VehicleSold",
                 component: VehicleSold
+            },
+            {
+                path: "/editvahiclemaneg",
+                name: " EditVehicleManeg",
+                component: EditVehicleManeg
+            },
+            {
+                path: "popup",
+                name: "PopupModal",
+                component: PopupModal
             },
 
 
