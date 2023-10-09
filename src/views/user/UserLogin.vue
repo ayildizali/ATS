@@ -41,12 +41,13 @@
               <a class=" text-xs font-medium text-gray-500 hover:underline" href="#">Parolanızı
                 mı unuttunuz?</a>
             </div>
-            <button
-                class=" w-full rounded-lg   border-2 border-primary px-5 py-2.5 text-center text-sm font-medium text-primary hover:bg-white"
-                type="submit">
-              Sign in
-            </button>
-
+            <router-link to="">
+              <button
+                  class=" mt-9 w-full rounded-lg   border-2 border-primary px-5 py-2.5 text-center text-sm font-medium text-primary hover:bg-white"
+                  type="submit">
+                Sign in
+              </button>
+            </router-link>
           </form>
         </div>
       </div>
@@ -55,3 +56,8 @@
 </template>
 <script lang="ts" setup>
 </script>
+<style scoped>
+input:focus {
+  outline: none;
+}
+</style>
