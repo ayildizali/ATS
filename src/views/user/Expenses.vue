@@ -4,7 +4,7 @@
       <!-- header -->
       <div class="m-auto flex h-32 w-3/4 items-center justify-between">
         <div class="ml-5 flex w-3/4 items-center">
-          <router-link to="/dashboard"><img class="mr-5" src="/public-src/Kullanıcı/Frame137.svg"></router-link>
+          <router-link to="/"><img class="mr-5" src="/public-src/Kullanıcı/Frame137.svg"></router-link>
           <h2 class="text-4xl font-bold leading-9 text-green-800">
             <router-link to="/dashboard">Araçlarım</router-link>
           </h2>
