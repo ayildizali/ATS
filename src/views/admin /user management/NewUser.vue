@@ -10,7 +10,7 @@
             <router-link to="/usermain">Kullanıcı Yönetimi</router-link>
 
           </h2>
-          <h4 class="ml-8 text-base font-medium text-[#717982]"> / Yeni KUllanıcı </h4>
+          <h4 class="ml-8 text-base font-medium text-[#717982]"> / Yeni Kullanıcı </h4>
         </div>
         <div class="flex items-center">
           <nav class="pr-3">
