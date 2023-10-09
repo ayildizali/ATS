@@ -23,54 +23,67 @@
       <div class=" m-auto mt-16 flex w-3/4 items-center justify-between">
         <div class="mb-16 ml-32 mt-0 w-full">
           <div class=" ">
-            <p class="pl-5 text-Dark">Adı Soyadı</p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker  ">
-              <div class="flex items-center ">
-                <p class="pl-10 pt-2"></p>
-              </div>
-            </div>
+            <input-tag
+                :required="true"
+                inputclass=""
+                label="Adı Soyadı"
+                placeholder="    Adı Soyadı Giriniz..."
+                rowclass=""
+            />
           </div>
           <div class="mt-6">
-            <p class="pl-5 text-Dark">T.C.NO</p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker ">
-              <div class="flex items-center ">
-                <p class="pl-10 pt-2"></p>
-              </div>
-            </div>
+            <input-tag
+                :required="true"
+                inputclass=""
+                label="T.C.NO"
+                placeholder="    T.C.NO Giriniz..."
+                rowclass=""
+            />
           </div>
           <div class="mt-6">
-            <p class="pl-5 text-Dark">Telefon Bilgileri</p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
-              <div class="flex items-center ">
-                <p class="pl-10 pt-2"></p>
-              </div>
-            </div>
+            <input-tag
+                :required="true"
+                inputclass=""
+                label="Telefon Bilgileri"
+                placeholder="    Telefon Bilgileri Giriniz..."
+                rowclass=""
+            />
           </div>
         </div>
-        <div class="w-full ">
-          <div class="">
-            <p class="pl-5 text-Dark">E-Mail Bilgileri</p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
-              <p class="pl-10 pt-2"></p>
-            </div>
+        <div class="w-full  ">
+          <input-tag
+              :required="true"
+              inputclass=""
+              label="E-Mail Bilgileri"
+              placeholder="    E-Mail Bilgileri Giriniz..."
+              rowclass=""
+          />
+          <div class="mt-6">
+            <input-tag
+                :required="true"
+                inputclass=""
+                label="Baglı Olduğu Birim "
+                placeholder="    Baglı Olduğu Birim Giriniz..."
+                rowclass=""
+            />
           </div>
           <div class="mt-6">
-            <p class="pl-5 text-Dark">Bağlı Olduğu Birim</p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
-              <p class="pl-10 pt-2"></p>
-            </div>
+            <input-tag
+                :required="true"
+                inputclass=""
+                label="Bulunduğu Yer (İl-İlçe)"
+                placeholder="    Bulunduğu Yer (İl-İlçe)Giriniz..."
+                rowclass=""
+            />
           </div>
           <div class="mt-6">
-            <p class="pl-5 text-Dark">Bulunduğu Yer(İl-İlçe)</p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
-              <p class="pl-10 pt-2"></p>
-            </div>
-          </div>
-          <div class="mt-6">
-            <p class="pl-5 text-Dark">İkamet Ettiği İl</p>
-            <div class="h-10 w-3/4 rounded-xl border border-Graydarker">
-              <p class="pl-10 pt-2"></p>
-            </div>
+            <input-tag
+                :required="true"
+                inputclass=""
+                label="İkamet Ettiği İl"
+                placeholder="    İkamet Ettiği İl Giriniz..."
+                rowclass=""
+            />
           </div>
         </div>
       </div>
@@ -89,12 +102,9 @@
 </template>
 
 <script>
-import {defineComponent} from "vue";
+import inputTag from "../../../components/custom/input.tag.vue";
 
-export default defineComponent(
-    {
-      name: "EditSpanding",
-      components: ""
-    }
-)
+export default {
+  components: {inputTag}
+}
 </script>
