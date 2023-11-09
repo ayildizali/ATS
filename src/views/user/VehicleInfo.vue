@@ -1,3 +1,12 @@
+<style scoped>
+.title-line {
+
+  border-bottom-color: #1E724A;
+  opacity: 5;
+  transform: scaleX(1);
+  transform-origin: left;
+}
+</style>
 <template>
   <div class="mt-0 flex h-full w-full items-center justify-between">
     <div class="flex-1">
@@ -22,7 +31,7 @@
       <div class="m-auto flex h-20 w-3/4 items-center rounded-xl border-2 border-solid border-primary">
         <div class="m-auto flex w-3/4 items-center justify-between text-Dark800">
           <RouterLink
-              class="inline-block rounded-t-lg border-b-2 border-transparent font-bold hover:border-primary hover:text-primary"
+              class=" title-line inline-block rounded-t-lg border-b-2 border-transparent font-bold hover:border-primary hover:text-primary"
               to="/vehicle">ARAÇLARIM
           </RouterLink>
           <router-link

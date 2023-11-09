@@ -1,3 +1,13 @@
+<style scoped>
+.title-line {
+
+  border-bottom-color: #1E724A;
+  opacity: 5;
+  transform: scaleX(1);
+  transform-origin: left;
+}
+</style>
+
 <template>
   <div class="m-auto mt-0 flex w-full items-center justify-between">
     <div class="flex-1">
@@ -42,7 +52,7 @@
               to="/repair">BAKIM
           </router-link>
           <router-link
-              class="inline-block rounded-t-lg border-b-2 border-transparent font-bold hover:border-primary hover:text-primary"
+              class=" title-line inline-block rounded-t-lg border-b-2 border-transparent font-bold hover:border-primary hover:text-primary"
               to="/punishment">HGS/CEZA
           </router-link>
         </div>

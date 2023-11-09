@@ -1,3 +1,29 @@
+<style scoped>
+.title-line {
+
+  border-bottom-color: #1E724A;
+  opacity: 5;
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.title-line :after {
+  background-color: #7759c2;
+  bottom: 0;
+  content: "";
+  height: 5px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform .3s ease, opacity .3s ease;
+  width: 100%;
+}
+
+
+</style>
 <template>
   <div class="m-auto mt-0 flex h-full w-full items-center justify-between">
     <div class="flex-1">
@@ -19,22 +45,22 @@
         </div>
       </div>
       <!-- content-->
-      <div class="m-auto flex h-20 w-3/4 items-center rounded-xl border-2 border-solid border-primary">
+      <div class="title m-auto flex h-20 w-3/4 items-center rounded-xl border-2 border-solid border-primary">
         <div class="m-auto flex w-3/4 items-center justify-between text-Dark800">
           <RouterLink
-              class="inline-block rounded-t-lg border-b-2 border-transparent font-bold hover:border-primary hover:text-primary"
+              class=" inline-block rounded-t-lg border-b-2 border-transparent font-bold hover:border-primary hover:text-primary"
               to="/vehicle">ARAÇLARIM
           </RouterLink>
           <router-link
-              class="inline-block rounded-t-lg border-b-2 border-transparent font-bold hover:border-primary hover:text-primary"
+              class=" inline-block rounded-t-lg border-b-2 border-transparent font-bold hover:border-primary hover:text-primary"
               to="/userinfo">KULLANICI BİLGİLERİ
           </router-link>
           <router-link
-              class="inline-block rounded-t-lg border-b-2 border-transparent font-bold hover:border-primary hover:text-primary"
+              class="  inline-block rounded-t-lg border-b-2 border-transparent font-bold hover:border-primary hover:text-primary"
               to="/otherinfo">DİĞER BİLGİLER
           </router-link>
           <router-link
-              class="inline-block rounded-t-lg border-b-2 border-transparent font-bold hover:border-primary hover:text-primary"
+              class=" title-line inline-block rounded-t-lg border-b-2 border-transparent font-bold hover:border-primary hover:text-primary"
               to="/expenses">KM/HARCAMALAR
           </router-link>
           <router-link
@@ -173,4 +199,5 @@ export default defineComponent(
       components: ""
     }
 )
+
 </script>
