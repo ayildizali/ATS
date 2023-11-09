@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "vue": "^3.3.4",
+    "vue-good-table": "^2.21.11",
     "vue-router": "4.0.13"
   },
   "devDependencies": {
