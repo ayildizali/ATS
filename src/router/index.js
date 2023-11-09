@@ -188,6 +188,7 @@ const router = createRouter(
         routes
     });
 
+
 router.beforeEach((to, from, next) => {
     // console.log(to);
     next();
@@ -197,6 +198,7 @@ router.beforeEach((to, from, next) => {
         left: 0,
         behavior: "smooth",
     });
+
 });
 
 export default router
