@@ -10,4 +10,10 @@ import router from "./router/index.js"
 import App from './App.vue'
 
 
-createApp(App).use(router).mount('#app')
+import VueGoodTablePlugin from 'vue-good-table-next';
+
+// import the styles
+import 'vue-good-table-next/dist/vue-good-table-next.css'
+
+
+createApp(App).use(VueGoodTablePlugin).use(router).mount('#app')

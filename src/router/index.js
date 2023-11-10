@@ -26,7 +26,8 @@ import inputag from "../components/custom/input.tag.vue"
 import VehicleSold from "../views/admin /vehicle management/VehicleSold.vue";
 import UserLogin from "../views/user/UserLogin.vue"
 import EditVehicleManeg from "../views/admin /vehicle management/EditVehicleManeg.vue";
-import PopupModal from "../components/PopupModal.vue"
+import PopupModal from "../components/PopupModal.vue";
+import data from "../views/user/data.vue"
 
 
 const routes = [
@@ -174,7 +175,11 @@ const routes = [
                 name: "PopupModal",
                 component: PopupModal
             },
-
+            {
+                path: "data",
+                name: "data",
+                component: data
+            }
 
         ]
 
