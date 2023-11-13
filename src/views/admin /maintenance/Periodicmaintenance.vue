@@ -27,8 +27,9 @@
 
       <div class=" ">
       </div>
-      <div class="m-auto flex w-9/12 justify-end">
-        <div class="mt-16 h-36  w-64 rounded-lg border-2 border-solid border-b-Graydarker  bg-GrayLightest">
+      <div class="m-auto flex w-3/4 justify-end ">
+        <div class="mt-16 h-36  w-64 rounded-lg border-2 border-solid border-b-Graydarker  bg-GrayLightest"
+             style=" box-shadow: 0px 0px 10px #717982;">
           <div class=" ">
             <p class="ml-8 mt-7 flex items-center font-bold text-Dark900">TOPLAM TUTAR</p>
             <p class=" mx-3 mt-5 flex items-center border-b-2 border-b-Graydarker"></p>
@@ -37,223 +38,40 @@
         </div>
       </div>
       <!-- main -->
-      <div class="relative  m-auto mt-16  flex w-3/4 items-center overflow-x-auto shadow-md sm:rounded-lg">
-        <table class="w-full text-left text-sm text-GrayLightest">
-          <thead class="bg-GrayLightest text-xs uppercase text-Dark900">
-          <tr>
-            <th class="px-6 py-3" scope="col">
+      <div class="relative  m-auto mt-16  flex w-3/4 items-center overflow-x-auto  sm:rounded-lg"
+           style=" box-shadow: 0px 0px 10px #717982;">
+        <div class="w-full">
+          <vue-good-table
+              :columns="columns"
+              :fixed-header="true"
+              :pagination-options="{
+                      enabled: true,
+                      mode: 'records',
+                      perPage: 5,
+                      position: 'bottom',
+                      perPageDropdown: [10, 20, 30],
+                      dropdownAllowAll: false,
+                      setCurrentPage: 2,
+                      nextLabel: 'next',
+                      prevLabel: 'prev',
+                      rowsPerPageLabel: 'Rows per page',
+                      ofLabel: 'of',
+                      pageLabel: 'page', // for 'pages' mode
+                      allLabel: 'All',
 
-            </th>
-            <th class="px-6 py-3" scope="col">
-              Araç Kullanıcısı
-            </th>
-            <th class="px-6 py-3" scope="col">
-              tarİh
-            </th>
-            <th class="px-6 py-3" scope="col">
-              fatura
-            </th>
-            <th class="px-6 py-3" scope="col">
-              fatura ünvanı
-            </th>
-            <th class="px-6 py-3" scope="col">
-              plaka
-            </th>
-            <th class="px-6 py-3" scope="col">
-              il
-            </th>
-            <th class="px-6 py-3" scope="col">
-              fatura tutarı
-            </th>
-            <th class="px-6 py-3" scope="col">
-              km
-            </th>
-            <th class="px-6 py-3" scope="col">
-              oto lastik
-            </th>
-            <th class="px-6 py-3" scope="col">
-              bakım türü
-            </th>
-            <th class="px-6 py-3" scope="col">
-              açıklama
-            </th>
-          </tr>
-          </thead>
-          <tbody>
-          <tr class="border-b bg-white ">
-            <th class="whitespace-nowrap px-2 py-1 font-medium text-Dark900" scope="row">
-              <div class="ml-2 ">
-                <router-link to="/editperiod">
-                  <img src="/public-src/admin/Frame(17).svg">
-                </router-link>
-              </div>
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              Muhammet Mustafa Yaprak
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              24.03.2023
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Fatura
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Fatura Öz Asm Oto
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              34 HYD 1234
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              gaziantep
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺200.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              150.000 KM
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              205/55 R 16 (Goodyear)
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Araç Motor İç & Dış
-              Diğer Temizlik
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              4 Adet Lastik Alımı
-            </td>
-          </tr>
-          <tr class="border-b bg-gray-50 text-Graydarker">
-            <th class="w-32 whitespace-nowrap px-2 py-1 font-medium text-Dark900" scope="row">
-              <div class="ml-2 ">
-                <router-link to="/editperiod">
-                  <img src="/public-src/admin/Frame(17).svg">
-                </router-link>
-              </div>
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              Muhammet Mustafa Yaprak
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              24.03.2023
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Fatura
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Fatura Öz Asm Oto
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              34 HYD 1234
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              gaziantep
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺200.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              150.000 KM
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              205/55 R 16 (Goodyear)
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Araç Motor İç & Dış
-              Diğer Temizlik
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              4 Adet Lastik Alımı
-            </td>
-          </tr>
-          <tr class="border-b bg-white ">
-            <th class="whitespace-nowrap px-2 py-1 font-medium text-Dark900" scope="row">
-              <div class="ml-2">
-                <router-link to="/editperiod">
-                  <img src="/public-src/admin/Frame(17).svg">
-                </router-link>
-              </div>
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              Muhammet Mustafa Yaprak
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              24.03.2023
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Fatura
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Fatura Öz Asm Oto
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              34 HYD 1234
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              gaziantep
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺200.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              150.000 KM
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              205/55 R 16 (Goodyear)
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Araç Motor İç & Dış
-              Diğer Temizlik
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              4 Adet Lastik Alımı
-            </td>
-          </tr>
-          <tr class="border-b bg-gray-50 text-Graydarker">
-            <th class="whitespace-nowrap px-2 py-1 font-medium text-Dark900" scope="row">
-              <div class="ml-2">
-                <router-link to="/editperiod">
-                  <img src="/public-src/admin/Frame(17).svg">
-                </router-link>
-              </div>
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              Muhammet Mustafa Yaprak
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              24.03.2023
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Fatura
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Fatura Öz Asm Oto
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              34 HYD 1234
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              gaziantep
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺200.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              150.000 KM
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              205/55 R 16 (Goodyear)
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Araç Motor İç & Dış
-              Diğer Temizlik
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              4 Adet Lastik Alımı
-            </td>
-          </tr>
-          </tbody>
-        </table>
+                    }"
+              :rows="rows"
+              :search-options="{
+                      enabled: true,
+                      mode: 'records'
+                      }"
+              :select-options="{
+                 enabled: true,
+  }"
+              theme="polar-bear"
+
+          />
+        </div>
       </div>
       <div>
         <div class="mt-14 flex w-11/12 items-center justify-end">
@@ -268,11 +86,340 @@
   </div>
 </template>
 
-<script>
-import {defineComponent} from "vue";
+<script lang="ts">
+export default {
+  name: 'my-component',
+  data() {
+    return {
+      columns: [
+        {
+          label: 'Araç Kullanıcısı',
+          field: 'name',
+        },
+        {
+          label: 'Tarih',
+          field: 'history',
+          type: 'data',
+        },
+        {
+          label: 'Fatura',
+          field: 'fatura',
+          type: 'number',
+        },
+        {
+          label: 'Fatura Unvanı',
+          field: 'InvoiceTitle'
+        },
+        {
+          label: 'Plaka',
+          field: 'plate',
+          type: 'number'
+        },
+        {
+          label: 'İL',
+          field: 'province'
+        },
+        {
+          label: 'Fatura Tutarı',
+          field: 'amount',
+          type: 'number'
+        },
+        {
+          label: 'KM',
+          field: 'km',
+          type: 'number'
+        },
+        {
+          label: 'Oto Lastik',
+          field: 'tire',
+          type: 'number'
+        },
+        {
+          label: 'Bakım Türü',
+          field: 'care',
+        },
+        {
+          label: 'Açıklama',
+          field: 'explanation',
+        },
 
-export default defineComponent({
-  name: "PeriodicMaintenance",
-  components: {}
-})
+
+      ],
+      rows: [
+        {
+          id: 1,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          InvoiceTitle: 'Öz Asm Oto',
+          plate: '34 HYD 1234',
+          province: 'Gaziantep',
+          amount: '₺200.000,00',
+          km: '150.000 KM',
+          tire: '205/55 R 16 (Goodyear)',
+          care: 'Temizlik',
+          explanation: ''
+
+        },
+        {
+          id: 2,
+          name: "Bunyad Ahmedli ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          InvoiceTitle: 'Öz Asm Oto',
+          plate: '34 HYD 1234',
+          province: 'Gaziantep',
+          amount: '₺200.000,00',
+          km: '150.000 KM',
+          tire: '205/55 R 16 (Goodyear)',
+          care: 'Temizlik',
+          explanation: ''
+
+        },
+        {
+          id: 3,
+          name: "Kadir Kılıç ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          InvoiceTitle: 'Öz Asm Oto',
+          plate: '34 HYD 1234',
+          province: 'Gaziantep',
+          amount: '₺200.000,00',
+          km: '150.000 KM',
+          tire: '205/55 R 16 (Goodyear)',
+          care: 'Temizlik',
+          explanation: ''
+
+        },
+        {
+          id: 3,
+          name: "Kadir Kılıç ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          InvoiceTitle: 'Öz Asm Oto',
+          plate: '34 HYD 1234',
+          province: 'Gaziantep',
+          amount: '₺200.000,00',
+          km: '150.000 KM',
+          tire: '205/55 R 16 (Goodyear)',
+          care: 'Temizlik',
+          explanation: ''
+
+        },
+        {
+          id: 3,
+          name: "Kadir Kılıç ",
+          // history: '24.10.2023',
+          fatura: 'Fatura',
+          InvoiceTitle: 'Öz Asm Oto',
+          plate: '34 HYD 1234',
+          province: 'Gaziantep',
+          amount: '₺200.000,00',
+          km: '150.000 KM',
+          tire: '205/55 R 16 (Goodyear)',
+          care: 'Temizlik',
+          explanation: ''
+
+        },
+        {
+          id: 3,
+          name: "Kadir Kılıç ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          InvoiceTitle: 'Öz Asm Oto',
+          plate: '34 HYD 1234',
+          province: 'Gaziantep',
+          amount: '₺200.000,00',
+          km: '150.000 KM',
+          tire: '205/55 R 16 (Goodyear)',
+          care: 'Temizlik',
+          explanation: ''
+
+        },
+        {
+          id: 4,
+          name: " Mustafa Yaprak ",
+          history: '10.02.2023',
+          fatura: 'Fatura',
+          InvoiceTitle: 'Öz Asm Oto',
+          plate: '34 HYD 1234',
+          province: 'Gaziantep',
+          amount: '₺200.000,00',
+          km: '150.000 KM',
+          tire: '205/55 R 16 (Goodyear)',
+          care: 'Temizlik',
+          explanation: ''
+
+        },
+        {
+          id: 5,
+          name: "Ali Koç  ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          InvoiceTitle: 'Öz Asm Oto',
+          plate: '34 HYD 1234',
+          province: 'Gaziantep',
+          amount: '₺200.000,00',
+          km: '150.000 KM',
+          tire: '205/55 R 16 (Goodyear)',
+          care: 'Temizlik',
+          explanation: ''
+
+        },
+        {
+          id: 6,
+          name: "Ali AY",
+          history: '3.08.2023',
+          fatura: 'Fatura',
+          InvoiceTitle: 'Öz Asm Oto',
+          plate: '34 HYD 1234',
+          province: 'Gaziantep',
+          amount: '₺200.000,00',
+          km: '150.000 KM',
+          tire: '205/55 R 16 (Goodyear)',
+          care: 'Temizlik',
+          explanation: ''
+
+        },
+        {
+          id: 7,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          InvoiceTitle: 'Öz Asm Oto',
+          plate: '34 HYD 1234',
+          province: 'Gaziantep',
+          amount: '₺200.000,00',
+          km: '150.000 KM',
+          tire: '205/55 R 16 (Goodyear)',
+          care: 'Temizlik',
+          explanation: ''
+
+        },
+        {
+          id: 8,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          InvoiceTitle: 'Öz Asm Oto',
+          plate: '34 HYD 1234',
+          province: 'Gaziantep',
+          amount: '₺200.000,00',
+          km: '150.000 KM',
+          tire: '205/55 R 16 (Goodyear)',
+          care: 'Temizlik',
+          explanation: ''
+
+        },
+        {
+          id: 9,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          InvoiceTitle: 'Öz Asm Oto',
+          plate: '34 HYD 1234',
+          province: 'Gaziantep',
+          amount: '₺200.000,00',
+          km: '150.000 KM',
+          tire: '205/55 R 16 (Goodyear)',
+          care: 'Temizlik',
+          explanation: ''
+
+        },
+        {
+          id: 10,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          InvoiceTitle: 'Öz Asm Oto',
+          plate: '34 HYD 1234',
+          province: 'Gaziantep',
+          amount: '₺200.000,00',
+          km: '150.000 KM',
+          tire: '205/55 R 16 (Goodyear)',
+          care: 'Temizlik',
+          explanation: ''
+
+        },
+        {
+          id: 11,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          InvoiceTitle: 'Öz Asm Oto',
+          plate: '34 HYD 1234',
+          province: 'Gaziantep',
+          amount: '₺200.000,00',
+          km: '150.000 KM',
+          tire: '205/55 R 16 (Goodyear)',
+          care: 'Temizlik',
+          explanation: ''
+
+        },
+        {
+          id: 12,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          InvoiceTitle: 'Öz Asm Oto',
+          plate: '34 HYD 1234',
+          province: 'Gaziantep',
+          amount: '₺200.000,00',
+          km: '150.000 KM',
+          tire: '205/55 R 16 (Goodyear)',
+          care: 'Temizlik',
+          explanation: ''
+
+        },
+        {
+          id: 13,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          InvoiceTitle: 'Öz Asm Oto',
+          plate: '34 HYD 1234',
+          province: 'Gaziantep',
+          amount: '₺200.000,00',
+          km: '150.000 KM',
+          tire: '205/55 R 16 (Goodyear)',
+          care: 'Temizlik',
+          explanation: ''
+
+        },
+        {
+          id: 14,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          InvoiceTitle: 'Öz Asm Oto',
+          plate: '34 HYD 1234',
+          province: 'Gaziantep',
+          amount: '₺200.000,00',
+          km: '150.000 KM',
+          tire: '205/55 R 16 (Goodyear)',
+          care: 'Temizlik',
+          explanation: ''
+
+        },
+        {
+          id: 15,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          InvoiceTitle: 'Öz Asm Oto',
+          plate: '34 HYD 1234',
+          province: 'Gaziantep',
+          amount: '₺200.000,00',
+          km: '150.000 KM',
+          tire: '205/55 R 16 (Goodyear)',
+          care: 'Temizlik',
+          explanation: ''
+
+        },
+
+
+      ],
+    };
+  },
+};
 </script>
