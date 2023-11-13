@@ -29,168 +29,40 @@
       <div class=" ">
       </div>
       <!-- main -->
-      <div class="relative  m-auto mt-16  flex w-3/4 items-center overflow-x-auto shadow-md sm:rounded-lg">
-        <table class="w-full text-left text-sm text-GrayLightest">
-          <thead class="bg-GrayLightest text-xs uppercase text-Dark900">
-          <tr>
-            <th class="px-6 py-3" scope="col">
+      <div class="relative  m-auto mt-16  flex w-3/4 items-center overflow-x-auto shadow-md sm:rounded-lg"
+           style=" box-shadow: 0px 0px 10px #717982;">
+        <div class="w-full">
+          <vue-good-table
+              :columns="columns"
+              :fixed-header="true"
+              :pagination-options="{
+                      enabled: true,
+                      mode: 'records',
+                      perPage: 5,
+                      position: 'bottom',
+                      perPageDropdown: [10, 20, 30],
+                      dropdownAllowAll: false,
+                      nextLabel: 'next',
+                      prevLabel: 'prev',
+                      rowsPerPageLabel: 'Rows per page',
+                      ofLabel: 'of',
+                      pageLabel: 'page', // for 'pages' mode
+                      allLabel: 'All',
 
-            </th>
-            <th class="px-6 py-3" scope="col">
-              no
-            </th>
-            <th class="px-6 py-3" scope="col">
-              araç kullanıcısı
-            </th>
-            <th class="px-6 py-3" scope="col">
-              T.c.no
-            </th>
-            <th class="px-6 py-3" scope="col">
-              telefon
-            </th>
-            <th class="px-6 py-3" scope="col">
-              e-mail
-            </th>
-            <th class="px-6 py-3" scope="col">
-              plaka
-            </th>
-            <th class="px-6 py-3" scope="col">
-              araç modeli
-            </th>
-            <th class="px-6 py-3" scope="col">
-              bağlı olduğu birim
-            </th>
-            <th class="px-6 py-3" scope="col">
-              bulunduğu yer
-            </th>
-            <th class="px-6 py-3" scope="col">
-              ikamet ettiği il
-            </th>
-          </tr>
-          </thead>
-          <tbody>
-          <tr class="border-b bg-white ">
-            <th class="whitespace-nowrap px-2 py-1 font-medium text-Dark900" scope="row">
-              <div class="flex w-24 items-center">
-                <router-link to="/editusermanag"><img class="ml-2" src="/public-src/admin/Frame(17).svg"></router-link>
-                <img class="ml-2" src="/public-src/admin/Frame(21).svg">
-              </div>
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              01
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Muhammet Mustafa Yaprak
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              12345678910
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              +90 888 888 88 88
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ornekmailadresi
-              @hayratyardim.com
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              01 AEE 3878
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              M155ARX1 OFF-ROAD
-              KAPIKULU M15 YARI RÖMORK
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              -
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              -
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Adapazaro
-            </td>
-          </tr>
-          <tr class="border-b bg-gray-50 text-Graydarker">
-            <th class="whitespace-nowrap px-2 py-1 font-medium text-Dark900" scope="row">
-              <div class="flex w-24 items-center">
-                <router-link to="/editusermanag"><img class="ml-2" src="/public-src/admin/Frame(17).svg"></router-link>
-                <img class="ml-2" src="/public-src/admin/Frame(21).svg">
-              </div>
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              01
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Muhammet Mustafa Yaprak
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              12345678910
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              +90 888 888 88 88
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ornekmailadresi
-              @hayratyardim.com
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              01 AEE 3878
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              M155ARX1 OFF-ROAD
-              KAPIKULU M15 YARI RÖMORK
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              -
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              -
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Adapazaro
-            </td>
-          </tr>
-          <tr class="border-b bg-white ">
-            <th class="whitespace-nowrap px-2 py-1 font-medium text-Dark900" scope="row">
-              <div class="flex w-24 items-center">
-                <router-link to="/editusermanag"><img class="ml-2" src="/public-src/admin/Frame(17).svg"></router-link>
-                <img class="ml-2" src="/public-src/admin/Frame(21).svg">
-              </div>
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              01
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Muhammet Mustafa Yaprak
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              12345678910
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              +90 888 888 88 88
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ornekmailadresi
-              @hayratyardim.com
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              01 AEE 3878
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              M155ARX1 OFF-ROAD
-              KAPIKULU M15 YARI RÖMORK
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              -
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              -
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Adapazaro
-            </td>
-          </tr>
-          </tbody>
-        </table>
+
+                    }"
+              :rows="rows"
+              :search-options="{
+                      enabled: true,
+                      mode: 'records'
+                      }"
+              :select-options="{
+                 enabled: true,
+  }"
+              theme="polar-bear"
+
+          />
+        </div>
       </div>
       <div>
         <div class="mt-14 flex w-11/12 items-center justify-end">
@@ -205,11 +77,165 @@
   </div>
 </template>
 
-<script>
-import {defineComponent} from "vue";
+<script lang="ts">
+export default {
+  name: 'my-component',
+  data() {
+    return {
+      columns: [
+        {
+          label: 'Araç Kullanıcısı',
+          field: 'name',
+        },
+        {
+          label: 'T.C.NO',
+          field: 'no',
+          type: 'number',
+        },
+        {
+          label: 'Telefon',
+          field: 'phone',
+          type: 'number',
+        },
+        {
+          label: 'E-Mail',
+          field: 'email',
+          type: 'E-Mail'
 
-export default defineComponent({
-  name: "OtherExpeneses",
-  components: {}
-})
+        },
+        {
+          label: 'Plaka',
+          field: 'plate',
+          type: 'number'
+        },
+        {
+          label: 'Araç Modeli',
+          field: 'model',
+
+        },
+
+        {
+          label: 'Bağlı Olduğu Birim',
+          field: 'unit',
+
+        },
+        {
+          label: 'İkamet Ettiği İl',
+          field: 'address'
+        },
+
+      ],
+      rows: [
+        {
+          id: 1,
+          name: "Muhammed Mustafa Yaprak ",
+          no: '88888888888',
+          phone: '+90 888 888 88 88',
+          email: 'ornekmailadresi@hayratyardim.com',
+          plate: '34 HYD 1234',
+          model: 'Opel',
+          unit: ' ',
+          address: 'Sakarya'
+
+        },
+        {
+          id: 1,
+          name: "Muhammed Mustafa Yaprak ",
+          no: '88888888888',
+          phone: '+90 888 888 88 88',
+          email: 'ornekmailadresi@hayratyardim.com',
+          plate: '34 HYD 1234',
+          model: 'Opel',
+          unit: ' ',
+          address: 'Sakarya'
+
+        },
+        {
+          id: 1,
+          name: "Muhammed Mustafa Yaprak ",
+          no: '88888888888',
+          phone: '+90 888 888 88 88',
+          email: 'ornekmailadresi@hayratyardim.com',
+          plate: '34 HYD 1234',
+          model: 'Opel',
+          unit: ' ',
+          address: 'Sakarya'
+
+        },
+        {
+          id: 1,
+          name: "Kadir ",
+          no: '88888888888',
+          phone: '+90 888 888 88 88',
+          email: 'ornekmailadresi@hayratyardim.com',
+          plate: '34 HYD 1234',
+          model: 'Opel',
+          unit: ' ',
+          address: 'Sakarya'
+
+        },
+        {
+          id: 1,
+          name: "Muhammed Mustafa Yaprak ",
+          no: '88888888888',
+          phone: '+90 888 888 88 88',
+          email: 'ornekmailadresi@hayratyardim.com',
+          plate: '34 HYD 1234',
+          model: 'Opel',
+          unit: ' ',
+          address: 'Sakarya'
+
+        },
+        {
+          id: 1,
+          name: "Yusuf ",
+          no: '88888888888',
+          phone: '+90 888 888 88 88',
+          email: 'ornekmailadresi@hayratyardim.com',
+          plate: '34 HYD 1234',
+          model: 'Opel',
+          unit: ' ',
+          address: 'Sakarya'
+
+        },
+        {
+          id: 1,
+          name: "Ahmet ",
+          no: '88888888888',
+          phone: '+90 888 888 88 88',
+          email: 'ornekmailadresi@hayratyardim.com',
+          plate: '34 HYD 1234',
+          model: 'Opel',
+          unit: ' ',
+          address: 'Sakarya'
+
+        },
+        {
+          id: 1,
+          name: "Hamza ",
+          no: '88888888888',
+          phone: '+90 888 888 88 88',
+          email: 'ornekmailadresi@hayratyardim.com',
+          plate: '34 HYD 1234',
+          model: 'Opel',
+          unit: ' ',
+          address: 'Sakarya'
+
+        },
+        {
+          id: 1,
+          name: "Emin ",
+          no: '88888888888',
+          phone: '+90 888 888 88 88',
+          email: 'ornekmailadresi@hayratyardim.com',
+          plate: '34 HYD 1234',
+          model: 'Opel',
+          unit: ' ',
+          address: 'Sakarya'
+
+        },
+      ],
+    };
+  },
+};
 </script>

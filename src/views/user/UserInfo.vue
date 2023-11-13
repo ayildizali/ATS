@@ -13,9 +13,9 @@
       <!-- header -->
       <div class="m-auto flex h-32 w-3/4 items-center justify-between">
         <div class="ml-5 flex w-3/4 items-center">
-          <router-link to="/dashboard"><img class="mr-5" src="/public-src/Kullanıcı/Frame137.svg"></router-link>
+          <router-link to=""><img class="mr-5" src="/public-src/Kullanıcı/Frame137.svg"></router-link>
           <h2 class="text-4xl font-bold leading-9 text-green-800">
-            <router-link to="/dashboard">Araçlarım</router-link>
+            <router-link to="">Araçlarım</router-link>
           </h2>
           <h4 class="ml-8 text-base font-medium text-[#717982]"> / 34 HYD 1234 VOLKSWAGEN POLO </h4>
         </div>
