@@ -46,338 +46,38 @@
       </div>
       <!-- main -->
       <div class="relative m-auto mt-16  flex w-3/4 items-center overflow-x-auto shadow-md sm:rounded-lg">
-        <table class="w-full text-left text-sm text-GrayLightest">
-          <thead class="bg-GrayLightest text-xs uppercase text-Dark900">
-          <tr>
-            <th class="px-6 py-3" scope="col">
+        <div class="w-full">
+          <vue-good-table
+              :columns="columns"
+              :fixed-header="true"
+              :pagination-options="{
+                      enabled: true,
+                      mode: 'records',
+                      perPage: 5,
+                      position: 'bottom',
+                      perPageDropdown: [10, 20, 30],
+                      dropdownAllowAll: false,
+                      nextLabel: 'next',
+                      prevLabel: 'prev',
+                      rowsPerPageLabel: 'Rows per page',
+                      ofLabel: 'of',
+                      pageLabel: 'page', // for 'pages' mode
+                      allLabel: 'All',
 
-            </th>
-            <th class="px-6 py-3" scope="col">
-              boçlu
-            </th>
-            <th class="px-6 py-3" scope="col">
-              tebliğ tarihi
-            </th>
-            <th class="px-6 py-3" scope="col">
-              tebliğ türü
-            </th>
-            <th class="px-6 py-3" scope="col">
-              evrak no
-            </th>
-            <th class="px-6 py-3" scope="col">
-              türü
-            </th>
-            <th class="px-6 py-3" scope="col">
-              plaka
-            </th>
-            <th class="px-6 py-3" scope="col">
-              ceza türü
-            </th>
-            <th class="px-6 py-3" scope="col">
-              ceza tutarı
-            </th>
-            <th class="px-6 py-3" scope="col">
-              erken ödeme tutarı
-            </th>
-            <th class="px-6 py-3" scope="col">
-              erken ödeme karı
-            </th>
-            <th class="px-6 py-3" scope="col">
-              ödeme tarihi
-            </th>
-            <th class="px-6 py-3" scope="col">
-              ödeme yeri
-            </th>
-            <th class="px-6 py-3" scope="col">
-              dekont no
-            </th>
-          </tr>
-          </thead>
-          <tbody>
-          <tr class="border-b bg-white ">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
-              <div class="flex w-16 items-center justify-center">
-                <img src="/public-src/admin/Frame(20).svg">
-                <router-link to="/criminal"><img class="ml-2" src="/public-src/admin/Frame(17).svg"></router-link>
-              </div>
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              Muhammet Mustafa Yaprak
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              13.12.2023
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Gib (görüntü)
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              2022-01 & 2022-12
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Kara Yolları Belgesi
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              01 AEE 387
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Hız Sınırı İhlali
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺20.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺15.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺5.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              13.12.2022
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              İ.V.D. Sitesinden
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              01AWB0000053
-            </td>
-          </tr>
-          <tr class="border-b bg-gray-50 text-Graydarker">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
-              <div class="flex w-3/4 items-center justify-center">
-                <img src="/public-src/admin/Frame(20).svg">
-                <router-link to="/criminal"><img class="ml-2" src="/public-src/admin/Frame(17).svg"></router-link>
-              </div>
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              Muhammet Mustafa Yaprak
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              13.12.2023
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Gib (görüntü)
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              2022-01 & 2022-12
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Kara Yolları Belgesi
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              01 AEE 387
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Hız Sınırı İhlali
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺20.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺15.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺5.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              13.12.2022
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              İ.V.D. Sitesinden
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              01AWB0000053
-            </td>
-          </tr>
-          <tr class="border-b bg-white ">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
-              <div class="flex w-3/4 items-center justify-center">
-                <img src="/public-src/admin/Frame(20).svg">
-                <router-link to="/criminal"><img class="ml-2" src="/public-src/admin/Frame(17).svg"></router-link>
-              </div>
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              Muhammet Mustafa Yaprak
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              13.12.2023
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Gib (görüntü)
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              2022-01 & 2022-12
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Kara Yolları Belgesi
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              01 AEE 387
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Hız Sınırı İhlali
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺20.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺15.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺5.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              13.12.2022
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              İ.V.D. Sitesinden
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              01AWB0000053
-            </td>
-          </tr>
-          <tr class="border-b bg-gray-50 text-Graydarker">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
-              <div class="flex w-3/4 items-center justify-center">
-                <img src="/public-src/admin/Frame(20).svg">
-                <router-link to="/criminal"><img class="ml-2" src="/public-src/admin/Frame(17).svg"></router-link>
-              </div>
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              Muhammet Mustafa Yaprak
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              13.12.2023
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Gib (görüntü)
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              2022-01 & 2022-12
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Kara Yolları Belgesi
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              01 AEE 387
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Hız Sınırı İhlali
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺20.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺15.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺5.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              13.12.2022
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              İ.V.D. Sitesinden
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              01AWB0000053
-            </td>
-          </tr>
-          <tr class="border-b bg-white ">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
-              <div class="flex w-3/4 items-center justify-center">
-                <img src="/public-src/admin/Frame(20).svg">
-                <router-link to="/criminal"><img class="ml-2" src="/public-src/admin/Frame(17).svg"></router-link>
-              </div>
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              Muhammet Mustafa Yaprak
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              13.12.2023
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Gib (görüntü)
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              2022-01 & 2022-12
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Kara Yolları Belgesi
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              01 AEE 387
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Hız Sınırı İhlali
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺20.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺15.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺5.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              13.12.2022
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              İ.V.D. Sitesinden
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              01AWB0000053
-            </td>
-          </tr>
-          <tr class="border-b bg-white ">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
-              <div class="flex w-3/4 items-center justify-center">
-                <img src="/public-src/admin/Frame(20).svg">
-                <router-link to="/criminal"><img class="ml-2" src="/public-src/admin/Frame(17).svg"></router-link>
-              </div>
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              Muhammet Mustafa Yaprak
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              13.12.2023
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Gib (görüntü)
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              2022-01 & 2022-12
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Kara Yolları Belgesi
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              01 AEE 387
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Hız Sınırı İhlali
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺20.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺15.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺5.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              13.12.2022
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              İ.V.D. Sitesinden
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              01AWB0000053
-            </td>
-          </tr>
-          </tbody>
-        </table>
+
+                    }"
+              :rows="rows"
+              :search-options="{
+                      enabled: true,
+                      mode: 'records'
+                      }"
+              :select-options="{
+                 enabled: true,
+  }"
+              theme="polar-bear"
+
+          />
+        </div>
       </div>
       <div>
         <div class="mt-14 flex w-11/12 items-center justify-end">
@@ -393,14 +93,199 @@
   </div>
 </template>
 
-<script>
-import {defineComponent} from "vue";
+<script lang="ts">
+export default {
+  name: 'my-component',
+  data() {
+    return {
+      columns: [
+        {
+          label: 'Borçlu',
+          field: 'name',
+        },
+        {
+          label: 'Tebliğ Tarihi',
+          field: 'notification',
+          type: 'data',
+        },
+        {
+          label: 'Tebliğ Türü',
+          field: 'notificationtype',
+          type: 'number',
+        },
+        {
+          label: 'Evrak No',
+          field: 'document',
+          type: 'number'
+
+        },
+        {
+          label: 'Türü',
+          field: 'type',
+
+        },
+        {
+          label: 'Plaka',
+          field: 'plate',
+          type: 'number'
+        },
+        {
+          label: 'Ceza Türü',
+          field: 'punishment',
+
+        },
+        {
+          label: 'Ceza Tutarı',
+          field: 'penaltyamount',
+          type: 'number',
+        },
+        {
+          label: 'Erken Ödeme Tutarı',
+          field: 'paymenttotal'
+        },
+        {
+          label: 'Erken Ödeme Karı',
+          field: 'paymentprofit'
+        },
+        {
+          label: ' Ödeme Tarihi',
+          field: 'address',
+          type: 'data'
+        },
+        {
+          label: ' Ödeme Yeri',
+          field: 'paymentlocation'
+        },
+        {
+          label: ' Dekont',
+          field: 'dekont'
+        },
 
 
-export default defineComponent(
-    {
-      name: "PayFine",
-      components: {},
-    }
-)
+      ],
+      rows: [
+        {
+          id: 1,
+          name: "Ahmet Yıldız ",
+          notification: '13.12.2023',
+          notificationtype: 'GİB (Görüntü)',
+          document: '2022-01 & 2022-12',
+          type: 'Kara Yolları Belgesi',
+          plate: '34 HYD 1234',
+          punishment: ' Hız Sınır İhlali',
+          penaltyamount: '₺20.000,00',
+          paymenttotal: '₺15.000,00',
+          paymentprofit: '₺5.000,00',
+          address: '13.12.2022',
+          paymentlocation: 'İ.V.D. Sitesinden',
+          dekont: '01AWB0000053',
+
+        },
+        {
+          id: 1,
+          name: "Ahmet Yıldız ",
+          notification: '13.12.2023',
+          notificationtype: 'GİB (Görüntü)',
+          document: '2022-01 & 2022-12',
+          type: 'Kara Yolları Belgesi',
+          plate: '34 HYD 1234',
+          punishment: ' Hız Sınır İhlali',
+          penaltyamount: '₺20.000,00',
+          paymenttotal: '₺15.000,00',
+          paymentprofit: '₺5.000,00',
+          address: '13.12.2022',
+          paymentlocation: 'İ.V.D. Sitesinden',
+          dekont: '01AWB0000053',
+
+        },
+        {
+          id: 1,
+          name: "Ahmet Yıldız ",
+          notification: '13.12.2023',
+          notificationtype: 'GİB (Görüntü)',
+          document: '2022-01 & 2022-12',
+          type: 'Kara Yolları Belgesi',
+          plate: '34 HYD 1234',
+          punishment: ' Hız Sınır İhlali',
+          penaltyamount: '₺20.000,00',
+          paymenttotal: '₺15.000,00',
+          paymentprofit: '₺5.000,00',
+          address: '13.12.2022',
+          paymentlocation: 'İ.V.D. Sitesinden',
+          dekont: '01AWB0000053',
+
+        },
+        {
+          id: 1,
+          name: "Ahmet Yıldız ",
+          notification: '13.12.2023',
+          notificationtype: 'GİB (Görüntü)',
+          document: '2022-01 & 2022-12',
+          type: 'Kara Yolları Belgesi',
+          plate: '34 HYD 1234',
+          punishment: ' Hız Sınır İhlali',
+          penaltyamount: '₺20.000,00',
+          paymenttotal: '₺15.000,00',
+          paymentprofit: '₺5.000,00',
+          address: '13.12.2022',
+          paymentlocation: 'İ.V.D. Sitesinden',
+          dekont: '01AWB0000053',
+
+        },
+        {
+          id: 1,
+          name: "Ahmet Yıldız ",
+          notification: '13.12.2023',
+          notificationtype: 'GİB (Görüntü)',
+          document: '2022-01 & 2022-12',
+          type: 'Kara Yolları Belgesi',
+          plate: '34 HYD 1234',
+          punishment: ' Hız Sınır İhlali',
+          penaltyamount: '₺20.000,00',
+          paymenttotal: '₺15.000,00',
+          paymentprofit: '₺5.000,00',
+          address: '13.12.2022',
+          paymentlocation: 'İ.V.D. Sitesinden',
+          dekont: '01AWB0000053',
+
+        },
+        {
+          id: 1,
+          name: "Ahmet Yıldız ",
+          notification: '13.12.2023',
+          notificationtype: 'GİB (Görüntü)',
+          document: '2022-01 & 2022-12',
+          type: 'Kara Yolları Belgesi',
+          plate: '34 HYD 1234',
+          punishment: ' Hız Sınır İhlali',
+          penaltyamount: '₺20.000,00',
+          paymenttotal: '₺15.000,00',
+          paymentprofit: '₺5.000,00',
+          address: '13.12.2022',
+          paymentlocation: 'İ.V.D. Sitesinden',
+          dekont: '01AWB0000053',
+
+        },
+        {
+          id: 1,
+          name: "Ahmet Yıldız ",
+          notification: '13.12.2023',
+          notificationtype: 'GİB (Görüntü)',
+          document: '2022-01 & 2022-12',
+          type: 'Kara Yolları Belgesi',
+          plate: '34 HYD 1234',
+          punishment: ' Hız Sınır İhlali',
+          penaltyamount: '₺20.000,00',
+          paymenttotal: '₺15.000,00',
+          paymentprofit: '₺5.000,00',
+          address: '13.12.2022',
+          paymentlocation: 'İ.V.D. Sitesinden',
+          dekont: '01AWB0000053',
+
+        },
+
+      ],
+    };
+  },
+};
 </script>

@@ -29,7 +29,8 @@
       <div class=" ">
       </div>
       <div class="m-auto flex w-9/12 justify-end">
-        <div class="mt-16 h-36  w-64 rounded-lg border-2 border-solid border-b-Graydarker  bg-GrayLightest">
+        <div class="mt-16 h-36  w-64 rounded-lg border-2 border-solid border-b-Graydarker  bg-GrayLightest"
+             style=" box-shadow: 0px 0px 10px #717982;">
           <div class=" ">
             <p class="ml-8 mt-7 flex items-center font-bold text-Dark900">TOPLAM TUTAR</p>
             <p class=" mx-3 mt-5 flex items-center border-b-2 border-b-Graydarker"></p>
@@ -38,246 +39,40 @@
         </div>
       </div>
       <!-- main -->
-      <div class="relative  m-auto mt-16  flex w-3/4 items-center overflow-x-auto shadow-md sm:rounded-lg">
-        <table class="w-full text-left text-sm text-GrayLightest">
-          <thead class="bg-GrayLightest text-xs uppercase text-Dark900">
-          <tr>
-            <th class="px-6 py-3" scope="col">
+      <div class="relative  m-auto mt-16  flex w-3/4 items-center overflow-x-auto shadow-md sm:rounded-lg"
+           style=" box-shadow: 0px 0px 10px #717982;">
+        <div class="w-full">
+          <vue-good-table
+              :columns="columns"
+              :fixed-header="true"
+              :pagination-options="{
+                      enabled: true,
+                      mode: 'records',
+                      perPage: 5,
+                      position: 'bottom',
+                      perPageDropdown: [10, 20, 30],
+                      dropdownAllowAll: false,
+                      setCurrentPage: 1,
+                      nextLabel: 'next',
+                      prevLabel: 'prev',
+                      rowsPerPageLabel: 'Rows per page',
+                      ofLabel: 'of',
+                      pageLabel: 'page', // for 'pages' mode
+                      allLabel: 'All',
 
-            </th>
-            <th class="px-6 py-3" scope="col">
-              Araç Kullanıcısı
-            </th>
-            <th class="px-6 py-3" scope="col">
-              tarİh
-            </th>
-            <th class="px-6 py-3" scope="col">
-              fatura
-            </th>
-            <th class="px-6 py-3" scope="col">
-              plaka
-            </th>
-            <th class="px-6 py-3" scope="col">
-              harcama türü
-            </th>
-            <th class="px-6 py-3" scope="col">
-              il
-            </th>
-            <th class="px-6 py-3" scope="col">
-              fatura tutarı
-            </th>
-            <th class="px-6 py-3" scope="col">
-              açıklama
-            </th>
-          </tr>
-          </thead>
-          <tbody>
-          <tr class="border-b bg-white ">
-            <th class="whitespace-nowrap px-2 py-1 font-medium text-Dark900" scope="row">
-              <router-link to="/editspending"><img class="ml-2" src="/public-src/admin/Frame(17).svg"></router-link>
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              Muhammet Mustafa Yaprak
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              24.03.2023
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Fatura
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              34 HYD 1234
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              yakıt
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              gaziantep
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺200.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              4 Adet Lastik Alımı
-            </td>
-          </tr>
-          <tr class="border-b bg-gray-50 text-Graydarker">
-            <th class="whitespace-nowrap px-2 py-1 font-medium text-Dark900" scope="row">
-              <router-link to="/editspending"><img class="ml-2" src="/public-src/admin/Frame(17).svg"></router-link>
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              Muhammet Mustafa Yaprak
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              24.03.2023
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Fatura
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              34 HYD 1234
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              yakıt
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              gaziantep
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺200.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              4 Adet Lastik Alımı
-            </td>
-          </tr>
-          <tr class="border-b bg-white ">
-            <th class="whitespace-nowrap px-2 py-1 font-medium text-Dark900" scope="row">
-              <router-link to="/editspending"><img class="ml-2" src="/public-src/admin/Frame(17).svg"></router-link>
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              Muhammet Mustafa Yaprak
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              24.03.2023
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Fatura
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              34 HYD 1234
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              yakıt
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              gaziantep
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺200.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              4 Adet Lastik Alımı
-            </td>
-          </tr>
-          <tr class="border-b bg-gray-50 text-Graydarker">
-            <th class="whitespace-nowrap px-2 py-1 font-medium text-Dark900" scope="row">
-              <router-link to="/editspending"><img class="ml-2" src="/public-src/admin/Frame(17).svg"></router-link>
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              Muhammet Mustafa Yaprak
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              24.03.2023
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Fatura
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              34 HYD 1234
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              yakıt
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              gaziantep
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺200.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              4 Adet Lastik Alımı
-            </td>
-          </tr>
-          <tr class="border-b bg-white ">
-            <th class="whitespace-nowrap px-2 py-1 font-medium text-Dark900" scope="row">
-              <router-link to="/editspending"><img class="ml-2" src="/public-src/admin/Frame(17).svg"></router-link>
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              Muhammet Mustafa Yaprak
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              24.03.2023
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Fatura
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              34 HYD 1234
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              yakıt
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              gaziantep
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺200.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              4 Adet Lastik Alımı
-            </td>
-          </tr>
-          <tr class="border-b bg-gray-50 text-Graydarker">
-            <th class="whitespace-nowrap px-2 py-1 font-medium text-Dark900" scope="row">
-              <router-link to="/editspending"><img class="ml-2" src="/public-src/admin/Frame(17).svg"></router-link>
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              Muhammet Mustafa Yaprak
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              24.03.2023
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Fatura
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              34 HYD 1234
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              yakıt
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              gaziantep
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺200.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              4 Adet Lastik Alımı
-            </td>
-          </tr>
-          <tr class="border-b bg-white ">
-            <th class="whitespace-nowrap px-2 py-1 font-medium text-Dark900" scope="row">
-              <router-link to="/editspending"><img class="ml-2" src="/public-src/admin/Frame(17).svg"></router-link>
+                    }"
+              :rows="rows"
+              :search-options="{
+                      enabled: true,
+                      mode: 'records'
+                      }"
+              :select-options="{
+                 enabled: true,
+  }"
+              theme="polar-bear"
 
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              Muhammet Mustafa Yaprak
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              24.03.2023
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Fatura
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              34 HYD 1234
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              yakıt
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              gaziantep
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺200.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              4 Adet Lastik Alımı
-            </td>
-          </tr>
-          </tbody>
-        </table>
+          />
+        </div>
       </div>
       <div>
         <div class="mt-14 flex w-11/12 items-center justify-end">
@@ -292,11 +87,164 @@
   </div>
 </template>
 
-<script>
-import {defineComponent} from "vue";
+<script lang="ts">
+export default {
+  name: 'my-component',
+  data() {
+    return {
+      columns: [
+        {
+          label: 'Araç Kullanıcısı',
+          field: 'name',
+        },
+        {
+          label: 'Tarih',
+          field: 'history',
+          type: 'data',
+        },
+        {
+          label: 'Fatura',
+          field: 'fatura',
+          type: 'number',
+        },
+        {
+          label: 'Plaka',
+          field: 'plate',
+          type: 'number'
+        },
+        {
+          label: 'Harcama Türü',
+          field: 'spending',
 
-export default defineComponent({
-  name: "OtherExpeneses",
-  components: {}
-})
+        },
+        {
+          label: 'İL',
+          field: 'province'
+        },
+        {
+          label: 'Fatura Tutarı',
+          field: 'amount',
+          type: 'number'
+        },
+
+        {
+          label: 'Açıklama',
+          field: 'explanation',
+        },
+
+
+      ],
+      rows: [
+        {
+          id: 1,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          plate: '34 HYD 1234',
+          spending: 'Yakıt',
+          province: 'Gaziantep',
+          amount: '₺200.000,00',
+          explanation: ''
+
+        },
+        {
+          id: 1,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          plate: '34 HYD 1234',
+          spending: 'Yakıt',
+          province: 'Gaziantep',
+          amount: '₺200.000,00',
+          explanation: ''
+
+        },
+        {
+          id: 1,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          plate: '34 HYD 1234',
+          spending: 'Yakıt',
+          province: 'Gaziantep',
+          amount: '₺200.000,00',
+          explanation: ''
+
+        },
+        {
+          id: 1,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          plate: '34 HYD 1234',
+          spending: 'Yakıt',
+          province: 'Gaziantep',
+          amount: '₺200.000,00',
+          explanation: ''
+
+        },
+        {
+          id: 1,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          plate: '34 HYD 1234',
+          spending: 'Yakıt',
+          province: 'Gaziantep',
+          amount: '₺200.000,00',
+          explanation: ''
+
+        },
+        {
+          id: 1,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          plate: '34 HYD 1234',
+          spending: 'Yakıt',
+          province: 'Gaziantep',
+          amount: '₺200.000,00',
+          explanation: ''
+
+        },
+        {
+          id: 1,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          plate: '34 HYD 1234',
+          spending: 'Yakıt',
+          province: 'Gaziantep',
+          amount: '₺200.000,00',
+          explanation: ''
+
+        },
+        {
+          id: 1,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          plate: '34 HYD 1234',
+          spending: 'Yakıt',
+          province: 'Gaziantep',
+          amount: '₺200.000,00',
+          explanation: ''
+
+        },
+        {
+          id: 1,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          plate: '34 HYD 1234',
+          spending: 'Yakıt',
+          province: 'Gaziantep',
+          amount: '₺200.000,00',
+          explanation: ''
+
+        },
+      ],
+    };
+  },
+};
 </script>
