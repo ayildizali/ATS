@@ -51,7 +51,7 @@
                       position: 'bottom',
                       perPageDropdown: [10, 20, 30],
                       dropdownAllowAll: false,
-                      setCurrentPage: 2,
+                      setCurrentPage: 1,
                       nextLabel: 'next',
                       prevLabel: 'prev',
                       rowsPerPageLabel: 'Rows per page',
@@ -73,7 +73,7 @@
           />
         </div>
       </div>
-      <div>
+      <div class="mb-10">
         <div class="mt-14 flex w-11/12 items-center justify-end">
           <div class="flex items-center justify-end">
             <img class="pl-5" src="/public-src/admin/rightRounded.svg">
