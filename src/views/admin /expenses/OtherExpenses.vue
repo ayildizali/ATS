@@ -3,7 +3,7 @@
     <div class="  flex-1">
       <!-- header -->
       <div class="m-auto flex h-32 w-3/4 items-center justify-between">
-        <div class="ml-5 flex w-3/4 items-center">
+        <div class=" ali ml-5 flex w-3/4 items-center">
           <img class="mr-5" src="/public-src/Kullanıcı/Frame137.svg">
           <h2 class="text-4xl font-bold leading-9 text-green-800">
             Diğer Harcamalar
@@ -74,18 +74,19 @@
           />
         </div>
       </div>
-      <div>
-        <div class="mt-14 flex w-11/12 items-center justify-end">
-          <div class="flex items-center justify-end">
-            <img class="pl-5" src="/public-src/admin/rightRounded.svg">
-            <img class="pl-5" src="/public-src/admin/Frame72.svg">
-            <img class="pl-5" src="/public-src/admin/LeftRounded.svg">
-          </div>
-        </div>
-      </div>
+      <!--      <div>-->
+      <!--        <div class="mt-14 flex w-11/12 items-center justify-end">-->
+      <!--          <div class="flex items-center justify-end">-->
+      <!--            <img class="pl-5" src="/public-src/admin/rightRounded.svg">-->
+      <!--            <img class="pl-5" src="/public-src/admin/Frame72.svg">-->
+      <!--            <img class="pl-5" src="/public-src/admin/LeftRounded.svg">-->
+      <!--          </div>-->
+      <!--        </div>-->
+      <!--      </div>-->
     </div>
   </div>
 </template>
+
 
 <script lang="ts">
 export default {

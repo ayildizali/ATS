@@ -1,6 +1,6 @@
 <style scoped>
 .title-line {
-
+  color: #1E724A;
   border-bottom-color: #1E724A;
   opacity: 5;
   transform: scaleX(1);
@@ -67,271 +67,242 @@
       </div>
 
       <!-- main -->
-      <div class="relative  m-auto mt-10  flex w-3/4 items-center overflow-x-auto shadow-md sm:rounded-lg">
-        <table class="w-full text-left text-sm text-GrayLightest">
-          <thead class="bg-GrayLightest text-xs uppercase text-Dark900">
-          <tr>
-            <th class="px-6 py-3" scope="col">
-              Araç Kullanıcısı
-            </th>
-            <th class="px-6 py-3" scope="col">
-              tarİh
-            </th>
-            <th class="px-6 py-3" scope="col">
-              fatura
-            </th>
-            <th class="px-6 py-3" scope="col">
-              fatura ünvanı
-            </th>
-            <th class="px-6 py-3" scope="col">
-              plaka
-            </th>
-            <th class="px-6 py-3" scope="col">
-              il
-            </th>
-            <th class="px-6 py-3" scope="col">
-              fatura tutarı
-            </th>
-            <th class="px-6 py-3" scope="col">
-              km
-            </th>
-            <th class="px-6 py-3" scope="col">
-              oto lastik
-            </th>
-            <th class="px-6 py-3" scope="col">
-              bakım türü
-            </th>
-            <th class="px-6 py-3" scope="col">
-              açıklama
-            </th>
+      <div class="relative  m-auto mt-10  flex w-3/4 items-center overflow-x-auto shadow-md sm:rounded-lg"
+           style=" box-shadow: 0px 0px 10px #717982;">
+        <div class="w-full">
+          <vue-good-table
+              :columns="columns"
+              :fixed-header="true"
+              :pagination-options="{
+                      enabled: true,
+                      mode: 'records',
+                      perPage: 5,
+                      position: 'bottom',
+                      perPageDropdown: [10, 20, 30],
+                      dropdownAllowAll: false,
+                      setCurrentPage: 1,
+                      nextLabel: 'next',
+                      prevLabel: 'prev',
+                      rowsPerPageLabel: 'Rows per page',
+                      ofLabel: 'of',
+                      pageLabel: 'page', // for 'pages' mode
+                      allLabel: 'All',
 
-          </tr>
-          </thead>
-          <tbody>
-          <tr class="border-b bg-white ">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
-              Muhammet Mustafa Yaprak
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              24.03.2023
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Fatura
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Öz Asm Oto
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              34 HYD 1234
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Gaziantep
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺200.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              150,000 KM
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              205/55 R 16 (Goodyear)
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Periyodik Bakım
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              4 Adet Lastik Alımı
-            </td>
-          </tr>
-          <tr class="border-b bg-gray-50 text-Graydarker">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900 " scope="row">
-              Muhammet Mustafa Yaprak
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              24.03.2023
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Fatura
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Öz Asm Oto
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              34 HYD 1234
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Gaziantep
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺200.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              150,000 KM
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              205/55 R 16 (Goodyear)
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Periyodik Bakım
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              4 Adet Lastik Alımı
-            </td>
-          </tr>
-          <tr class="border-b bg-white ">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
-              Muhammet Mustafa Yaprak
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              24.03.2023
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Fatura
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Öz Asm Oto
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              34 HYD 1234
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Gaziantep
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺200.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              150,000 KM
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              205/55 R 16 (Goodyear)
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Periyodik Bakım
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              4 Adet Lastik Alımı
-            </td>
-          </tr>
-          <tr class="border-b bg-gray-50 text-Graydarker">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900 " scope="row">
-              Muhammet Mustafa Yaprak
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              24.03.2023
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Fatura
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Öz Asm Oto
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              34 HYD 1234
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Gaziantep
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺200.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              150,000 KM
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              205/55 R 16 (Goodyear)
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Periyodik Bakım
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              4 Adet Lastik Alımı
-            </td>
-          </tr>
-          <tr class="border-b bg-white ">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
-              Muhammet Mustafa Yaprak
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              24.03.2023
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Fatura
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Öz Asm Oto
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              34 HYD 1234
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Gaziantep
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺200.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              150,000 KM
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              205/55 R 16 (Goodyear)
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Periyodik Bakım
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              4 Adet Lastik Alımı
-            </td>
-          </tr>
-          <tr class="border-b bg-gray-50 text-Graydarker">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900 " scope="row">
-              Muhammet Mustafa Yaprak
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              24.03.2023
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Fatura
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Öz Asm Oto
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              34 HYD 1234
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Gaziantep
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺200.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              150,000 KM
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              205/55 R 16 (Goodyear)
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Periyodik Bakım
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              4 Adet Lastik Alımı
-            </td>
-          </tr>
+                    }"
+              :rows="rows"
+              :search-options="{
+                      enabled: true,
+                      mode: 'records'
+                      }"
+              :select-options="{
+                 enabled: true,
+  }"
+              theme="polar-bear"
 
-          </tbody>
-        </table>
+          />
+        </div>
       </div>
 
     </div>
   </div>
 </template>
 
-<script>
-import {defineComponent} from "vue";
+<script lang="ts">
+export default {
+  name: 'my-component',
+  data() {
+    return {
+      columns: [
+        {
+          label: 'Araç Kullanıcısı',
+          field: 'name',
+        },
+        {
+          label: 'Tarih',
+          field: 'history',
+          type: 'data',
+        },
+        {
+          label: 'Fatura',
+          field: 'fatura',
+          type: 'number',
+        },
+        {
+          label: 'Fatura Unvanı',
+          field: 'invoicetitle'
+        },
+        {
+          label: 'Plaka',
+          field: 'plate',
+          type: 'number'
+        },
+        {
+          label: 'İL',
+          field: 'province'
+        },
+        {
+          label: 'Fatura Tutarı',
+          field: 'invoiceamount',
+          type: 'number'
 
-export default defineComponent({
-  name: "RepAir",
-  components: {}
-})
+        },
+        {
+          label: 'KM',
+          field: 'km',
+        },
+        {
+          label: 'Oto Lastik',
+          field: 'Tire'
+        },
+        {
+          label: ' Bakım Türü',
+          field: 'Maintenancetype',
+        },
+        {
+          label: 'Açıklama',
+          field: 'explanation',
+        },
+
+
+      ],
+      rows: [
+        {
+          id: 1,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          invoicetitle: 'Öz Asm Oto',
+          plate: '34 HYD 1234',
+          province: 'Gaziantep',
+          invoiceamount: '₺200.000,00',
+          km: '200.000',
+          Tire: '205/55 R 16 (Goodyear)',
+          Maintenancetype: 'Periyodik Bakım',
+          explanation: '4 Adet Lastik Alımı',
+
+        },
+        {
+          id: 1,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          invoicetitle: 'Öz Asm Oto',
+          plate: '34 HYD 1234',
+          province: 'Gaziantep',
+          invoiceamount: '₺200.000,00',
+          km: '200.000',
+          Tire: '205/55 R 16 (Goodyear)',
+          Maintenancetype: 'Periyodik Bakım',
+          explanation: '4 Adet Lastik Alımı',
+
+        },
+        {
+          id: 1,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          invoicetitle: 'Öz Asm Oto',
+          plate: '34 HYD 1234',
+          province: 'Gaziantep',
+          invoiceamount: '₺200.000,00',
+          km: '200.000',
+          Tire: '205/55 R 16 (Goodyear)',
+          Maintenancetype: 'Periyodik Bakım',
+          explanation: '4 Adet Lastik Alımı',
+
+        },
+        {
+          id: 1,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          invoicetitle: 'Öz Asm Oto',
+          plate: '34 HYD 1234',
+          province: 'Gaziantep',
+          invoiceamount: '₺200.000,00',
+          km: '200.000',
+          Tire: '205/55 R 16 (Goodyear)',
+          Maintenancetype: 'Periyodik Bakım',
+          explanation: '4 Adet Lastik Alımı',
+
+        },
+        {
+          id: 1,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          invoicetitle: 'Öz Asm Oto',
+          plate: '34 HYD 1234',
+          province: 'Gaziantep',
+          invoiceamount: '₺200.000,00',
+          km: '200.000',
+          Tire: '205/55 R 16 (Goodyear)',
+          Maintenancetype: 'Periyodik Bakım',
+          explanation: '4 Adet Lastik Alımı',
+
+        },
+        {
+          id: 1,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          invoicetitle: 'Öz Asm Oto',
+          plate: '34 HYD 1234',
+          province: 'Gaziantep',
+          invoiceamount: '₺200.000,00',
+          km: '200.000',
+          Tire: '205/55 R 16 (Goodyear)',
+          Maintenancetype: 'Periyodik Bakım',
+          explanation: '4 Adet Lastik Alımı',
+
+        },
+        {
+          id: 1,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          invoicetitle: 'Öz Asm Oto',
+          plate: '34 HYD 1234',
+          province: 'Gaziantep',
+          invoiceamount: '₺200.000,00',
+          km: '200.000',
+          Tire: '205/55 R 16 (Goodyear)',
+          Maintenancetype: 'Periyodik Bakım',
+          explanation: '4 Adet Lastik Alımı',
+
+        },
+        {
+          id: 1,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          invoicetitle: 'Öz Asm Oto',
+          plate: '34 HYD 1234',
+          province: 'Gaziantep',
+          invoiceamount: '₺200.000,00',
+          km: '200.000',
+          Tire: '205/55 R 16 (Goodyear)',
+          Maintenancetype: 'Periyodik Bakım',
+          explanation: '4 Adet Lastik Alımı',
+
+        },
+        {
+          id: 1,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          invoicetitle: 'Öz Asm Oto',
+          plate: '34 HYD 1234',
+          province: 'Gaziantep',
+          invoiceamount: '₺200.000,00',
+          km: '200.000',
+          Tire: '205/55 R 16 (Goodyear)',
+          Maintenancetype: 'Periyodik Bakım',
+          explanation: '4 Adet Lastik Alımı',
+
+        },
+      ],
+    };
+  },
+};
 </script>

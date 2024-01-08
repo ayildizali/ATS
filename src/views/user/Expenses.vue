@@ -1,6 +1,6 @@
 <style scoped>
 .title-line {
-
+  color: #1E724A;
   border-bottom-color: #1E724A;
   opacity: 5;
   transform: scaleX(1);
@@ -75,114 +75,160 @@
       </div>
 
       <!-- main -->
-      <div class="m-auto mt-12 flex w-3/4 items-center">
-        <div class=" m-auto w-3/4">
+      <div class="m-auto mt-12 flex w-3/4 items-center ">
+        <div class=" m-auto w-3/4" style="display: flex; align-items: center;justify-content: center">
           <div class="mt-8 h-[500px] w-[480px] rounded-lg bg-GrayLightest shadow-xl ">
             <p class="mb-5 ml-8 pt-5 font-bold text-Dark900">ARAÇ KM BİLGİLERİ</p>
-            <div class="flex items-center   ">
-              <p class="h-16 w-52 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">9.08.2022</p>
-              <p class="h-16 w-72 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">49.170 KM</p>
+            <!--            <div class="flex items-center   ">-->
+            <!--              <p class="h-16 w-52 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">9.08.2022</p>-->
+            <!--              <p class="h-16 w-72 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">49.170 KM</p>-->
+            <!--            </div>-->
+            <!--            <div class="flex items-center   ">-->
+            <!--              <p class="h-16 w-52 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">9.08.2022</p>-->
+            <!--              <p class="h-16 w-72 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">49.170 KM</p>-->
+            <!--            </div>-->
+            <!--            <div class="flex items-center   ">-->
+            <!--              <p class="h-16 w-52 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">9.08.2022</p>-->
+            <!--              <p class="h-16 w-72 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">49.170 KM</p>-->
+            <!--            </div>-->
+            <!--            <div class="flex items-center   ">-->
+            <!--              <p class="h-16 w-52 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">9.08.2022</p>-->
+            <!--              <p class="h-16 w-72 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">49.170 KM</p>-->
+            <!--            </div>-->
+            <!--            <div class="flex items-center   ">-->
+            <!--              <p class="h-16 w-52 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">9.08.2022</p>-->
+            <!--              <p class="h-16 w-72 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">49.170 KM</p>-->
+            <!--            </div>-->
+            <!--            <div class="flex items-center   ">-->
+            <!--              <p class="h-16 w-52 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">9.08.2022</p>-->
+            <!--              <p class="h-16 w-72 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">49.170 KM</p>-->
+            <!--            </div>-->
+            <div class="w-full">
+              <vue-good-table
+                  :columns="columns"
+                  :fixed-header="true"
+                  :pagination-options="{
+                      enabled: true,
+                      mode: 'records',
+                      perPage: 5,
+                      position: 'bottom',
+                      perPageDropdown: [10, 20, 30],
+                      dropdownAllowAll: false,
+                      setCurrentPage: 1,
+                      nextLabel: 'next',
+                      prevLabel: 'prev',
+                      rowsPerPageLabel: 'Rows per page',
+                      ofLabel: 'of',
+                      pageLabel: 'page', // for 'pages' mode
+                      allLabel: 'All',
+
+                    }"
+                  :rows="rows"
+                  :search-options="{
+                      enabled: true,
+                      mode: 'records'
+                      }"
+                  :select-options="{
+                 enabled: true,
+  }"
+                  theme="polar-bear"
+
+              />
             </div>
-            <div class="flex items-center   ">
-              <p class="h-16 w-52 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">9.08.2022</p>
-              <p class="h-16 w-72 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">49.170 KM</p>
-            </div>
-            <div class="flex items-center   ">
-              <p class="h-16 w-52 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">9.08.2022</p>
-              <p class="h-16 w-72 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">49.170 KM</p>
-            </div>
-            <div class="flex items-center   ">
-              <p class="h-16 w-52 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">9.08.2022</p>
-              <p class="h-16 w-72 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">49.170 KM</p>
-            </div>
-            <div class="flex items-center   ">
-              <p class="h-16 w-52 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">9.08.2022</p>
-              <p class="h-16 w-72 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">49.170 KM</p>
-            </div>
-            <div class="flex items-center   ">
-              <p class="h-16 w-52 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">9.08.2022</p>
-              <p class="h-16 w-72 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">49.170 KM</p>
-            </div>
+
+
           </div>
-          <div class="relative mt-12 flex w-[490px] items-center justify-end">
-            <nav class="flex items-center  ">
-              <a class="pl-2" href="/public">
-                <svg class="bi bi-chevron-left text-[#717982]" fill="currentColor" height="25" viewBox="0 0 16 16"
-                     width="25" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                      d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
-                      fill-rule="evenodd"/>
-                </svg>
-              </a>
-              <img class="pl-2" src="/public-src/Kullanıcı/Frame72.svg">
-              <a class="pl-2" href="/public">
-                <svg class="bi bi-chevron-right text-[#717982]" fill="currentColor" height="25" viewBox="0 0 16 16"
-                     width="25" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                      d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
-                      fill-rule="evenodd"/>
-                </svg>
-              </a>
-            </nav>
-          </div>
+          <!--          <div class="relative mt-12 flex w-[490px] items-center justify-end">-->
+          <!--            <nav class="flex items-center  ">-->
+          <!--              <a class="pl-2" href="/public">-->
+          <!--                <svg class="bi bi-chevron-left text-[#717982]" fill="currentColor" height="25" viewBox="0 0 16 16"-->
+          <!--                     width="25" xmlns="http://www.w3.org/2000/svg">-->
+          <!--                  <path-->
+          <!--                      d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"-->
+          <!--                      fill-rule="evenodd"/>-->
+          <!--                </svg>-->
+          <!--              </a>-->
+          <!--              <img class="pl-2" src="/public-src/Kullanıcı/Frame72.svg">-->
+          <!--              <a class="pl-2" href="/public">-->
+          <!--                <svg class="bi bi-chevron-right text-[#717982]" fill="currentColor" height="25" viewBox="0 0 16 16"-->
+          <!--                     width="25" xmlns="http://www.w3.org/2000/svg">-->
+          <!--                  <path-->
+          <!--                      d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"-->
+          <!--                      fill-rule="evenodd"/>-->
+          <!--                </svg>-->
+          <!--              </a>-->
+          <!--            </nav>-->
+          <!--          </div>-->
 
         </div>
-        <div class=" m-auto w-3/4">
+        <div class=" m-auto w-3/4" style="display: flex; align-items: center;justify-content: center">
           <div class="mt-8 h-[500px] w-[480px] rounded-lg bg-GrayLightest shadow-xl">
             <p class="ml-8 pt-5 font-bold text-Dark900">ARAÇ MASRAFLARI </p>
             <!--                        <p class="border-solid border-2 border-transparent border-b-Graydarker mt-5"></p>-->
-            <div class=" mt-5 flex h-16 items-center justify-between border-y-2 border-Gray bg-Gray px-9 pt-2">
-              <p class="text-sm font-bold text-Dark900">TOPLAM</p>
-              <p></p>
-              <p class="text-sm font-bold text-Dark900">₺24.000</p>
-            </div>
-            <div class="flex items-center   ">
-              <p class="h-16 w-48 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">BAKIM</p>
-              <p class="h-16 w-48 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">03.08.2022</p>
-              <p class="h-16 w-48 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">₺1.000</p>
-            </div>
-            <div class="flex items-center   ">
-              <p class="h-16 w-48 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">SERVİS</p>
-              <p class="h-16 w-48 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">09.08.2022</p>
-              <p class="h-16 w-48 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">₺4.000</p>
-            </div>
-            <div class="flex items-center   ">
-              <p class="h-16 w-48 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">YAKIT</p>
-              <p class="h-16 w-48 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">17.08.2022</p>
-              <p class="h-16 w-48 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">₺3.000</p>
-            </div>
-            <div class="flex items-center   ">
-              <p class="h-16 w-48 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">YAKIT</p>
-              <p class="h-16 w-48 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900"></p>
-              <p class="h-16 w-48 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">₺2.000</p>
-            </div>
-            <div class="flex items-center   ">
-              <p class="h-16 w-48 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">YAKIT</p>
-              <p class="h-16 w-48 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900"></p>
-              <p class="h-16 w-48 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">₺6.000</p>
+            <!--            <div class=" mt-5 flex h-16 items-center justify-between border-y-2 border-Gray bg-Gray px-9 pt-2">-->
+            <!--              <p class="text-sm font-bold text-Dark900">TOPLAM</p>-->
+            <!--              <p></p>-->
+            <!--              <p class="text-sm font-bold text-Dark900">₺24.000</p>-->
+            <!--            </div>-->
+            <!--            <div class="flex items-center   ">-->
+            <!--              <p class="h-16 w-48 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">BAKIM</p>-->
+            <!--              <p class="h-16 w-48 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">03.08.2022</p>-->
+            <!--              <p class="h-16 w-48 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">₺1.000</p>-->
+            <!--            </div>-->
+            <!--            <div class="flex items-center   ">-->
+            <!--              <p class="h-16 w-48 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">SERVİS</p>-->
+            <!--              <p class="h-16 w-48 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">09.08.2022</p>-->
+            <!--              <p class="h-16 w-48 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">₺4.000</p>-->
+            <!--            </div>-->
+            <!--            <div class="flex items-center   ">-->
+            <!--              <p class="h-16 w-48 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">YAKIT</p>-->
+            <!--              <p class="h-16 w-48 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">17.08.2022</p>-->
+            <!--              <p class="h-16 w-48 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">₺3.000</p>-->
+            <!--            </div>-->
+            <!--            <div class="flex items-center   ">-->
+            <!--              <p class="h-16 w-48 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">YAKIT</p>-->
+            <!--              <p class="h-16 w-48 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900"></p>-->
+            <!--              <p class="h-16 w-48 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">₺2.000</p>-->
+            <!--            </div>-->
+            <!--            <div class="flex items-center   ">-->
+            <!--              <p class="h-16 w-48 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">YAKIT</p>-->
+            <!--              <p class="h-16 w-48 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900"></p>-->
+            <!--              <p class="h-16 w-48 border-2 border-Graydarker pl-9 pt-5 text-sm font-bold text-Dark900">₺6.000</p>-->
+            <!--            </div>-->
+            <div class="w-full">
+              <vue-good-table
+                  :columns="columns"
+                  :fixed-header="true"
+                  :pagination-options="{
+                      enabled: true,
+                      mode: 'records',
+                      perPage: 5,
+                      position: 'bottom',
+                      perPageDropdown: [10, 20, 30],
+                      dropdownAllowAll: false,
+                      setCurrentPage: 1,
+                      nextLabel: 'next',
+                      prevLabel: 'prev',
+                      rowsPerPageLabel: 'Rows per page',
+                      ofLabel: 'of',
+                      pageLabel: 'page', // for 'pages' mode
+                      allLabel: 'All',
+
+                    }"
+                  :rows="rows"
+                  :search-options="{
+                      enabled: true,
+                      mode: 'records'
+                      }"
+                  :select-options="{
+                 enabled: true,
+  }"
+                  theme="polar-bear"
+
+              />
             </div>
           </div>
-          <div class="relative mt-12 flex w-[490px] items-center justify-end">
-            <nav class="flex items-center  ">
-              <a class="pl-2" href="/public">
-                <svg class="bi bi-chevron-left text-[#717982]" fill="currentColor" height="25" viewBox="0 0 16 16"
-                     width="25" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                      d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
-                      fill-rule="evenodd"/>
-                </svg>
-              </a>
-              <img class="pl-2" src="/public-src/Kullanıcı/Frame72.svg">
-              <a class="pl-2" href="/public">
-                <svg class="bi bi-chevron-right text-[#717982]" fill="currentColor" height="25" viewBox="0 0 16 16"
-                     width="25" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                      d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
-                      fill-rule="evenodd"/>
-                </svg>
-              </a>
-            </nav>
-          </div>
+
         </div>
       </div>
     </div>
@@ -190,14 +236,136 @@
 </template>
 
 
-<script>
-import {defineComponent} from "vue";
+<script lang="ts">
+export default {
+  name: 'my-component',
+  data() {
+    return {
+      columns: [
+        {
+          label: 'Araç Kullanıcısı',
+          field: 'name',
+        },
+        {
+          label: 'Tarih',
+          field: 'history',
+          type: 'data',
+        },
 
-export default defineComponent(
-    {
-      name: "ExpenSes",
-      components: ""
-    }
-)
+
+      ],
+      rows: [
+        {
+          id: 1,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          plate: '34 HYD 1234',
+          spending: 'Yakıt',
+          province: 'Gaziantep',
+          amount: '₺200.000,00',
+          explanation: ''
+
+        },
+        {
+          id: 1,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          plate: '34 HYD 1234',
+          spending: 'Yakıt',
+          province: 'Gaziantep',
+          amount: '₺200.000,00',
+          explanation: ''
+
+        },
+        {
+          id: 1,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          plate: '34 HYD 1234',
+          spending: 'Yakıt',
+          province: 'Gaziantep',
+          amount: '₺200.000,00',
+          explanation: ''
+
+        },
+        {
+          id: 1,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          plate: '34 HYD 1234',
+          spending: 'Yakıt',
+          province: 'Gaziantep',
+          amount: '₺200.000,00',
+          explanation: ''
+
+        },
+        {
+          id: 1,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          plate: '34 HYD 1234',
+          spending: 'Yakıt',
+          province: 'Gaziantep',
+          amount: '₺200.000,00',
+          explanation: ''
+
+        },
+        {
+          id: 1,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          plate: '34 HYD 1234',
+          spending: 'Yakıt',
+          province: 'Gaziantep',
+          amount: '₺200.000,00',
+          explanation: ''
+
+        },
+        {
+          id: 1,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          plate: '34 HYD 1234',
+          spending: 'Yakıt',
+          province: 'Gaziantep',
+          amount: '₺200.000,00',
+          explanation: ''
+
+        },
+        {
+          id: 1,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          plate: '34 HYD 1234',
+          spending: 'Yakıt',
+          province: 'Gaziantep',
+          amount: '₺200.000,00',
+          explanation: ''
+
+        },
+        {
+          id: 1,
+          name: "Muhammed Mustafa Yaprak ",
+          history: '24.10.2023',
+          fatura: 'Fatura',
+          plate: '34 HYD 1234',
+          spending: 'Yakıt',
+          province: 'Gaziantep',
+          amount: '₺200.000,00',
+          explanation: ''
+
+        },
+      ],
+    };
+  },
+};
 
 </script>

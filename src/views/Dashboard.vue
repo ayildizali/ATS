@@ -56,7 +56,7 @@
             <p>100.000</p>
           </div>
 
-          <img src="/public-src/genel/Frame126.svg">
+          <router-link to="/vehicle"><img src="/public-src/genel/Frame126.svg"></router-link>
 
         </div>
       </div>
@@ -68,7 +68,7 @@
             <p>RENAULT MEGAN</p>
             <p>100.000</p>
           </div>
-          <img src="/public-src/genel/Frame126.svg">
+          <router-link to="/vehicle"><img src="/public-src/genel/Frame126.svg"></router-link>
         </div>
       </div>
       <div class=" m-auto mt-12 h-24 w-10/12 rounded-2xl bg-gray-50 shadow">
@@ -80,7 +80,7 @@
             <p>100.000</p>
           </div>
 
-          <img src="/public-src/genel/Frame126.svg">
+          <router-link to="/vehicle"><img src="/public-src/genel/Frame126.svg"></router-link>
 
         </div>
       </div>
@@ -93,7 +93,7 @@
             <p>100.000</p>
           </div>
 
-          <img src="/public-src/genel/Frame126.svg">
+          <router-link to="/vehicle"><img src="/public-src/genel/Frame126.svg"></router-link>
 
         </div>
       </div>

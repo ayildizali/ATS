@@ -45,8 +45,9 @@
         </div>
       </div>
       <!-- main -->
-      <div class="relative m-auto mt-16  flex w-3/4 items-center overflow-x-auto shadow-md sm:rounded-lg">
-        <div class="w-full">
+      <div class="relative m-auto mt-16  flex w-3/4 items-center overflow-x-auto shadow-md sm:rounded-lg"
+           style=" box-shadow: 0px 0px 10px #717982;">
+        <div class="w-full ">
           <vue-good-table
               :columns="columns"
               :fixed-header="true"
@@ -63,8 +64,6 @@
                       ofLabel: 'of',
                       pageLabel: 'page', // for 'pages' mode
                       allLabel: 'All',
-
-
                     }"
               :rows="rows"
               :search-options="{
@@ -73,21 +72,22 @@
                       }"
               :select-options="{
                  enabled: true,
-  }"
+              }"
+              max-height="500px"
               theme="polar-bear"
 
           />
         </div>
       </div>
-      <div>
-        <div class="mt-14 flex w-11/12 items-center justify-end">
-          <div class="flex items-center justify-end">
-            <img class="pl-5" src="/public-src/admin/rightRounded.svg">
-            <img class="pl-5" src="/public-src/admin/Frame72.svg">
-            <img class="pl-5" src="/public-src/admin/LeftRounded.svg">
-          </div>
-        </div>
-      </div>
+      <!--      <div>-->
+      <!--        <div class="mt-14 flex w-11/12 items-center justify-end">-->
+      <!--          <div class="flex items-center justify-end">-->
+      <!--            <img class="pl-5" src="/public-src/admin/rightRounded.svg">-->
+      <!--            <img class="pl-5" src="/public-src/admin/Frame72.svg">-->
+      <!--            <img class="pl-5" src="/public-src/admin/LeftRounded.svg">-->
+      <!--          </div>-->
+      <!--        </div>-->
+      <!--      </div>-->
 
     </div>
   </div>

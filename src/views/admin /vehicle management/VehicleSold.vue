@@ -23,260 +23,244 @@
       <div class=" ">
       </div>
       <!-- main -->
-      <div class="relative  m-auto mt-16  flex w-3/4 items-center overflow-x-auto shadow-md sm:rounded-lg">
-        <table class="w-full text-left text-sm text-GrayLightest">
-          <thead class="bg-GrayLightest text-xs uppercase text-Dark900">
-          <tr>
-            <th class="px-6 py-3" scope="col">
-              no
-            </th>
-            <th class="px-6 py-3" scope="col">
-              plaka
-            </th>
-            <th class="px-6 py-3" scope="col">
-              araç modeli
-            </th>
-            <th class="px-6 py-3" scope="col">
-              son kullanıcı adı
-            </th>
-            <th class="px-6 py-3" scope="col">
-              zimmet yeri
-            </th>
-            <th class="px-6 py-3" scope="col">
-              birim
-            </th>
-            <th class="px-6 py-3" scope="col">
-              son km durumu
-            </th>
-            <th class="px-6 py-3" scope="col">
-              araç alış tarihi
-            </th>
-            <th class="px-6 py-3" scope="col">
-              araç alış tutarı
-            </th>
-            <th class="px-6 py-3" scope="col">
-              araç satış tarihi
-            </th>
-            <th class="px-6 py-3" scope="col">
-              araç satış tutarı
-            </th>
-            <th class="px-6 py-3" scope="col">
-              açıklama
-            </th>
-          </tr>
-          </thead>
-          <tbody>
-          <tr class="border-b bg-white ">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
-              01
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              34 hyd 1234
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              DACİA DUSTER OTOMOBİL COMF
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Muhammet Mustafa Yaprak
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Genel Merkez - İstanbul
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Genel Merkez
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              300.000 KM
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              13.12.2022
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺3.300.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              13.12.2022
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺3.300.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              sdlkfj
-            </td>
-          </tr>
-          <tr class="border-b bg-gray-50 text-Graydarker">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
-              01
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              34 hyd 1234
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              DACİA DUSTER OTOMOBİL COMF
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Muhammet Mustafa Yaprak
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Genel Merkez - İstanbul
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Genel Merkez
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              300.000 KM
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              13.12.2022
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺3.300.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              13.12.2022
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺3.300.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              sdlkfj
-            </td>
-          </tr>
-          <tr class="border-b bg-white ">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
-              01
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              34 hyd 1234
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              DACİA DUSTER OTOMOBİL COMF
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Muhammet Mustafa Yaprak
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Genel Merkez - İstanbul
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Genel Merkez
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              300.000 KM
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              13.12.2022
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺3.300.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              13.12.2022
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺3.300.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              sdlkfj
-            </td>
-          </tr>
-          <tr class="border-b bg-gray-50 text-Graydarker">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
-              01
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              34 hyd 1234
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              DACİA DUSTER OTOMOBİL COMF
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Muhammet Mustafa Yaprak
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Genel Merkez - İstanbul
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Genel Merkez
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              300.000 KM
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              13.12.2022
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺3.300.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              13.12.2022
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺3.300.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              sdlkfj
-            </td>
-          </tr>
-          <tr class="border-b bg-white ">
-            <th class="whitespace-nowrap px-6 py-4 font-medium text-Dark900" scope="row">
-              01
-            </th>
-            <td class="px-6 py-4 text-Dark900">
-              34 hyd 1234
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              DACİA DUSTER OTOMOBİL COMF
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Muhammet Mustafa Yaprak
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Genel Merkez - İstanbul
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              Genel Merkez
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              300.000 KM
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              13.12.2022
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺3.300.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              13.12.2022
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              ₺3.300.000,00
-            </td>
-            <td class="px-6 py-4 text-Dark900">
-              sdlkfj
-            </td>
-          </tr>
-          </tbody>
-        </table>
-      </div>
-      <div>
-        <div class="mt-14 flex w-11/12 items-center justify-end">
-          <div class="flex items-center justify-end">
-            <img class="pl-5" src="/public-src/admin/rightRounded.svg">
-            <img class="pl-5" src="/public-src/admin/Frame72.svg">
-            <img class="pl-5" src="/public-src/admin/LeftRounded.svg">
-          </div>
+      <div class="relative  m-auto mt-16  flex w-3/4 items-center overflow-x-auto shadow-md sm:rounded-lg"
+           style=" box-shadow: 0px 0px 10px #717982;">
+        <div class="w-full">
+          <vue-good-table
+              :columns="columns"
+              :fixed-header="true"
+              :pagination-options="{
+                      enabled: true,
+                      mode: 'records',
+                      perPage: 5,
+                      position: 'bottom',
+                      perPageDropdown: [10, 20, 30],
+                      dropdownAllowAll: false,
+                      nextLabel: 'next',
+                      prevLabel: 'prev',
+                      rowsPerPageLabel: 'Rows per page',
+                      ofLabel: 'of',
+                      pageLabel: 'page', // for 'pages' mode
+                      allLabel: 'All',
+
+
+                    }"
+              :rows="rows"
+              :search-options="{
+                      enabled: true,
+                      mode: 'records'
+                      }"
+              :select-options="{
+                 enabled: true,
+              }"
+              max-height="500px"
+              theme="polar-bear"
+
+          />
         </div>
       </div>
+      <!--      <div>-->
+      <!--        <div class="mt-14 flex w-11/12 items-center justify-end">-->
+      <!--          <div class="flex items-center justify-end">-->
+      <!--            <img class="pl-5" src="/public-src/admin/rightRounded.svg">-->
+      <!--            <img class="pl-5" src="/public-src/admin/Frame72.svg">-->
+      <!--            <img class="pl-5" src="/public-src/admin/LeftRounded.svg">-->
+      <!--          </div>-->
+      <!--        </div>-->
+      <!--      </div>-->
     </div>
   </div>
 </template>
 
-<script>
-import {defineComponent} from "vue";
+<script lang="ts">
+export default {
+  name: 'my-component',
+  data() {
+    return {
+      columns: [
+        {
+          label: 'Plaka',
+          field: 'plate',
+          type: 'number'
+        },
+        {
+          label: 'Araç Modeli',
+          field: 'vehiclemodel',
+        },
+        {
+          label: ' Son KUllanıcı Adı',
+          field: 'username',
+        },
+        {
+          label: 'Zimmet Yeri',
+          field: 'location',
+        },
+        {
+          label: 'Birim',
+          field: 'birim',
+        },
+        {
+          label: 'Son Km Durumu',
+          field: 'km',
+          type: 'number'
+        },
 
-export default defineComponent({
-  name: "OtherExpeneses",
-  components: {}
-})
+        {
+          label: 'Araç Alış Tarihi',
+          field: 'purchasedate',
+          type: 'data'
+
+        },
+        {
+          label: 'Araç Alış Tutarı',
+          field: 'purchaseamount',
+        },
+        {
+          label: 'Araç Satış Tarihi',
+          field: 'salesdate',
+          type: 'number'
+
+        },
+        {
+          label: 'Araç Satış Tutarı',
+          field: 'salesamount'
+
+        },
+        {
+          label: 'Açıklama',
+          field: 'aciklama'
+        },
+
+      ],
+      rows: [
+        {
+          id: 1,
+          plate: " 34 HYD 123 ",
+          vehiclemodel: 'DACİA DUSTER OTOMOBİL COMF',
+          username: ' Ali AY',
+          location: 'Sakarya',
+          birim: 'Temsilci',
+          km: '350.000',
+          purchasedate: '10.12.2023',
+          purchaseamount: '₺3.300.000,00',
+          salesdate: '12.10.2024',
+          salesamount: '₺3.300.000,00',
+          aciklama: ''
+        },
+        {
+          id: 1,
+          plate: " 34 HYD 123 ",
+          vehiclemodel: 'DACİA DUSTER OTOMOBİL COMF',
+          username: ' Ali AY',
+          location: 'Sakarya',
+          birim: 'Temsilci',
+          km: '350.000',
+          purchasedate: '10.12.2023',
+          purchaseamount: '₺3.300.000,00',
+          salesdate: '12.10.2024',
+          salesamount: '₺3.300.000,00',
+          aciklama: ''
+        },
+        {
+          id: 1,
+          plate: " 34 HYD 123 ",
+          vehiclemodel: 'DACİA DUSTER OTOMOBİL COMF',
+          username: ' Ali AY',
+          location: 'Sakarya',
+          birim: 'Temsilci',
+          km: '350.000',
+          purchasedate: '10.12.2023',
+          purchaseamount: '₺3.300.000,00',
+          salesdate: '12.10.2024',
+          salesamount: '₺3.300.000,00',
+          aciklama: ''
+        },
+        {
+          id: 1,
+          plate: " 34 HYD 123 ",
+          vehiclemodel: 'DACİA DUSTER OTOMOBİL COMF',
+          username: ' Ali AY',
+          location: 'Sakarya',
+          birim: 'Temsilci',
+          km: '350.000',
+          purchasedate: '10.12.2023',
+          purchaseamount: '₺3.300.000,00',
+          salesdate: '12.10.2024',
+          salesamount: '₺3.300.000,00',
+          aciklama: ''
+        },
+        {
+          id: 1,
+          plate: " 34 HYD 123 ",
+          vehiclemodel: 'DACİA DUSTER OTOMOBİL COMF',
+          username: ' Ali AY',
+          location: 'Sakarya',
+          birim: 'Temsilci',
+          km: '350.000',
+          purchasedate: '10.12.2023',
+          purchaseamount: '₺3.300.000,00',
+          salesdate: '12.10.2024',
+          salesamount: '₺3.300.000,00',
+          aciklama: ''
+        },
+        {
+          id: 1,
+          plate: " 34 HYD 123 ",
+          vehiclemodel: 'DACİA DUSTER OTOMOBİL COMF',
+          username: ' Ali AY',
+          location: 'Sakarya',
+          birim: 'Temsilci',
+          km: '350.000',
+          purchasedate: '10.12.2023',
+          purchaseamount: '₺3.300.000,00',
+          salesdate: '12.10.2024',
+          salesamount: '₺3.300.000,00',
+          aciklama: ''
+        },
+        {
+          id: 1,
+          plate: " 34 HYD 123 ",
+          vehiclemodel: 'DACİA DUSTER OTOMOBİL COMF',
+          username: ' Ali AY',
+          location: 'Sakarya',
+          birim: 'Temsilci',
+          km: '350.000',
+          purchasedate: '10.12.2023',
+          purchaseamount: '₺3.300.000,00',
+          salesdate: '12.10.2024',
+          salesamount: '₺3.300.000,00',
+          aciklama: ''
+        },
+        {
+          id: 1,
+          plate: " 34 HYD 123 ",
+          vehiclemodel: 'DACİA DUSTER OTOMOBİL COMF',
+          username: ' Ali AY',
+          location: 'Sakarya',
+          birim: 'Temsilci',
+          km: '350.000',
+          purchasedate: '10.12.2023',
+          purchaseamount: '₺3.300.000,00',
+          salesdate: '12.10.2024',
+          salesamount: '₺3.300.000,00',
+          aciklama: ''
+        },
+        {
+          id: 1,
+          plate: " 34 HYD 123 ",
+          vehiclemodel: 'DACİA DUSTER OTOMOBİL COMF',
+          username: ' Ali AY',
+          location: 'Sakarya',
+          birim: 'Temsilci',
+          km: '350.000',
+          purchasedate: '10.12.2023',
+          purchaseamount: '₺3.300.000,00',
+          salesdate: '12.10.2024',
+          salesamount: '₺3.300.000,00',
+          aciklama: ''
+        },
+      ],
+    };
+  },
+};
 </script>

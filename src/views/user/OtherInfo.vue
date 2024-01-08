@@ -1,6 +1,6 @@
 <style scoped>
 .title-line {
-
+  color: #1E724A;
   border-bottom-color: #1E724A;
   opacity: 5;
   transform: scaleX(1);
@@ -154,7 +154,7 @@
             </div>
           </div>
         </div>
-        <div class="w-full">
+        <div class=" ml-16 w-full">
           <div class="mb-16">
             <h4 class="flex items-center font-bold leading-5 text-primary">SİGORTA BİLGİLERİ
               <img class="pl-5" src="/public-src/Kullanıcı/Line48.svg"></h4>

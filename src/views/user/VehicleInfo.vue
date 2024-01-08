@@ -1,6 +1,6 @@
 <style scoped>
 .title-line {
-
+  color: #1E724A;
   border-bottom-color: #1E724A;
   opacity: 5;
   transform: scaleX(1);

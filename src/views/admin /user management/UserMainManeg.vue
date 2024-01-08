@@ -58,21 +58,22 @@
                       }"
               :select-options="{
                  enabled: true,
-  }"
+              }"
+              max-height="500px"
               theme="polar-bear"
 
           />
         </div>
       </div>
-      <div>
-        <div class="mt-14 flex w-11/12 items-center justify-end">
-          <div class="flex items-center justify-end">
-            <img class="pl-5" src="/public-src/admin/rightRounded.svg">
-            <img class="pl-5" src="/public-src/admin/Frame72.svg">
-            <img class="pl-5" src="/public-src/admin/LeftRounded.svg">
-          </div>
-        </div>
-      </div>
+      <!--      <div>-->
+      <!--        <div class="mt-14 flex w-11/12 items-center justify-end">-->
+      <!--          <div class="flex items-center justify-end">-->
+      <!--            <img class="pl-5" src="/public-src/admin/rightRounded.svg">-->
+      <!--            <img class="pl-5" src="/public-src/admin/Frame72.svg">-->
+      <!--            <img class="pl-5" src="/public-src/admin/LeftRounded.svg">-->
+      <!--          </div>-->
+      <!--        </div>-->
+      <!--      </div>-->
     </div>
   </div>
 </template>
